@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'alt/variables';
+@import 'mixins';
+@import 'alt/header';
+@import 'alt/services';
+@import 'alt/footer';
+@import 'animation';
+
+.section__heading {
+  font-size: 1.75em;
+  line-height: 2em;
+  padding: 30px 0;
+  @include smoothFont;
+}

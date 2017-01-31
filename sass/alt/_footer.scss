@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  color: $blue;
+  background: $ltgray;
+  @include smoothFont;
+  .footer__contact-info {
+    line-height: 1.25em;
+    font-family: $sans;
+    padding-bottom: 50px;
+    li {
+      display: block;
+      font-size: 1em;
+      padding: 10px 0;
+      vertical-align: top;
+    }
+    a {
+      text-decoration: none;
+      color: $blue;
+    }
+    .footer__email {
+      display: block;
+      font-weight: bold;
+    }
+    .footer__phone {
+      padding-top: 0;
+    }    
+  }
+  @media (min-width: $small) {
+    br { display: none }
+    .footer__contact-info li {
+      display: inline-block;
+    }
+    .footer__address:after { 
+      content: "|";
+      padding: 0 15px 0 20px;
+    }
+    .footer__phone {
+      padding: 10px 0 !important;
+    }   
+  }
+  .footer__copyright {
+    margin-top: 30px;
+    background: $brown;
+    color: #fff;
+    display: block;
+    padding: 20px;
+  }
+}
