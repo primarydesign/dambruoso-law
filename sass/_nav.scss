@@ -1,0 +1,15 @@
+.header__navigation {
+   margin-bottom: 1em;
+}
+.header__nav-item {
+   display: inline-block;
+   @include capSans;
+   font-size: .8em;
+   padding: 1em;
+}
+.header__nav-link {
+   color: $blue;
+   &:hover {
+      color: $yellow;
+   }
+}

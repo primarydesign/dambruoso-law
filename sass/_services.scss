@@ -1,38 +1,56 @@
 .services {
   width: 100%;
   text-align: center;
-  background: #fff;
+  background: $blue;
   color: $brown;
-  border-bottom: 1px solid $ltgray;
+  padding: 2em 0 1em;
+  border-bottom: 30px solid $dkblue;
   .services__service {
-    display: block;
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto 60px;
-    @media (min-width: $small) {
-      display: inline-block;  
-      width: 25%;
-      max-width: 300px;        
-      vertical-align: top;
-      margin: 0 4% 60px;
-    }
+      display: block;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto 2em;
+      padding: 1.5em;
+      background: $dkblue;
+      font-family: $sans;
+      @include smoothFont;
+      @media (min-width: $small) {
+         display: inline-block;  
+         width: 25%;
+         max-width: 300px;        
+         vertical-align: top;
+         margin: 0 4% 60px;
+      }
     .services__service-heading {
       @include capSans;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: $yellow;     
       line-height: 1.25em;
       &:after {
-        display: block;
-        content: "";
-        height: 1px;
-        width: 100px;
-        border-bottom: 1px solid $brown;
-        margin: 10px auto;
-        white-space: pre-wrap;
+         display: block;
+         content: "";
+         height: 1px;
+         width: 100px;
+         border-bottom: 1px solid #fff;
+         margin: 10px auto;
+         white-space: pre-wrap;
       }
     }
     .services__service-description {
       font-size: 1.1em;
       line-height: 1.5em;
       letter-spacing: .025em;
+      padding-bottom:.5em;
+      color: #fff;
     }
+     .services__service-cta {
+        display: inline-block;        
+        font-size: .8em;
+        padding-bottom:.5em;
+        color: $yellow;
+        @include capSans;  
+        font-weight: 700;
+     }
   }        
 }

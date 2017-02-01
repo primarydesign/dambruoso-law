@@ -1,0 +1,21 @@
+.callout {
+   padding: 0 1em;
+   background: $blue;   
+   color: #fff;
+   text-align: center;
+   @include smoothFont;
+   .section__heading {
+   }
+}
+.callout__heading {}
+.callout__statement {
+   font-size: 1.5em;
+   line-height: 1.25em;
+}
+.callout__statement--quote {
+   font-style: italic;
+   padding-bottom: 2em;
+}
+.callout__cta {
+   @extend .hero__cta;
+}
