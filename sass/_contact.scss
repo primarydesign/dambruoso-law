@@ -1,0 +1,57 @@
+.section__contact-info {
+   margin: 0 auto;
+   line-height: 1.25em;
+   padding-bottom: 60px;
+   color: #fff;
+   a {
+      text-decoration: none;
+      color: #fff;
+   }
+   @media (min-width: $small) {
+      br { 
+         display: none
+      }
+      li {
+         display: inline-block;
+      }
+   }   
+}
+@media (min-width: $medium) {
+   .footer__phone:after { 
+      content: "|";
+      padding: 0 15px 0 20px;
+   }
+}
+.contact-info__duxbury {
+   background: $dkblue url(../img/map_duxbury.jpg) no-repeat;
+}
+.contact-info__boston {
+   background: $dkblue url(../img/map_boston.jpg) no-repeat;
+}
+.contact-info__duxbury, .contact-info__boston {
+   display: block;
+   padding: 15%;
+   margin: 5%;
+   font-size: 1em;
+   line-height: 1.5em;
+   vertical-align: top;
+   background-size: cover;
+   @media (min-width:$small) {
+      width: 25%;
+      display: inline-block;
+      padding: 6% 3%;
+      margin: 1%;
+   }
+}
+.footer__city {
+   display: block;
+   @include capSans;
+   font-weight: 700;
+   margin-bottom: .85em;
+}
+.footer__email {
+   font-weight: bold;
+}
+.footer__phone {
+   padding-top: 0;
+}

@@ -1,56 +1,64 @@
 .services {
   width: 100%;
+  margin: 0 auto;
+  padding: 2.5% 0;
+  font-size: 0;   
   text-align: center;
   background: $blue;
   color: $brown;
-  padding: 2em 0 1em;
-  border-bottom: 30px solid $dkblue;
-  .services__service {
+  border-bottom: 20px solid $dkblue;
+  @media (min-width: $small) {
+    background: none;
+    padding: 0 0 2.5%;
+  }       
+}
+.services__service {
+   display: block;
+   width: 70%;
+   max-width: 640px;
+   padding: 10%;
+   margin: 2.5% auto;
+   font-size: 1rem; 
+   background: $dkblue;
+   font-family: $sans;
+   vertical-align: top;
+   @include smoothFont;
+   @media (min-width: $small) {
+      display: inline-block;
+      min-height: 200px;
+      max-width: 360px;
+      width: 25%;
+      margin: 0 auto;
+      padding: 2.5%;
+   }
+} 
+.services__service-heading {
+   @include capSans;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: $yellow;     
+   line-height: 1.25em;
+   &:after {
       display: block;
-      width: 80%;
-      max-width: 600px;
-      margin: 0 auto 2em;
-      padding: 1.5em;
-      background: $dkblue;
-      font-family: $sans;
-      @include smoothFont;
-      @media (min-width: $small) {
-         display: inline-block;  
-         width: 25%;
-         max-width: 300px;        
-         vertical-align: top;
-         margin: 0 4% 60px;
-      }
-    .services__service-heading {
-      @include capSans;
-      font-weight: 900;
-      letter-spacing: 2px;
-      color: $yellow;     
-      line-height: 1.25em;
-      &:after {
-         display: block;
-         content: "";
-         height: 1px;
-         width: 100px;
-         border-bottom: 1px solid #fff;
-         margin: 10px auto;
-         white-space: pre-wrap;
-      }
-    }
-    .services__service-description {
-      font-size: 1.1em;
-      line-height: 1.5em;
-      letter-spacing: .025em;
-      padding-bottom:.5em;
-      color: #fff;
-    }
-     .services__service-cta {
-        display: inline-block;        
-        font-size: .8em;
-        padding-bottom:.5em;
-        color: $yellow;
-        @include capSans;  
-        font-weight: 700;
-     }
-  }        
+      content: "";
+      height: 1px;
+      width: 100px;
+      border-bottom: 1px solid #fff;
+      margin: 10px auto;
+      white-space: pre-wrap;
+   }
+}
+.services__service-description {
+   font-size: 1.1em;
+   line-height: 1.5em;
+   letter-spacing: .025em;
+   padding-bottom: 1em;
+   color: #fff;
+}
+.services__service-cta {
+  display: inline-block;        
+  font-size: .8em;
+  color: $yellow;
+  @include capSans;  
+  font-weight: 700;
 }
