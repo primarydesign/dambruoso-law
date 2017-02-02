@@ -1,42 +1,47 @@
 .services {
   width: 100%;
   margin: 0 auto;
-  padding: 2.5% 0;
+  padding: 0;
   font-size: 0;   
   text-align: center;
   background: $blue;
   color: $brown;
-  border-bottom: 20px solid $dkblue;
   @media (min-width: $small) {
     background: none;
     padding: 0 0 2.5%;
+    border-bottom: 20px solid $dkblue; 
   }       
 }
 .services__service {
    display: block;
-   width: 70%;
+   width: 80%;
    max-width: 640px;
-   padding: 10%;
-   margin: 2.5% auto;
+   padding: 15% 10%;
+   border-bottom: 1px solid $blue;
+   margin: 0 auto;
    font-size: 1rem; 
    background: $dkblue;
    font-family: $sans;
    vertical-align: top;
    @include smoothFont;
+   &:last-child {
+      border:none;
+   }
    @media (min-width: $small) {
       display: inline-block;
-      min-height: 200px;
+      //min-height: 200px;
       max-width: 360px;
       width: 25%;
       margin: 0 auto;
-      padding: 2.5%;
+      padding: 60px 2.5%;
    }
 } 
 .services__service-heading {
    @include capSans;
    font-weight: 900;
    letter-spacing: 2px;
-   color: $yellow;     
+   color: $yellow;
+   font-size: 1.35rem;
    line-height: 1.25em;
    &:after {
       display: block;
@@ -49,10 +54,10 @@
    }
 }
 .services__service-description {
-   font-size: 1.1em;
+   font-size: .9em;
    line-height: 1.5em;
    letter-spacing: .025em;
-   padding-bottom: 1em;
+   padding-bottom: 10%;
    color: #fff;
 }
 .services__service-cta {
@@ -61,4 +66,7 @@
   color: $yellow;
   @include capSans;  
   font-weight: 700;
+  @media (min-width: $small) {
+     display: none;
+  }
 }

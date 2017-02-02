@@ -141,10 +141,11 @@ table {
   }
   /* line 39, ../../../sass/_hero.scss */
   .hero .hero__statement {
-    font-size: 1.75em;
+    font-size: 2em;
+    max-width: 600px;
   }
 
-  /* line 43, ../../../sass/_hero.scss */
+  /* line 44, ../../../sass/_hero.scss */
   .main__hero-services {
     background: #607286 url(../img/duxbury-law-firm.jpg) 50% 75% no-repeat;
     background-size: cover;

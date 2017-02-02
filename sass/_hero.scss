@@ -37,7 +37,8 @@
    .hero {
       background-attachment: fixed;
       .hero__statement {
-        font-size: 1.75em;
+        font-size: 2em;
+        max-width: 600px;        
       }
     }
    .main__hero-services {

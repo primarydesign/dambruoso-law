@@ -78,11 +78,11 @@ table {
 /* line 9, ../../../sass/_header.scss */
 .header__logo {
   display: inline-block;
-  width: 75%;
-  max-width: 300px;
+  width: 80%;
+  max-width: 280px;
   vertical-align: middle;
   margin: 0 auto;
-  padding: 3em;
+  padding: 3em 10%;
 }
 @media (min-width: 1280px) {
   /* line 9, ../../../sass/_header.scss */
@@ -92,7 +92,7 @@ table {
   }
 }
 
-/* line 21, ../../../sass/_header.scss */
+/* line 22, ../../../sass/_header.scss */
 .header__navigation {
   display: inline-block;
 }
@@ -176,10 +176,11 @@ table {
   }
   /* line 39, ../../../sass/_hero.scss */
   .hero .hero__statement {
-    font-size: 1.75em;
+    font-size: 2em;
+    max-width: 600px;
   }
 
-  /* line 43, ../../../sass/_hero.scss */
+  /* line 44, ../../../sass/_hero.scss */
   .main__hero-services {
     background: #556476 url(../img/duxbury-law-firm.jpg) 50% 75% no-repeat;
     background-size: cover;
@@ -189,28 +190,29 @@ table {
 .services {
   width: 100%;
   margin: 0 auto;
-  padding: 2.5% 0;
+  padding: 0;
   font-size: 0;
   text-align: center;
   background: #556476;
   color: #827871;
-  border-bottom: 20px solid #37485A;
 }
 @media (min-width: 820px) {
   /* line 1, ../../../sass/_services.scss */
   .services {
     background: none;
     padding: 0 0 2.5%;
+    border-bottom: 20px solid #37485A;
   }
 }
 
 /* line 15, ../../../sass/_services.scss */
 .services__service {
   display: block;
-  width: 70%;
+  width: 80%;
   max-width: 640px;
-  padding: 10%;
-  margin: 2.5% auto;
+  padding: 15% 10%;
+  border-bottom: 1px solid #556476;
+  margin: 0 auto;
   font-size: 1rem;
   background: #37485A;
   font-family: "Lato", sans-serif;
@@ -218,19 +220,22 @@ table {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+/* line 27, ../../../sass/_services.scss */
+.services__service:last-child {
+  border: none;
+}
 @media (min-width: 820px) {
   /* line 15, ../../../sass/_services.scss */
   .services__service {
     display: inline-block;
-    min-height: 200px;
     max-width: 360px;
     width: 25%;
     margin: 0 auto;
-    padding: 2.5%;
+    padding: 60px 2.5%;
   }
 }
 
-/* line 35, ../../../sass/_services.scss */
+/* line 39, ../../../sass/_services.scss */
 .services__service-heading {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -238,9 +243,10 @@ table {
   font-weight: 900;
   letter-spacing: 2px;
   color: #e8af3d;
+  font-size: 1.35rem;
   line-height: 1.25em;
 }
-/* line 41, ../../../sass/_services.scss */
+/* line 46, ../../../sass/_services.scss */
 .services__service-heading:after {
   display: block;
   content: "";
@@ -251,16 +257,16 @@ table {
   white-space: pre-wrap;
 }
 
-/* line 51, ../../../sass/_services.scss */
+/* line 56, ../../../sass/_services.scss */
 .services__service-description {
-  font-size: 1.1em;
+  font-size: .9em;
   line-height: 1.5em;
   letter-spacing: .025em;
-  padding-bottom: 1em;
+  padding-bottom: 10%;
   color: #fff;
 }
 
-/* line 58, ../../../sass/_services.scss */
+/* line 63, ../../../sass/_services.scss */
 .services__service-cta {
   display: inline-block;
   font-size: .8em;
@@ -269,6 +275,12 @@ table {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+}
+@media (min-width: 820px) {
+  /* line 63, ../../../sass/_services.scss */
+  .services__service-cta {
+    display: none;
+  }
 }
 
 /* line 1, ../../../sass/_callout.scss */
@@ -291,12 +303,12 @@ table {
 /* line 12, ../../../sass/_callout.scss */
 .callout__text {
   display: inline-block;
-  padding: 5% 10% 0 10%;
+  padding: 5% 12% 0 12%;
 }
 @media (min-width: 820px) {
   /* line 12, ../../../sass/_callout.scss */
   .callout__text {
-    width: 30%;
+    width: 26%;
   }
 }
 
@@ -317,7 +329,7 @@ table {
 
 /* line 33, ../../../sass/_callout.scss */
 .callout__statement {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
@@ -370,7 +382,7 @@ table {
 /* line 31, ../../../sass/_contact.scss */
 .contact-info__duxbury, .contact-info__boston {
   display: block;
-  padding: 15%;
+  padding: 15% 7%;
   margin: 5%;
   font-size: 1em;
   line-height: 1.5em;
@@ -404,7 +416,7 @@ table {
 
 /* line 55, ../../../sass/_contact.scss */
 .footer__phone {
-  padding-top: 0;
+  padding-top: 1em;
 }
 
 /* line 1, ../../../sass/_footer.scss */
@@ -457,7 +469,7 @@ table {
 
 /* line 32, ../../../sass/_footer.scss */
 .footer__nav-link {
-  font-size: 1em;
+  font-size: .85em;
   line-height: 3.25em;
   padding: 1em 0;
   color: #fff;
@@ -492,7 +504,7 @@ table {
   display: inline-block;
   height: 25px;
   width: 25px;
-  padding: 15px 30px 30px 0;
+  padding: 15px 10px 30px 0;
 }
 @media (min-width: 1280px) {
   /* line 53, ../../../sass/_footer.scss */
@@ -586,7 +598,7 @@ body {
 }
 /* line 13, ../../../sass/main.scss */
 .section__heading {
-  font-size: 1.25em;
+  font-size: 1.3em;
   line-height: 2em;
   padding: 0 0 30px 0;
   display: inline-block;
@@ -612,6 +624,7 @@ body {
   margin: 0 auto 60px;
   padding: 15px 20px;
   border: 1px solid #fff;
+  font-size: .8em;
   text-decoration: none;
   color: #fff;
   transition: background .5s;
@@ -619,7 +632,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 38, ../../../sass/main.scss */
+/* line 39, ../../../sass/main.scss */
 .section__cta:hover {
   background: #fff;
   color: #556476;
