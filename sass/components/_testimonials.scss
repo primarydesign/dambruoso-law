@@ -1,0 +1,41 @@
+#testimonials .carousel-wrap {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#testimonials .carousel-nav {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#testimonials .carousel-nav .nextbtn {
+  float: right;
+}
+
+#testimonials .carousel-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+}
+#testimonials .carousel-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 400px;
+  margin-right: 15px;
+}
+
+#testimonials .carousel-wrap .context {
+
+}
+
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

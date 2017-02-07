@@ -62,69 +62,1061 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, ../../../sass/_header.scss */
-.header {
+/* html5reset.css - 01/11/2011 */
+/* line 3, ../../../sass/grid/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 24, ../../../sass/grid/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 28, ../../../sass/grid/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../../../sass/grid/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 37, ../../../sass/grid/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, ../../../sass/grid/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../../../sass/grid/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 56, ../../../sass/grid/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 63, ../../../sass/grid/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 70, ../../../sass/grid/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 74, ../../../sass/grid/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 79, ../../../sass/grid/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 85, ../../../sass/grid/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 94, ../../../sass/grid/_reset.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/*  SECTIONS  ============================================================================= */
+/* line 3, ../../../sass/grid/_col.scss */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+/* line 12, ../../../sass/grid/_col.scss */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+/* line 17, ../../../sass/grid/_col.scss */
+.group:after {
+  clear: both;
+}
+
+/* line 20, ../../../sass/grid/_col.scss */
+.group {
+  max-width: 1160px;
+  margin: 0 auto;
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+/* line 28, ../../../sass/grid/_col.scss */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+/* line 34, ../../../sass/grid/_col.scss */
+.col:first-child {
+  margin-left: 0;
+}
+
+/* all browsers except IE6 and lower */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 40, ../../../sass/grid/_col.scss */
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+/*  GRID OF TWO   ============================================================================= */
+/* line 4, ../../../sass/grid/_2cols.scss */
+.span_2_of_2 {
   width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_2cols.scss */
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 15, ../../../sass/grid/_2cols.scss */
+  .span_2_of_2 {
+    width: 100%;
+  }
+
+  /* line 18, ../../../sass/grid/_2cols.scss */
+  .span_1_of_2 {
+    width: 100%;
+  }
+}
+/*  GRID OF THREE   ============================================================================= */
+/* line 4, ../../../sass/grid/_3cols.scss */
+.span_3_of_3 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_3cols.scss */
+.span_2_of_3 {
+  width: 66.13%;
+}
+
+/* line 12, ../../../sass/grid/_3cols.scss */
+.span_1_of_3 {
+  width: 32.26%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 20, ../../../sass/grid/_3cols.scss */
+  .span_3_of_3 {
+    width: 100%;
+  }
+
+  /* line 23, ../../../sass/grid/_3cols.scss */
+  .span_2_of_3 {
+    width: 100%;
+  }
+
+  /* line 26, ../../../sass/grid/_3cols.scss */
+  .span_1_of_3 {
+    width: 100%;
+  }
+}
+/*  GRID OF FOUR   ============================================================================= */
+/* line 4, ../../../sass/grid/_4cols.scss */
+.span_4_of_4 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_4cols.scss */
+.span_3_of_4 {
+  width: 74.6%;
+}
+
+/* line 12, ../../../sass/grid/_4cols.scss */
+.span_2_of_4 {
+  width: 49.2%;
+}
+
+/* line 16, ../../../sass/grid/_4cols.scss */
+.span_1_of_4 {
+  width: 23.8%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 24, ../../../sass/grid/_4cols.scss */
+  .span_4_of_4 {
+    width: 100%;
+  }
+
+  /* line 27, ../../../sass/grid/_4cols.scss */
+  .span_3_of_4 {
+    width: 100%;
+  }
+
+  /* line 30, ../../../sass/grid/_4cols.scss */
+  .span_2_of_4 {
+    width: 100%;
+  }
+
+  /* line 33, ../../../sass/grid/_4cols.scss */
+  .span_1_of_4 {
+    width: 100%;
+  }
+}
+/*  GRID OF FIVE   ============================================================================= */
+/* line 4, ../../../sass/grid/_5cols.scss */
+.span_5_of_5 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_5cols.scss */
+.span_4_of_5 {
+  width: 79.68%;
+}
+
+/* line 12, ../../../sass/grid/_5cols.scss */
+.span_3_of_5 {
+  width: 59.36%;
+}
+
+/* line 16, ../../../sass/grid/_5cols.scss */
+.span_2_of_5 {
+  width: 39.04%;
+}
+
+/* line 20, ../../../sass/grid/_5cols.scss */
+.span_1_of_5 {
+  width: 18.72%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 28, ../../../sass/grid/_5cols.scss */
+  .span_5_of_5 {
+    width: 100%;
+  }
+
+  /* line 31, ../../../sass/grid/_5cols.scss */
+  .span_4_of_5 {
+    width: 100%;
+  }
+
+  /* line 34, ../../../sass/grid/_5cols.scss */
+  .span_3_of_5 {
+    width: 100%;
+  }
+
+  /* line 37, ../../../sass/grid/_5cols.scss */
+  .span_2_of_5 {
+    width: 100%;
+  }
+
+  /* line 40, ../../../sass/grid/_5cols.scss */
+  .span_1_of_5 {
+    width: 100%;
+  }
+}
+/*  GRID OF SIX   ============================================================================= */
+/* line 4, ../../../sass/grid/_6cols.scss */
+.span_6_of_6 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_6cols.scss */
+.span_5_of_6 {
+  width: 83.06%;
+}
+
+/* line 12, ../../../sass/grid/_6cols.scss */
+.span_4_of_6 {
+  width: 66.13%;
+}
+
+/* line 16, ../../../sass/grid/_6cols.scss */
+.span_3_of_6 {
+  width: 49.2%;
+}
+
+/* line 20, ../../../sass/grid/_6cols.scss */
+.span_2_of_6 {
+  width: 32.26%;
+}
+
+/* line 24, ../../../sass/grid/_6cols.scss */
+.span_1_of_6 {
+  width: 15.33%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 32, ../../../sass/grid/_6cols.scss */
+  .span_6_of_6 {
+    width: 100%;
+  }
+
+  /* line 35, ../../../sass/grid/_6cols.scss */
+  .span_5_of_6 {
+    width: 100%;
+  }
+
+  /* line 38, ../../../sass/grid/_6cols.scss */
+  .span_4_of_6 {
+    width: 100%;
+  }
+
+  /* line 41, ../../../sass/grid/_6cols.scss */
+  .span_3_of_6 {
+    width: 100%;
+  }
+
+  /* line 44, ../../../sass/grid/_6cols.scss */
+  .span_2_of_6 {
+    width: 100%;
+  }
+
+  /* line 47, ../../../sass/grid/_6cols.scss */
+  .span_1_of_6 {
+    width: 100%;
+  }
+}
+/*  GRID OF SEVEN   ============================================================================= */
+/* line 4, ../../../sass/grid/_7cols.scss */
+.span_7_of_7 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_7cols.scss */
+.span_6_of_7 {
+  width: 85.48%;
+}
+
+/* line 12, ../../../sass/grid/_7cols.scss */
+.span_5_of_7 {
+  width: 70.97%;
+}
+
+/* line 16, ../../../sass/grid/_7cols.scss */
+.span_4_of_7 {
+  width: 56.45%;
+}
+
+/* line 20, ../../../sass/grid/_7cols.scss */
+.span_3_of_7 {
+  width: 41.94%;
+}
+
+/* line 24, ../../../sass/grid/_7cols.scss */
+.span_2_of_7 {
+  width: 27.42%;
+}
+
+/* line 28, ../../../sass/grid/_7cols.scss */
+.span_1_of_7 {
+  width: 12.91%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 36, ../../../sass/grid/_7cols.scss */
+  .span_7_of_7 {
+    width: 100%;
+  }
+
+  /* line 39, ../../../sass/grid/_7cols.scss */
+  .span_6_of_7 {
+    width: 100%;
+  }
+
+  /* line 42, ../../../sass/grid/_7cols.scss */
+  .span_5_of_7 {
+    width: 100%;
+  }
+
+  /* line 45, ../../../sass/grid/_7cols.scss */
+  .span_4_of_7 {
+    width: 100%;
+  }
+
+  /* line 48, ../../../sass/grid/_7cols.scss */
+  .span_3_of_7 {
+    width: 100%;
+  }
+
+  /* line 51, ../../../sass/grid/_7cols.scss */
+  .span_2_of_7 {
+    width: 100%;
+  }
+
+  /* line 54, ../../../sass/grid/_7cols.scss */
+  .span_1_of_7 {
+    width: 100%;
+  }
+}
+/*  GRID OF EIGHT   ============================================================================= */
+/* line 4, ../../../sass/grid/_8cols.scss */
+.span_8_of_8 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_8cols.scss */
+.span_7_of_8 {
+  width: 87.3%;
+}
+
+/* line 12, ../../../sass/grid/_8cols.scss */
+.span_6_of_8 {
+  width: 74.6%;
+}
+
+/* line 16, ../../../sass/grid/_8cols.scss */
+.span_5_of_8 {
+  width: 61.9%;
+}
+
+/* line 20, ../../../sass/grid/_8cols.scss */
+.span_4_of_8 {
+  width: 49.2%;
+}
+
+/* line 24, ../../../sass/grid/_8cols.scss */
+.span_3_of_8 {
+  width: 36.5%;
+}
+
+/* line 28, ../../../sass/grid/_8cols.scss */
+.span_2_of_8 {
+  width: 23.8%;
+}
+
+/* line 32, ../../../sass/grid/_8cols.scss */
+.span_1_of_8 {
+  width: 11.1%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 40, ../../../sass/grid/_8cols.scss */
+  .span_8_of_8 {
+    width: 100%;
+  }
+
+  /* line 43, ../../../sass/grid/_8cols.scss */
+  .span_7_of_8 {
+    width: 100%;
+  }
+
+  /* line 46, ../../../sass/grid/_8cols.scss */
+  .span_6_of_8 {
+    width: 100%;
+  }
+
+  /* line 49, ../../../sass/grid/_8cols.scss */
+  .span_5_of_8 {
+    width: 100%;
+  }
+
+  /* line 52, ../../../sass/grid/_8cols.scss */
+  .span_4_of_8 {
+    width: 100%;
+  }
+
+  /* line 55, ../../../sass/grid/_8cols.scss */
+  .span_3_of_8 {
+    width: 100%;
+  }
+
+  /* line 58, ../../../sass/grid/_8cols.scss */
+  .span_2_of_8 {
+    width: 100%;
+  }
+
+  /* line 61, ../../../sass/grid/_8cols.scss */
+  .span_1_of_8 {
+    width: 100%;
+  }
+}
+/*  GRID OF NINE   ============================================================================= */
+/* line 4, ../../../sass/grid/_9cols.scss */
+.span_9_of_9 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_9cols.scss */
+.span_8_of_9 {
+  width: 88.71%;
+}
+
+/* line 12, ../../../sass/grid/_9cols.scss */
+.span_7_of_9 {
+  width: 77.42%;
+}
+
+/* line 16, ../../../sass/grid/_9cols.scss */
+.span_6_of_9 {
+  width: 66.13%;
+}
+
+/* line 20, ../../../sass/grid/_9cols.scss */
+.span_5_of_9 {
+  width: 54.84%;
+}
+
+/* line 24, ../../../sass/grid/_9cols.scss */
+.span_4_of_9 {
+  width: 43.55%;
+}
+
+/* line 28, ../../../sass/grid/_9cols.scss */
+.span_3_of_9 {
+  width: 32.26%;
+}
+
+/* line 32, ../../../sass/grid/_9cols.scss */
+.span_2_of_9 {
+  width: 20.97%;
+}
+
+/* line 36, ../../../sass/grid/_9cols.scss */
+.span_1_of_9 {
+  width: 9.68%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 44, ../../../sass/grid/_9cols.scss */
+  .span_9_of_9 {
+    width: 100%;
+  }
+
+  /* line 47, ../../../sass/grid/_9cols.scss */
+  .span_8_of_9 {
+    width: 100%;
+  }
+
+  /* line 50, ../../../sass/grid/_9cols.scss */
+  .span_7_of_9 {
+    width: 100%;
+  }
+
+  /* line 53, ../../../sass/grid/_9cols.scss */
+  .span_6_of_9 {
+    width: 100%;
+  }
+
+  /* line 56, ../../../sass/grid/_9cols.scss */
+  .span_5_of_9 {
+    width: 100%;
+  }
+
+  /* line 59, ../../../sass/grid/_9cols.scss */
+  .span_4_of_9 {
+    width: 100%;
+  }
+
+  /* line 62, ../../../sass/grid/_9cols.scss */
+  .span_3_of_9 {
+    width: 100%;
+  }
+
+  /* line 65, ../../../sass/grid/_9cols.scss */
+  .span_2_of_9 {
+    width: 100%;
+  }
+
+  /* line 68, ../../../sass/grid/_9cols.scss */
+  .span_1_of_9 {
+    width: 100%;
+  }
+}
+/*  GRID OF TEN   ============================================================================= */
+/* line 4, ../../../sass/grid/_10cols.scss */
+.span_10_of_10 {
+  width: 100%;
+}
+
+/* line 8, ../../../sass/grid/_10cols.scss */
+.span_9_of_10 {
+  width: 89.84%;
+}
+
+/* line 12, ../../../sass/grid/_10cols.scss */
+.span_8_of_10 {
+  width: 79.68%;
+}
+
+/* line 16, ../../../sass/grid/_10cols.scss */
+.span_7_of_10 {
+  width: 69.52%;
+}
+
+/* line 20, ../../../sass/grid/_10cols.scss */
+.span_6_of_10 {
+  width: 59.36%;
+}
+
+/* line 24, ../../../sass/grid/_10cols.scss */
+.span_5_of_10 {
+  width: 49.2%;
+}
+
+/* line 28, ../../../sass/grid/_10cols.scss */
+.span_4_of_10 {
+  width: 39.04%;
+}
+
+/* line 32, ../../../sass/grid/_10cols.scss */
+.span_3_of_10 {
+  width: 28.88%;
+}
+
+/* line 36, ../../../sass/grid/_10cols.scss */
+.span_2_of_10 {
+  width: 18.72%;
+}
+
+/* line 40, ../../../sass/grid/_10cols.scss */
+.span_1_of_10 {
+  width: 8.56%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 48, ../../../sass/grid/_10cols.scss */
+  .span_10_of_10 {
+    width: 100%;
+  }
+
+  /* line 51, ../../../sass/grid/_10cols.scss */
+  .span_9_of_10 {
+    width: 100%;
+  }
+
+  /* line 54, ../../../sass/grid/_10cols.scss */
+  .span_8_of_10 {
+    width: 100%;
+  }
+
+  /* line 57, ../../../sass/grid/_10cols.scss */
+  .span_7_of_10 {
+    width: 100%;
+  }
+
+  /* line 60, ../../../sass/grid/_10cols.scss */
+  .span_6_of_10 {
+    width: 100%;
+  }
+
+  /* line 63, ../../../sass/grid/_10cols.scss */
+  .span_5_of_10 {
+    width: 100%;
+  }
+
+  /* line 66, ../../../sass/grid/_10cols.scss */
+  .span_4_of_10 {
+    width: 100%;
+  }
+
+  /* line 69, ../../../sass/grid/_10cols.scss */
+  .span_3_of_10 {
+    width: 100%;
+  }
+
+  /* line 72, ../../../sass/grid/_10cols.scss */
+  .span_2_of_10 {
+    width: 100%;
+  }
+
+  /* line 75, ../../../sass/grid/_10cols.scss */
+  .span_1_of_10 {
+    width: 100%;
+  }
+}
+/*  GRID OF ELEVEN   ============================================================================= */
+/* line 3, ../../../sass/grid/_11cols.scss */
+.span_11_of_11 {
+  width: 100%;
+}
+
+/* line 7, ../../../sass/grid/_11cols.scss */
+.span_10_of_11 {
+  width: 90.76%;
+}
+
+/* line 11, ../../../sass/grid/_11cols.scss */
+.span_9_of_11 {
+  width: 81.52%;
+}
+
+/* line 15, ../../../sass/grid/_11cols.scss */
+.span_8_of_11 {
+  width: 72.29%;
+}
+
+/* line 19, ../../../sass/grid/_11cols.scss */
+.span_7_of_11 {
+  width: 63.05%;
+}
+
+/* line 23, ../../../sass/grid/_11cols.scss */
+.span_6_of_11 {
+  width: 53.81%;
+}
+
+/* line 27, ../../../sass/grid/_11cols.scss */
+.span_5_of_11 {
+  width: 44.58%;
+}
+
+/* line 31, ../../../sass/grid/_11cols.scss */
+.span_4_of_11 {
+  width: 35.34%;
+}
+
+/* line 35, ../../../sass/grid/_11cols.scss */
+.span_3_of_11 {
+  width: 26.1%;
+}
+
+/* line 39, ../../../sass/grid/_11cols.scss */
+.span_2_of_11 {
+  width: 16.87%;
+}
+
+/* line 43, ../../../sass/grid/_11cols.scss */
+.span_1_of_11 {
+  width: 7.63%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 51, ../../../sass/grid/_11cols.scss */
+  .span_11_of_11 {
+    width: 100%;
+  }
+
+  /* line 54, ../../../sass/grid/_11cols.scss */
+  .span_10_of_11 {
+    width: 100%;
+  }
+
+  /* line 57, ../../../sass/grid/_11cols.scss */
+  .span_9_of_11 {
+    width: 100%;
+  }
+
+  /* line 60, ../../../sass/grid/_11cols.scss */
+  .span_8_of_11 {
+    width: 100%;
+  }
+
+  /* line 63, ../../../sass/grid/_11cols.scss */
+  .span_7_of_11 {
+    width: 100%;
+  }
+
+  /* line 66, ../../../sass/grid/_11cols.scss */
+  .span_6_of_11 {
+    width: 100%;
+  }
+
+  /* line 69, ../../../sass/grid/_11cols.scss */
+  .span_5_of_11 {
+    width: 100%;
+  }
+
+  /* line 72, ../../../sass/grid/_11cols.scss */
+  .span_4_of_11 {
+    width: 100%;
+  }
+
+  /* line 75, ../../../sass/grid/_11cols.scss */
+  .span_3_of_11 {
+    width: 100%;
+  }
+
+  /* line 78, ../../../sass/grid/_11cols.scss */
+  .span_2_of_11 {
+    width: 100%;
+  }
+
+  /* line 81, ../../../sass/grid/_11cols.scss */
+  .span_1_of_11 {
+    width: 100%;
+  }
+}
+/*  GRID OF TWELVE   ============================================================================= */
+/* line 3, ../../../sass/grid/_12cols.scss */
+.span_12_of_12 {
+  width: 100%;
+}
+
+/* line 7, ../../../sass/grid/_12cols.scss */
+.span_11_of_12 {
+  width: 91.53%;
+}
+
+/* line 11, ../../../sass/grid/_12cols.scss */
+.span_10_of_12 {
+  width: 83.06%;
+}
+
+/* line 15, ../../../sass/grid/_12cols.scss */
+.span_9_of_12 {
+  width: 74.6%;
+}
+
+/* line 19, ../../../sass/grid/_12cols.scss */
+.span_8_of_12 {
+  width: 66.13%;
+}
+
+/* line 23, ../../../sass/grid/_12cols.scss */
+.span_7_of_12 {
+  width: 57.66%;
+}
+
+/* line 27, ../../../sass/grid/_12cols.scss */
+.span_6_of_12 {
+  width: 49.2%;
+}
+
+/* line 31, ../../../sass/grid/_12cols.scss */
+.span_5_of_12 {
+  width: 40.73%;
+}
+
+/* line 35, ../../../sass/grid/_12cols.scss */
+.span_4_of_12 {
+  width: 32.26%;
+}
+
+/* line 39, ../../../sass/grid/_12cols.scss */
+.span_3_of_12 {
+  width: 23.8%;
+}
+
+/* line 43, ../../../sass/grid/_12cols.scss */
+.span_2_of_12 {
+  width: 15.33%;
+}
+
+/* line 47, ../../../sass/grid/_12cols.scss */
+.span_1_of_12 {
+  width: 6.86%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 55, ../../../sass/grid/_12cols.scss */
+  .span_12_of_12 {
+    width: 100%;
+  }
+
+  /* line 58, ../../../sass/grid/_12cols.scss */
+  .span_11_of_12 {
+    width: 100%;
+  }
+
+  /* line 61, ../../../sass/grid/_12cols.scss */
+  .span_10_of_12 {
+    width: 100%;
+  }
+
+  /* line 64, ../../../sass/grid/_12cols.scss */
+  .span_9_of_12 {
+    width: 100%;
+  }
+
+  /* line 67, ../../../sass/grid/_12cols.scss */
+  .span_8_of_12 {
+    width: 100%;
+  }
+
+  /* line 70, ../../../sass/grid/_12cols.scss */
+  .span_7_of_12 {
+    width: 100%;
+  }
+
+  /* line 73, ../../../sass/grid/_12cols.scss */
+  .span_6_of_12 {
+    width: 100%;
+  }
+
+  /* line 76, ../../../sass/grid/_12cols.scss */
+  .span_5_of_12 {
+    width: 100%;
+  }
+
+  /* line 79, ../../../sass/grid/_12cols.scss */
+  .span_4_of_12 {
+    width: 100%;
+  }
+
+  /* line 82, ../../../sass/grid/_12cols.scss */
+  .span_3_of_12 {
+    width: 100%;
+  }
+
+  /* line 85, ../../../sass/grid/_12cols.scss */
+  .span_2_of_12 {
+    width: 100%;
+  }
+
+  /* line 88, ../../../sass/grid/_12cols.scss */
+  .span_1_of_12 {
+    width: 100%;
+  }
+}
+/* line 1, ../../../sass/_nav.scss */
+.header {
+  padding: 30px 15px 0;
   text-align: center;
-  min-height: 120px;
 }
 @media (min-width: 1280px) {
-  /* line 1, ../../../sass/_header.scss */
+  /* line 1, ../../../sass/_nav.scss */
   .header {
-    text-align: left;
+    padding: 30px 60px 0 60px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 1, ../../../sass/_nav.scss */
+  .header {
+    text-align: right;
   }
 }
 
-/* line 9, ../../../sass/_header.scss */
+/* line 12, ../../../sass/_nav.scss */
 .header__logo {
   display: inline-block;
-  width: 80%;
-  max-width: 280px;
-  vertical-align: middle;
+  max-width: 215px;
   margin: 0 auto;
-  padding: 3em 10%;
+  padding: 0 0 30px 0;
 }
 @media (min-width: 1280px) {
-  /* line 9, ../../../sass/_header.scss */
+  /* line 12, ../../../sass/_nav.scss */
   .header__logo {
-    text-align: left;
-    margin: 0;
+    float: left;
   }
 }
 
-/* line 22, ../../../sass/_header.scss */
-.header__navigation {
-  display: inline-block;
+/* line 22, ../../../sass/_nav.scss */
+.header__nav {
+  display: block;
+}
+@media (min-width: 1280px) {
+  /* line 22, ../../../sass/_nav.scss */
+  .header__nav {
+    display: inline-block;
+    padding-top: 10px;
+    text-align: right;
+  }
 }
 
-/* line 1, ../../../sass/_nav.scss */
-.header__navigation {
-  margin-bottom: 1em;
-}
-
-/* line 4, ../../../sass/_nav.scss */
+/* line 31, ../../../sass/_nav.scss */
 .header__nav-item {
   display: inline-block;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: .8em;
-  padding: 1em;
 }
 
-/* line 10, ../../../sass/_nav.scss */
+/* line 36, ../../../sass/_nav.scss */
 .header__nav-link {
+  display: inline-block;
   color: #556476;
+  padding: 20px 1em 20px;
+  border-bottom: 5px solid #fff;
 }
-/* line 12, ../../../sass/_nav.scss */
+/* line 41, ../../../sass/_nav.scss */
 .header__nav-link:hover {
   color: #e8af3d;
+  border-bottom: 5px solid #556476;
 }
 
+/* line 46, ../../../sass/_nav.scss */
+.header__nav-item--service {
+  display: none;
+}
+
+/* line 49, ../../../sass/_nav.scss */
+.header__nav-item--services {
+  display: inline-block;
+}
+
+@media (min-width: 820px) {
+  /* line 53, ../../../sass/_nav.scss */
+  .header__nav-item--services {
+    display: none;
+  }
+
+  /* line 56, ../../../sass/_nav.scss */
+  .header__nav-item--service {
+    display: inline-block;
+  }
+}
 /* line 1, ../../../sass/_hero.scss */
 .hero {
   text-align: center;
-  background: #556476 url(../img/duxbury-law-firm.jpg) 75% no-repeat;
+  background: #556476 url(../img/duxbury-law-firm.jpg) 95% no-repeat;
   background-size: cover;
   padding: 30px 0;
   color: #fff;
@@ -188,7 +1180,6 @@ table {
 }
 /* line 1, ../../../sass/_services.scss */
 .services {
-  width: 100%;
   margin: 0 auto;
   padding: 0;
   font-size: 0;
@@ -215,12 +1206,13 @@ table {
   margin: 0 auto;
   font-size: 1rem;
   background: #37485A;
+  opacity: .95;
   font-family: "Lato", sans-serif;
   vertical-align: top;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-/* line 27, ../../../sass/_services.scss */
+/* line 28, ../../../sass/_services.scss */
 .services__service:last-child {
   border: none;
 }
@@ -228,14 +1220,32 @@ table {
   /* line 15, ../../../sass/_services.scss */
   .services__service {
     display: inline-block;
+    min-height: 150px;
     max-width: 360px;
-    width: 25%;
+    width: 30.3%;
     margin: 0 auto;
-    padding: 60px 2.5%;
+    padding: 50px 1.5% 40px;
+    transition: background .25s;
+  }
+  /* line 39, ../../../sass/_services.scss */
+  .services__service:hover {
+    background: #e8af3d;
+    color: #fff;
+    transition: background .25s;
+  }
+  /* line 43, ../../../sass/_services.scss */
+  .services__service:hover .services__service-heading {
+    transition: color .25s;
+    color: #fff;
+  }
+  /* line 47, ../../../sass/_services.scss */
+  .services__service:hover .services__service-cta {
+    visibility: visible;
+    color: #37485A;
   }
 }
 
-/* line 39, ../../../sass/_services.scss */
+/* line 54, ../../../sass/_services.scss */
 .services__service-heading {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -245,8 +1255,10 @@ table {
   color: #e8af3d;
   font-size: 1.35rem;
   line-height: 1.25em;
+  transition: color .25s;
+  opacity: 1;
 }
-/* line 46, ../../../sass/_services.scss */
+/* line 63, ../../../sass/_services.scss */
 .services__service-heading:after {
   display: block;
   content: "";
@@ -256,17 +1268,24 @@ table {
   margin: 10px auto;
   white-space: pre-wrap;
 }
+@media (min-width: 820px) and (max-width: 1280px) {
+  /* line 54, ../../../sass/_services.scss */
+  .services__service-heading {
+    font-size: 1em;
+  }
+}
 
-/* line 56, ../../../sass/_services.scss */
+/* line 76, ../../../sass/_services.scss */
 .services__service-description {
   font-size: .9em;
   line-height: 1.5em;
   letter-spacing: .025em;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   color: #fff;
+  opacity: 1;
 }
 
-/* line 63, ../../../sass/_services.scss */
+/* line 84, ../../../sass/_services.scss */
 .services__service-cta {
   display: inline-block;
   font-size: .8em;
@@ -275,12 +1294,17 @@ table {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  opacity: 1;
 }
 @media (min-width: 820px) {
-  /* line 63, ../../../sass/_services.scss */
+  /* line 84, ../../../sass/_services.scss */
   .services__service-cta {
-    display: none;
+    visibility: hidden;
   }
+}
+/* line 94, ../../../sass/_services.scss */
+.services__service-cta:hover {
+  color: #ffffff !important;
 }
 
 /* line 1, ../../../sass/_callout.scss */
@@ -357,7 +1381,7 @@ table {
     display: none;
   }
   /* line 14, ../../../sass/_contact.scss */
-  .section__contact-info li {
+  .section__contact-info .footer__phone, .section__contact-info .footer__email {
     display: inline-block;
   }
 }
@@ -382,24 +1406,30 @@ table {
 /* line 31, ../../../sass/_contact.scss */
 .contact-info__duxbury, .contact-info__boston {
   display: block;
-  padding: 15% 7%;
-  margin: 5%;
   font-size: 1em;
   line-height: 1.5em;
   vertical-align: top;
   background-size: cover;
 }
+
+/* line 38, ../../../sass/_contact.scss */
+.contact__details {
+  padding: 15% 0;
+}
 @media (min-width: 820px) {
-  /* line 31, ../../../sass/_contact.scss */
-  .contact-info__duxbury, .contact-info__boston {
-    width: 25%;
-    display: inline-block;
-    padding: 6% 3%;
-    margin: 1%;
+  /* line 38, ../../../sass/_contact.scss */
+  .contact__details {
+    padding: 15% 10%;
   }
 }
 
-/* line 46, ../../../sass/_contact.scss */
+/* line 44, ../../../sass/_contact.scss */
+.footer__break {
+  line-height: .25;
+  display: block;
+}
+
+/* line 48, ../../../sass/_contact.scss */
 .footer__city {
   display: block;
   font-family: "Lato", sans-serif;
@@ -409,14 +1439,9 @@ table {
   margin-bottom: .85em;
 }
 
-/* line 52, ../../../sass/_contact.scss */
+/* line 54, ../../../sass/_contact.scss */
 .footer__email {
   font-weight: bold;
-}
-
-/* line 55, ../../../sass/_contact.scss */
-.footer__phone {
-  padding-top: 1em;
 }
 
 /* line 1, ../../../sass/_footer.scss */
@@ -438,7 +1463,7 @@ table {
   padding: 45px 60px 30px;
   text-align: center;
 }
-@media (min-width: 1280px) {
+@media (min-width: 820px) {
   /* line 10, ../../../sass/_footer.scss */
   .footer__nav {
     text-align: left;
@@ -459,7 +1484,7 @@ table {
   vertical-align: middle;
   padding: 0;
 }
-@media (min-width: 1280px) {
+@media (min-width: 820px) {
   /* line 24, ../../../sass/_footer.scss */
   .footer__nav-item {
     padding: 0 1.25em 0 0;
@@ -479,7 +1504,7 @@ table {
 .footer__nav-link:hover {
   color: #e8af3d;
 }
-@media (min-width: 1280px) {
+@media (min-width: 820px) {
   /* line 32, ../../../sass/_footer.scss */
   .footer__nav-link {
     font-size: .8em;
@@ -492,22 +1517,30 @@ table {
   display: none;
   padding: 0 15px 0 0;
 }
+@media (min-width: 820px) {
+  /* line 46, ../../../sass/_footer.scss */
+  .footer__nav-item--slash {
+    display: block;
+    visibility: hidden;
+  }
+}
 @media (min-width: 1280px) {
   /* line 46, ../../../sass/_footer.scss */
   .footer__nav-item--slash {
     display: inline-block;
+    visibility: visible;
   }
 }
 
-/* line 53, ../../../sass/_footer.scss */
+/* line 58, ../../../sass/_footer.scss */
 .footer__nav-item--facebook, .footer__nav-item--linkedin {
   display: inline-block;
   height: 25px;
   width: 25px;
   padding: 15px 10px 30px 0;
 }
-@media (min-width: 1280px) {
-  /* line 53, ../../../sass/_footer.scss */
+@media (min-width: 820px) {
+  /* line 58, ../../../sass/_footer.scss */
   .footer__nav-item--facebook, .footer__nav-item--linkedin {
     height: 20px;
     width: 20px;
@@ -515,7 +1548,7 @@ table {
   }
 }
 
-/* line 64, ../../../sass/_footer.scss */
+/* line 69, ../../../sass/_footer.scss */
 .footer__copyright {
   display: inline-block;
   width: 100%;
@@ -530,11 +1563,19 @@ table {
   color: #fff;
   opacity: 0.25;
 }
-@media (min-width: 1280px) {
-  /* line 64, ../../../sass/_footer.scss */
+@media (min-width: 820px) {
+  /* line 69, ../../../sass/_footer.scss */
   .footer__copyright {
-    margin: 0 auto;
+    display: block;
+    margin: 15px auto;
     width: auto;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 69, ../../../sass/_footer.scss */
+  .footer__copyright {
+    display: inline-block;
+    margin: 0 auto;
     float: right;
   }
 }
@@ -596,7 +1637,69 @@ body {
     opacity: 1;
   }
 }
-/* line 13, ../../../sass/main.scss */
+/* line 1, ../../../sass/components/_testimonials.scss */
+#testimonials .carousel-wrap {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 8, ../../../sass/components/_testimonials.scss */
+#testimonials .carousel-nav {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 14, ../../../sass/components/_testimonials.scss */
+#testimonials .carousel-nav .nextbtn {
+  float: right;
+}
+
+/* line 18, ../../../sass/components/_testimonials.scss */
+#testimonials .carousel-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+}
+
+/* line 23, ../../../sass/components/_testimonials.scss */
+#testimonials .carousel-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 400px;
+  margin-right: 15px;
+}
+
+/** clearfix **/
+/* line 37, ../../../sass/components/_testimonials.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 38, ../../../sass/components/_testimonials.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 40, ../../../sass/components/_testimonials.scss */
+html[xmlns] .clearfix {
+  display: block;
+}
+
+/* line 41, ../../../sass/components/_testimonials.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 15, ../../../sass/main.scss */
 .section__heading {
   font-size: 1.3em;
   line-height: 2em;
@@ -612,12 +1715,12 @@ body {
   font-weight: 900;
 }
 
-/* line 24, ../../../sass/main.scss */
+/* line 26, ../../../sass/main.scss */
 .section__heading--darkbg {
   color: #fff;
 }
 
-/* line 28, ../../../sass/main.scss */
+/* line 30, ../../../sass/main.scss */
 .section__cta {
   display: inline-block;
   width: auto;
@@ -632,7 +1735,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 39, ../../../sass/main.scss */
+/* line 41, ../../../sass/main.scss */
 .section__cta:hover {
   background: #fff;
   color: #556476;

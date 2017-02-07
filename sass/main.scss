@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'variables';
 @import 'mixins';
+@import 'grid/grid';
 @import 'header';
 @import 'nav';
 @import 'hero';
@@ -9,6 +10,7 @@
 @import 'contact';
 @import 'footer';
 @import 'animation';
+@import 'components/testimonials';
 
 .section__heading {
    font-size: 1.3em;

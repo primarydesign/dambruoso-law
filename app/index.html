@@ -10,17 +10,18 @@
   </head>
   <body>
       <header class="header">
-         <nav>
-            <img class="header__logo" src="assets/img/dambruoso-law_logo-blue.svg" alt="D'Ambruoso Law - Real Estate | Estate Planning | Business Law">
-            <ul class="header__navigation">
-               <li class="header__nav-item"><a class="header__nav-link">Real Estate</a></li>
-               <li class="header__nav-item"><a class="header__nav-link">Estate Planning</a></li>
-               <li class="header__nav-item"><a class="header__nav-link">Business Law</a></li>
+         <img class="header__logo" src="assets/img/dambruoso-law_logo-blue.svg" alt="D'Ambruoso Law - Real Estate | Estate Planning | Business Law">
+         <nav class="header__nav">
+            <ul class="header__nav-items">
+               <li class="header__nav-item header__nav-item--services"><a class="header__nav-link">Services</a></li>
+               <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Real Estate</a></li>
+               <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Estate Planning</a></li>
+               <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Business Law</a></li>
                <li class="header__nav-item"><a class="header__nav-link">About</a></li>
                <li class="header__nav-item"><a class="header__nav-link">Blog</a></li>
                <li class="header__nav-item"><a class="header__nav-link">Contact</a></li>
             </ul>
-         </nav>    
+         </nav>
       </header>
       <main>
          <div class="main__hero-services">
@@ -28,7 +29,7 @@
                <h2 class="hero__statement">We are a boutique firm with offices in Duxbury and Boston, providing big law firm expertise with small law firm service and value.</h2>
             </section>
             <section class="services">
-                <article class="services__grid">
+                <article class="services__grid group">
                   <div class="services__service">
                      <h1 class="services__service-heading">Real Estate</h1>
                      <p class="services__service-description">Ensure that your Massachusetts real estate transaction closes seamlessly and protects the interest that you worked so hard to acquire.</p>
@@ -41,12 +42,12 @@
                   </div>
                   <div class="services__service">
                      <h1 class="services__service-heading">Business Law</h1>
-                     <p class="services__service-description">Let us be your partners in business, to provide you with the sound and useful advice you need to guide you through the business and legal obstacles you face.</p>
-                     <a class="services__service-cta">Learn More</a>                  
+                     <p class="services__service-description">Let us be your partners in business, to provide you with sound and useful advice you need to guide you through the business and legal obstacles you face.</p>
+                     <a class="services__service-cta">Learn More</a>             
                   </div>              
                 </article>
             </section>
-         </div>
+         </div>   
          <section class="callout">
             <div class="callout__text">
                <h2 class="section__heading">Testimonials</h2>
@@ -58,19 +59,26 @@
     </main>
     <footer class="footer">
       <h2 class="section__heading section__heading--darkbg ">Contact Us</h2>
-      <section class="section__contact-info">
-         <ul class="contact-info__duxbury">
-            <h3 class="footer__city">Duxbury</h3>   
-            <li class="footer__address">33 Railroad Avenue, Suite 1,<br> Duxbury, MA 02332</li>
-            <li class="footer__phone"><a href="tel:7819340444">781.934.0444</a></li>
-            <li class="footer__email"><a href="mailto:info@DAmbruosoLaw.com">info@dambruosolaw.com</a></li> 
-         </ul>
-         <ul class="contact-info__boston">
-            <h3 class="footer__city">Boston</h3>           
-            <li class="footer__address">1 International Place, 18th Floor,<br> Boston, MA 02110</li>
-            <li class="footer__phone"><a href="tel:6173312264">617.331.2264</a></li>
-            <li class="footer__email"><a href="mailto:info@DAmbruosoLaw.com">info@dambruosolaw.com</a></li>
-         </ul>
+       
+      <section class="section__contact-info section group">
+         <div class="contact-info__duxbury col span_1_of_2">
+            <ul class="contact__details">
+               <h3 class="footer__city">Duxbury</h3>   
+               <li class="footer__address">33 Railroad Avenue, Suite 1,<br> Duxbury, MA 02332</li>
+               <li class="footer__break">&nbsp;</li>
+               <li class="footer__phone"><a href="tel:7819340444">781.934.0444</a></li>
+               <li class="footer__email"><a href="mailto:info@DAmbruosoLaw.com">info@dambruosolaw.com</a></li> 
+            </ul>
+         </div>
+         <div class="contact-info__boston col span_1_of_2 ">
+            <ul class="contact__details">
+               <h3 class="footer__city">Boston</h3>           
+               <li class="footer__address">1 International Place, 18th Floor,<br> Boston, MA 02110</li>
+               <li class="footer__break">&nbsp;</li>
+               <li class="footer__phone"><a href="tel:6173312264">617.331.2264</a></li>
+               <li class="footer__email"><a href="mailto:info@DAmbruosoLaw.com">info@dambruosolaw.com</a></li>
+            </ul>
+         </div>
       </section>
       <nav class="footer__nav">
          <ul class="footer__nav-links">
@@ -91,6 +99,9 @@
             <li class="footer__nav-item"><p class="footer__copyright">&copy; 2017 D'Ambruoso Law LLP</p></li>
          </ul>
       </nav>
-    </footer>
+     </footer>
+  
   </body>
+  <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="assets/js/carousel.js"></script>
 </html>

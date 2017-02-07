@@ -11,10 +11,10 @@
    border-top: 1px solid $blue;
    margin: 0 auto;
    padding: 45px 60px 30px;
-   text-align: center;
-   @media(min-width: $medium) {
+   text-align: center;   
+   @media(min-width: $small) {
       text-align: left;
-   }    
+   }   
 }
 .footer__nav-links {
    @include capSans;
@@ -24,7 +24,7 @@
 .footer__nav-item {
    vertical-align: middle;
    padding: 0;
-   @media(min-width: $medium) {
+   @media(min-width: $small) {
       padding: 0 1.25em 0 0;      
       display: inline;
    }
@@ -38,7 +38,7 @@
    &:hover {
       color: $yellow;
    }
-   @media(min-width: $medium) {
+   @media(min-width: $small) {
       font-size: .8em;
       line-height: 1.25em;
    }
@@ -46,16 +46,21 @@
 .footer__nav-item--slash {
    display: none;
    padding: 0 15px 0 0;
+   @media(min-width: $small) {
+      display: block;
+      visibility: hidden;
+   }
    @media(min-width: $medium) {
       display: inline-block;
-   }
+      visibility: visible;
+   }   
 }
 .footer__nav-item--facebook, .footer__nav-item--linkedin {
    display: inline-block;
    height: 25px;
    width: 25px;
    padding: 15px 10px 30px 0;   
-   @media(min-width: $medium) {
+   @media(min-width: $small) {
       height: 20px;
       width: 20px;      
       padding: 0 10px 0 0;
@@ -74,9 +79,14 @@
    float: none;
    color: #fff;
    opacity: 0.25;
-   @media(min-width: $medium) {
-      margin: 0 auto;
+   @media(min-width: $small) {
+      display: block;
+      margin: 15px auto;
       width: auto;
-      float: right;
-   }   
+   }
+   @media(min-width: $medium) {
+      display: inline-block;
+      margin: 0 auto;
+      float: right;      
+   }
 }

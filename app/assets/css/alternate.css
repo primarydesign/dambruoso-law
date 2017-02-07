@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Lato:400");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Lato:400,700,900");
 /* line 6, ../../../sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,33 +63,97 @@ table {
 }
 
 /* line 1, ../../../sass/_nav.scss */
-.header__navigation {
-  margin-bottom: 1em;
+.header {
+  padding: 30px 15px 0;
+  text-align: center;
+}
+@media (min-width: 1280px) {
+  /* line 1, ../../../sass/_nav.scss */
+  .header {
+    padding: 30px 60px 0 60px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 1, ../../../sass/_nav.scss */
+  .header {
+    text-align: right;
+  }
 }
 
-/* line 4, ../../../sass/_nav.scss */
+/* line 12, ../../../sass/_nav.scss */
+.header__logo {
+  display: inline-block;
+  max-width: 215px;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+}
+@media (min-width: 1280px) {
+  /* line 12, ../../../sass/_nav.scss */
+  .header__logo {
+    float: left;
+  }
+}
+
+/* line 22, ../../../sass/_nav.scss */
+.header__nav {
+  display: block;
+}
+@media (min-width: 1280px) {
+  /* line 22, ../../../sass/_nav.scss */
+  .header__nav {
+    display: inline-block;
+    padding-top: 10px;
+    text-align: right;
+  }
+}
+
+/* line 31, ../../../sass/_nav.scss */
 .header__nav-item {
   display: inline-block;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: .8em;
-  padding: 1em;
 }
 
-/* line 10, ../../../sass/_nav.scss */
+/* line 36, ../../../sass/_nav.scss */
 .header__nav-link {
-  color: #607286;
+  display: inline-block;
+  color: #556476;
+  padding: 20px 1em 20px;
+  border-bottom: 5px solid #fff;
 }
-/* line 12, ../../../sass/_nav.scss */
+/* line 41, ../../../sass/_nav.scss */
 .header__nav-link:hover {
-  color: #f5a629;
+  color: #e8af3d;
+  border-bottom: 5px solid #556476;
 }
 
+/* line 46, ../../../sass/_nav.scss */
+.header__nav-item--service {
+  display: none;
+}
+
+/* line 49, ../../../sass/_nav.scss */
+.header__nav-item--services {
+  display: inline-block;
+}
+
+@media (min-width: 820px) {
+  /* line 53, ../../../sass/_nav.scss */
+  .header__nav-item--services {
+    display: none;
+  }
+
+  /* line 56, ../../../sass/_nav.scss */
+  .header__nav-item--service {
+    display: inline-block;
+  }
+}
 /* line 1, ../../../sass/_hero.scss */
 .hero {
   text-align: center;
-  background: #607286 url(../img/duxbury-law-firm.jpg) 75% no-repeat;
+  background: #556476 url(../img/duxbury-law-firm.jpg) 95% no-repeat;
   background-size: cover;
   padding: 30px 0;
   color: #fff;
@@ -130,7 +194,7 @@ table {
 /* line 30, ../../../sass/_hero.scss */
 .hero__cta:hover {
   background: #fff;
-  color: #607286;
+  color: #556476;
   transition: background .5s;
 }
 
@@ -147,7 +211,7 @@ table {
 
   /* line 44, ../../../sass/_hero.scss */
   .main__hero-services {
-    background: #607286 url(../img/duxbury-law-firm.jpg) 50% 75% no-repeat;
+    background: #556476 url(../img/duxbury-law-firm.jpg) 50% 75% no-repeat;
     background-size: cover;
   }
 }
@@ -164,7 +228,7 @@ table {
 }
 /* line 9, ../../../sass/alt/_header.scss */
 .header .hero {
-  background: #607286 url(../img/duxbury-law-firm.jpg) 75% no-repeat;
+  background: #556476 url(../img/duxbury-law-firm.jpg) 75% no-repeat;
   background-size: cover;
   padding: 30px 0;
   color: #fff;
@@ -198,7 +262,7 @@ table {
 /* line 34, ../../../sass/alt/_header.scss */
 .header .hero .hero__cta:hover {
   background: #fff;
-  color: #607286;
+  color: #556476;
   transition: background .5s;
 }
 @media (min-width: 820px) {
@@ -265,7 +329,7 @@ table {
 .footer {
   width: 100%;
   text-align: center;
-  color: #607286;
+  color: #556476;
   background: #e7eaed;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -286,7 +350,7 @@ table {
 /* line 17, ../../../sass/alt/_footer.scss */
 .footer .footer__contact-info a {
   text-decoration: none;
-  color: #607286;
+  color: #556476;
 }
 /* line 21, ../../../sass/alt/_footer.scss */
 .footer .footer__contact-info .footer__email {

@@ -11,7 +11,7 @@
       br { 
          display: none
       }
-      li {
+      .footer__phone, .footer__email {
          display: inline-block;
       }
    }   
@@ -30,18 +30,20 @@
 }
 .contact-info__duxbury, .contact-info__boston {
    display: block;
-   padding: 15% 7%;
-   margin: 5%;
    font-size: 1em;
    line-height: 1.5em;
    vertical-align: top;
    background-size: cover;
+}
+.contact__details {
+   padding: 15% 0;
    @media (min-width:$small) {
-      width: 25%;
-      display: inline-block;
-      padding: 6% 3%;
-      margin: 1%;
+      padding: 15% 10%;
    }
+}
+.footer__break {
+   line-height: .25;
+   display: block;
 }
 .footer__city {
    display: block;
@@ -53,5 +55,5 @@
    font-weight: bold;
 }
 .footer__phone {
-   padding-top: 1em;
+   //padding-top: 1em;
 }

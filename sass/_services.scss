@@ -1,5 +1,5 @@
 .services {
-  width: 100%;
+  // width: 100%;
   margin: 0 auto;
   padding: 0;
   font-size: 0;   
@@ -21,6 +21,7 @@
    margin: 0 auto;
    font-size: 1rem; 
    background: $dkblue;
+   opacity: .95;
    font-family: $sans;
    vertical-align: top;
    @include smoothFont;
@@ -29,11 +30,25 @@
    }
    @media (min-width: $small) {
       display: inline-block;
-      //min-height: 200px;
+      min-height: 150px;
       max-width: 360px;
-      width: 25%;
+      width: 30.3%;
       margin: 0 auto;
-      padding: 60px 2.5%;
+      padding: 50px 1.5% 40px;
+      transition: background .25s;
+      &:hover {
+         background: $yellow;
+         color: #fff;
+         transition: background .25s;
+         .services__service-heading {
+            transition: color .25s;
+            color: #fff;
+         }
+         .services__service-cta {
+            visibility: visible;
+            color: $dkblue;
+         }
+      }
    }
 } 
 .services__service-heading {
@@ -43,6 +58,8 @@
    color: $yellow;
    font-size: 1.35rem;
    line-height: 1.25em;
+   transition: color .25s;
+   opacity: 1;
    &:after {
       display: block;
       content: "";
@@ -52,13 +69,17 @@
       margin: 10px auto;
       white-space: pre-wrap;
    }
+   @media (min-width: $small) and (max-width: $medium) {
+      font-size: 1em;
+   }
 }
 .services__service-description {
    font-size: .9em;
    line-height: 1.5em;
    letter-spacing: .025em;
-   padding-bottom: 10%;
+   padding-bottom: 5%;
    color: #fff;
+   opacity: 1;
 }
 .services__service-cta {
   display: inline-block;        
@@ -66,7 +87,11 @@
   color: $yellow;
   @include capSans;  
   font-weight: 700;
+  opacity: 1;
   @media (min-width: $small) {
-     display: none;
+     visibility: hidden;
+  }
+  &:hover {
+     color:#ffffff !important;
   }
 }
