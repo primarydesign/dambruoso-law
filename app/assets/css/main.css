@@ -1098,19 +1098,19 @@ input, select {
 }
 
 /* line 49, ../../../sass/_nav.scss */
-.header__nav-item--services {
+.header__nav-item--dropdown {
   display: inline-block;
 }
 
 @media (min-width: 820px) {
   /* line 53, ../../../sass/_nav.scss */
-  .header__nav-item--services {
-    display: none;
+  .header__nav-item--service {
+    display: inline-block;
   }
 
   /* line 56, ../../../sass/_nav.scss */
-  .header__nav-item--service {
-    display: inline-block;
+  .header__nav-item--dropdown {
+    display: none;
   }
 }
 /* line 1, ../../../sass/_hero.scss */
@@ -1326,6 +1326,7 @@ input, select {
 
 /* line 12, ../../../sass/_callout.scss */
 .callout__text {
+  position: relative;
   display: inline-block;
   padding: 5% 12% 0 12%;
 }
@@ -1333,15 +1334,16 @@ input, select {
   /* line 12, ../../../sass/_callout.scss */
   .callout__text {
     width: 26%;
+    padding: 100px 12% 0 12%;
   }
 }
 
-/* line 19, ../../../sass/_callout.scss */
+/* line 21, ../../../sass/_callout.scss */
 .callout__image {
   display: inline-block;
 }
 @media (min-width: 820px) {
-  /* line 19, ../../../sass/_callout.scss */
+  /* line 21, ../../../sass/_callout.scss */
   .callout__image {
     width: 50%;
     float: right;
@@ -1351,13 +1353,13 @@ input, select {
   }
 }
 
-/* line 33, ../../../sass/_callout.scss */
+/* line 35, ../../../sass/_callout.scss */
 .callout__statement {
   font-size: 1.25em;
   line-height: 1.5em;
 }
 
-/* line 37, ../../../sass/_callout.scss */
+/* line 39, ../../../sass/_callout.scss */
 .callout__statement--quote {
   font-style: italic;
   padding-bottom: 2em;
@@ -1673,8 +1675,30 @@ body {
   margin-right: 15px;
 }
 
+/* line 34, ../../../sass/components/_testimonials.scss */
+.callout__arrow--left, .callout__arrow--right {
+  position: absolute;
+  top: 35%;
+}
+@media (min-width: 820px) {
+  /* line 34, ../../../sass/components/_testimonials.scss */
+  .callout__arrow--left, .callout__arrow--right {
+    top: 45%;
+  }
+}
+
+/* line 41, ../../../sass/components/_testimonials.scss */
+.callout__arrow--left {
+  left: 1.5%;
+}
+
+/* line 44, ../../../sass/components/_testimonials.scss */
+.callout__arrow--right {
+  right: 1.5%;
+}
+
 /** clearfix **/
-/* line 37, ../../../sass/components/_testimonials.scss */
+/* line 50, ../../../sass/components/_testimonials.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -1684,17 +1708,17 @@ body {
   height: 0;
 }
 
-/* line 38, ../../../sass/components/_testimonials.scss */
+/* line 51, ../../../sass/components/_testimonials.scss */
 .clearfix {
   display: inline-block;
 }
 
-/* line 40, ../../../sass/components/_testimonials.scss */
+/* line 53, ../../../sass/components/_testimonials.scss */
 html[xmlns] .clearfix {
   display: block;
 }
 
-/* line 41, ../../../sass/components/_testimonials.scss */
+/* line 54, ../../../sass/components/_testimonials.scss */
 * html .clearfix {
   height: 1%;
 }

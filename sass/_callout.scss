@@ -10,11 +10,13 @@
    }  
 }
 .callout__text {
+   position: relative;
    display: inline-block;
    padding: 5% 12% 0 12%;
    @media (min-width: $small) {
       width: 26%;
-   }   
+      padding: 100px 12% 0 12%;
+   } 
 }
 .callout__image {
    display: inline-block;

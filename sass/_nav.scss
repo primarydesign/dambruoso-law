@@ -46,14 +46,14 @@
 .header__nav-item--service {
    display: none;
 }
-.header__nav-item--services {
+.header__nav-item--dropdown {
    display: inline-block;
 }
 @media (min-width: $small) {
-   .header__nav-item--services {
-      display: none;
-   }
    .header__nav-item--service {
       display: inline-block;
    }
+   .header__nav-item--dropdown {
+      display: none;
+   }   
 }

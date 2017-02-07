@@ -29,7 +29,20 @@
 }
 
 #testimonials .carousel-wrap .context {
-
+   
+}
+.callout__arrow--left, .callout__arrow--right {
+   position: absolute;
+   top: 35%;
+   @media (min-width: $small) {
+      top: 45%;
+   }
+}
+.callout__arrow--left {
+   left: 1.5%;
+}
+.callout__arrow--right {
+   right: 1.5%;
 }
 
 

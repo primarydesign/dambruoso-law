@@ -135,19 +135,19 @@ table {
 }
 
 /* line 49, ../../../sass/_nav.scss */
-.header__nav-item--services {
+.header__nav-item--dropdown {
   display: inline-block;
 }
 
 @media (min-width: 820px) {
   /* line 53, ../../../sass/_nav.scss */
-  .header__nav-item--services {
-    display: none;
+  .header__nav-item--service {
+    display: inline-block;
   }
 
   /* line 56, ../../../sass/_nav.scss */
-  .header__nav-item--service {
-    display: inline-block;
+  .header__nav-item--dropdown {
+    display: none;
   }
 }
 /* line 1, ../../../sass/_hero.scss */
