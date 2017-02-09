@@ -8,7 +8,7 @@
    @include smoothFont;
 }
 .footer__nav {
-   border-top: 1px solid $blue;
+   //border-top: 1px solid $blue;
    margin: 0 auto;
    padding: 45px 60px 30px;
    text-align: center;   
@@ -39,7 +39,7 @@
       color: $yellow;
    }
    @media(min-width: $small) {
-      font-size: .8em;
+      font-size: 12px;
       line-height: 1.25em;
    }
 }
@@ -73,9 +73,9 @@
    padding: 0;
    font-family: $serif;
    font-weight: normal;
-   font-size: 1.15em;
+   font-size: 14px;
    text-transform: none;
-   letter-spacing: 0;
+   letter-spacing: 1px;
    float: none;
    color: #fff;
    opacity: 0.25;

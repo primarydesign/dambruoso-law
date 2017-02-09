@@ -1,15 +1,15 @@
-@import 'reset';
-@import 'variables';
-@import 'mixins';
-@import 'grid/grid';
-@import 'header';
-@import 'nav';
-@import 'hero';
-@import 'services';
-@import 'callout';
-@import 'contact';
-@import 'footer';
-@import 'animation';
+@import 'utility/reset';
+@import 'utility/variables';
+@import 'utility/mixins';
+@import 'utility/grid/grid';
+@import 'utility/animation';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/hero';
+@import 'components/services';
+@import 'components/callout';
+@import 'components/contact';
+@import 'components/footer';
 @import 'components/testimonials';
 
 .section__heading {

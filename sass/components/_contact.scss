@@ -2,7 +2,7 @@
    margin: 0 auto;
    line-height: 1.25em;
    padding-bottom: 60px;
-   color: #fff;
+   color: #fff; 
    a {
       text-decoration: none;
       color: #fff;
@@ -13,8 +13,14 @@
       }
       .footer__phone, .footer__email {
          display: inline-block;
+      }      
+   }
+   @media (max-width: 640px) {
+      .col.span_1_of_2 {
+         width: 100%;
+         margin: 0 0 15px;
       }
-   }   
+   }
 }
 @media (min-width: $medium) {
    .footer__phone:after { 
@@ -26,19 +32,34 @@
    background: $dkblue url(../img/map_duxbury.jpg) no-repeat;
 }
 .contact-info__boston {
-   background: $dkblue url(../img/map_boston.jpg) no-repeat;
+   background: $dkblue url(../img/map_boston.jpg) no-repeat;  
 }
 .contact-info__duxbury, .contact-info__boston {
-   display: block;
    font-size: 1em;
    line-height: 1.5em;
    vertical-align: top;
-   background-size: cover;
+   background-size: cover;  
+}
+@media (min-width: 641px) {
+   /* need margins that play nice with the grid? use border */
+   .contact-info__duxbury {
+      border-left: 15px solid $dkblue;
+   }
+   .contact-info__boston {
+      border-right: 15px solid $dkblue;
+   }
+   .contact__details {
+      min-height: 310px;
+      box-sizing: border-box;
+   }
 }
 .contact__details {
-   padding: 15% 0;
-   @media (min-width:$small) {
-      padding: 15% 10%;
+   padding: 22% 10%;
+   @media (min-width: 641px) and (max-width: $medium) {
+      padding: 0 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
    }
 }
 .footer__break {
@@ -46,10 +67,11 @@
    display: block;
 }
 .footer__city {
+   line-height: .5;
    display: block;
    @include capSans;
    font-weight: 700;
-   margin-bottom: .85em;
+   margin-bottom: 1em;
 }
 .footer__email {
    font-weight: bold;

@@ -30,11 +30,11 @@
    }
    @media (min-width: $small) {
       display: inline-block;
-      min-height: 150px;
+      min-height: 180px;
       max-width: 360px;
       width: 30.3%;
       margin: 0 auto;
-      padding: 50px 1.5% 40px;
+      padding: 70px 1.5% 15px;
       transition: background .25s;
       &:hover {
          background: $yellow;
@@ -57,7 +57,7 @@
    letter-spacing: 2px;
    color: $yellow;
    font-size: 1.35rem;
-   line-height: 1.25em;
+   line-height: 1.25rem;
    transition: color .25s;
    opacity: 1;
    &:after {
@@ -70,6 +70,7 @@
       white-space: pre-wrap;
    }
    @media (min-width: $small) and (max-width: $medium) {
+      /* elminates line break */
       font-size: 1em;
    }
 }
