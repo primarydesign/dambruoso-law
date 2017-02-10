@@ -1,0 +1,67 @@
+.callout {
+   font-size: 0;
+   padding-top: 0;
+   color: #fff;
+   text-align: center;
+   @include smoothFont;
+   background: $blue;
+}
+.callout__text {
+   display: inline-block;
+   width: 80%;
+   padding: 15% 10%;   
+   vertical-align: top;
+   font-family: $sans;
+   font-size: 1rem;
+   background: $gray;
+   color: $dkblue;
+   @media (min-width: $small) {
+      min-height: 300px;
+      width: 30%;
+      padding: 80px 10% 30px 10%;
+   }
+}
+.callout__text--dark-bg, .callout__text--dark-bg a {
+   color: #fff;
+   background: $blue;
+   text-decoration: none;
+}
+.callout__heading {
+   padding-bottom: 1.5rem;
+   font-size: 1.5rem;
+   font-family: $serif !important;
+}
+.callout__statement {
+   font-size: 1.25em;
+   line-height: 1.75em;
+}
+.callout__statement--quote {
+   font-style: italic;
+   font-family: $serif;
+   padding-bottom: 2em;
+}
+.callout__cta {
+   display: inline-block;
+   width: auto;
+   margin: 0 auto;
+   padding: 15px 20px;
+   border: 1px solid $dkblue;
+   font-size: .8em;
+   text-decoration: none;
+   color: $dkblue;
+   background: $gray;
+   transition: background .35s;
+   @include capSans;
+   &:hover {
+     background: $dkblue;
+     color: #fff;
+     transition: background .35s;
+   }
+}
+.callout__email {
+   font-weight: 700;
+}
+.callout__list {
+   margin: 25px auto;
+   line-height: 1.5rem;
+}

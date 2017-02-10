@@ -1,0 +1,116 @@
+.hero {
+   text-align: center;
+   background: $blue url(../img/duxbury-law-firm_color.jpg) 50% 50% no-repeat; 
+   background-size: cover;
+   color: #fff;
+   padding-top: 150px;
+   @include smoothFont;
+   @media (max-width: $small) {
+      padding-top: 0;
+   }
+}
+ .hero__statement {
+   display: inline-block;
+   margin: 0 auto;
+   padding: 45px;
+   font-size: 1.25em;
+   line-height: 1.5em;
+   background: rgba(85, 100, 118, .7);
+   @media (min-width: $small) {
+     padding: 60px;
+     font-size: 2em;
+     max-width: 600px;        
+   }
+ }
+
+/* SERVICE CATEGORY BLOCKS */
+
+.hero__services {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  background: #fff;
+  color: $brown;
+  background: none;
+  padding: 30px 0 0;
+  border-bottom: 20px solid $dkblue;
+   .section__heading {
+      font-size: 1.5rem;
+      font-family: $serif;
+      text-transform: none;
+      letter-spacing: 0;
+      @include smoothFont;
+      font-weight: normal;
+   }
+}
+.services-grid__service {
+   display: block;
+   width: 80%;
+   max-width: 640px;
+   padding: 5% 10% 15%;
+   margin: 0 auto;
+   font-family: $sans;
+   vertical-align: top;
+   @include smoothFont;
+   &:hover {
+      .services-grid__service-cta {
+        color: #fff;
+        background: $dkblue;
+        transition: background .35s;
+      }
+   }
+   @media (min-width: $small) {
+      display: inline-block;
+      min-height: 250px;
+      max-width: 360px;
+      border: none;
+      width: 24.3%;
+      margin: 0 auto;
+      padding: 0 4.5%;
+   }
+} 
+.services-grid__service-heading {
+   @include capSans;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: $brown;
+   font-size: 1.35rem;
+   line-height: 1.25rem;
+   transition: color .25s;
+   &:after {
+      display: block;
+      content: "";
+      height: 1px;
+      width: 100px;
+      border-bottom: 1px solid $brown;
+      margin: 10px auto;
+      white-space: pre-wrap;
+   }
+   @media (min-width: $small) and (max-width: $medium) {
+      /* elminates line break */
+      font-size: 1rem;
+   }
+}
+.services-grid__service-description {
+   font-size: .9rem;
+   line-height: 1.5rem;
+   letter-spacing: .025em;
+   padding-bottom: 2%;
+   color: $brown;
+}
+.services-grid__service-cta {
+   display: inline-block;
+   width: 60%;
+   margin: 0 auto;
+   padding: 15px 0;
+   font-size: .8rem;
+   color: $brown;
+   @include capSans;  
+   font-weight: 700;
+   transition: background .35s;
+   @media (min-width: $small) {
+      width: 100%;
+      margin: 15px 0;      
+   }
+}
