@@ -34,6 +34,8 @@
 .callout__arrow--left, .callout__arrow--right {
    position: absolute;
    top: 35%;
+   width: 30px;
+   height: 30px;
    @media (min-width: $small) {
       top: 45%;
    }

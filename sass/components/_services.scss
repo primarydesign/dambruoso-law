@@ -1,98 +1,99 @@
-.services {
-  // width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 0;   
-  text-align: center;
-  background: $blue;
-  color: $brown;
-  @media (min-width: $small) {
-    background: none;
-    padding: 0 0 2.5%;
-    border-bottom: 20px solid $dkblue; 
-  }       
-}
-.services__service {
-   display: block;
-   width: 80%;
-   max-width: 640px;
-   padding: 15% 10%;
-   border-bottom: 1px solid $blue;
-   margin: 0 auto;
-   font-size: 1rem; 
-   background: $dkblue;
-   opacity: .95;
-   font-family: $sans;
-   vertical-align: top;
-   @include smoothFont;
-   &:last-child {
-      border:none;
+.section__services {
+   padding: 60px 15px;
+   background: $blue;
+   .section__heading {
+      display: block;
+      line-height: 1.25;
+      color: $yellow;
+      text-align: left;
    }
-   @media (min-width: $small) {
-      display: inline-block;
-      min-height: 180px;
-      max-width: 360px;
-      width: 30.3%;
-      margin: 0 auto;
-      padding: 70px 1.5% 15px;
-      transition: background .25s;
-      &:hover {
-         background: $yellow;
-         color: #fff;
-         transition: background .25s;
-         .services__service-heading {
-            transition: color .25s;
-            color: #fff;
-         }
-         .services__service-cta {
-            visibility: visible;
-            color: $dkblue;
-         }
-      }
+}
+.services__container {}
+.services__list-container {
+   background: $dkblue;
+}
+.services__list-item {
+   display: inline-block;
+   padding: 1.5em;
+   color: #fff;
+   @include smoothFont;
+   @include capSans;
+   font-size: .75em;
+   &:hover {
+      background: $yellow;
    }
 } 
-.services__service-heading {
-   @include capSans;
-   font-weight: 900;
-   letter-spacing: 2px;
-   color: $yellow;
-   font-size: 1.35rem;
-   line-height: 1.25rem;
-   transition: color .25s;
-   opacity: 1;
-   &:after {
-      display: block;
-      content: "";
-      height: 1px;
-      width: 100px;
-      border-bottom: 1px solid #fff;
-      margin: 10px auto;
-      white-space: pre-wrap;
+.service__details, .services__list--aside {
+   padding: 30px;
+   margin: 0;
+   background: rgba(255,255,255,.9);
+   color: $dkblue;
+   font-family: $sans;
+   .section__heading {
+      color: $yellow;
+   } 
+}
+.services__list--aside {
+   margin: 0;
+   padding: 0 20px 30px 30px;
+   .services__list-item {
+      margin: 0 10px 10px 0;
+      color: #fff;
+      background: $dkblue;
+      &:hover {
+         background: $yellow;
+      }
+   }   
+}
+.service__paragraph {
+   padding-bottom: 1.5em;
+   line-height: 1.5; 
+}
+.bulleted-list {
+   list-style: disc;
+   margin-left: 20px;
+   margin-bottom: 1.5em;
+   line-height: 1.25;     
+}
+.bulleted-list__item {
+   margin-bottom: .75em;
+}
+
+@media (min-width: $small) {
+.service__details {
+      padding: 60px 60px 15px;
    }
-   @media (min-width: $small) and (max-width: $medium) {
-      /* elminates line break */
-      font-size: 1em;
+}
+
+@media (min-width: $medium) {
+   .services__list-container, .service__details {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
    }
-}
-.services__service-description {
-   font-size: .9em;
-   line-height: 1.5em;
-   letter-spacing: .025em;
-   padding-bottom: 5%;
-   color: #fff;
-   opacity: 1;
-}
-.services__service-cta {
-  display: inline-block;        
-  font-size: .8em;
-  color: $yellow;
-  @include capSans;  
-  font-weight: 700;
-  opacity: 1;
-  @media (min-width: $small) {
-     visibility: hidden;
-  }
-  &:hover {
-     color:#ffffff !important;
-  }
-}
+   .services__list-container {
+      display: none;
+      background: $dkblue;
+   }
+   .service__details {
+      float: right;
+      width: 70%;
+      padding: 60px 60px 30px;   
+   }   
+   .services__list--aside {
+      display: inline-block;
+      width: 19.5%;
+      padding: 0;
+      .services__list-item {
+         display: block;
+         box-sizing: content-box;
+         margin: 15px;
+         background: $dkblue !important;
+         &:hover {
+            color: $yellow;
+            border-left: 5px solid $yellow;
+            margin-left: 10px;
+         }
+      }       
+   }    
+}    

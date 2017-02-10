@@ -47,3 +47,102 @@
    }
 }
 
+/* SERVICE CATEGORY BLOCKS */
+
+.hero__services {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  background: $blue;
+  color: $brown;
+  @media (min-width: $small) {
+    background: none;
+    padding: 0 0 2.5%;
+    border-bottom: 20px solid $dkblue; 
+  }       
+}
+.services-grid__service {
+   display: block;
+   width: 80%;
+   max-width: 640px;
+   padding: 15% 10%;
+   border-bottom: 1px solid $blue;
+   margin: 0 auto;
+   font-size: 1rem; 
+   background: $dkblue;
+   opacity: .95;
+   font-family: $sans;
+   vertical-align: top;
+   @include smoothFont;
+   &:last-child {
+      border:none;
+   }
+   @media (min-width: $small) {
+      display: inline-block;
+      min-height: 180px;
+      max-width: 360px;
+      width: 30.3%;
+      margin: 0 auto;
+      padding: 70px 1.5% 15px;
+      transition: background .25s;
+      &:hover {
+         background: $yellow;
+         color: #fff;
+         transition: background .25s;
+         .services-grid__service-heading {
+            transition: color .25s;
+            color: #fff;
+         }
+         .services-grid__service-cta {
+            visibility: visible;
+            color: $dkblue;
+         }
+      }
+   }
+} 
+.services-grid__service-heading {
+   @include capSans;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: $yellow;
+   font-size: 1.35rem;
+   line-height: 1.25rem;
+   transition: color .25s;
+   opacity: 1;
+   &:after {
+      display: block;
+      content: "";
+      height: 1px;
+      width: 100px;
+      border-bottom: 1px solid #fff;
+      margin: 10px auto;
+      white-space: pre-wrap;
+   }
+   @media (min-width: $small) and (max-width: $medium) {
+      /* elminates line break */
+      font-size: 1em;
+   }
+}
+.services-grid__service-description {
+   font-size: .9em;
+   line-height: 1.5em;
+   letter-spacing: .025em;
+   padding-bottom: 5%;
+   color: #fff;
+   opacity: 1;
+}
+.services-grid__service-cta {
+  display: inline-block;        
+  font-size: .8em;
+  color: $yellow;
+  @include capSans;  
+  font-weight: 700;
+  opacity: 1;
+  @media (min-width: $small) {
+     visibility: hidden;
+  }
+  &:hover {
+     color:#ffffff !important;
+  }
+}
