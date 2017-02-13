@@ -35,13 +35,19 @@
 .header__nav-link {
    display: inline-block;
    color: $blue;
-   padding: 20px .75em 20px;
+   padding: 20px 1em 20px;
    border-bottom: 5px solid #fff;
+   text-decoration: none;
    &:hover {
       color: $yellow;
       padding: 20px 1em 20px;
       border-bottom: 5px solid $blue;
    }
+}
+.header__nav-link--selected {
+      color: $yellow;
+      padding: 20px 1em 20px;
+      border-bottom: 5px solid $blue;
 }
 .header__nav-item--service {
    display: none;

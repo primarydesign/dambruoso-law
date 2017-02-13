@@ -1,9 +1,9 @@
-body {
-  -webkit-animation: fadein ease 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein ease 2s; /* Firefox < 16 */
-  -ms-animation: fadein ease 2s; /* Internet Explorer */
-  -o-animation: fadein ease 2s; /* Opera < 12.1 */
-  animation: fadein ease 2s;
+main {
+  -webkit-animation: fadein ease .3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein ease .3s; /* Firefox < 16 */
+  -ms-animation: fadein ease .3s; /* Internet Explorer */
+  -o-animation: fadein ease .3s; /* Opera < 12.1 */
+  animation: fadein ease .3s;
 }
 
 @keyframes fadein {

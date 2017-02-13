@@ -1027,16 +1027,16 @@ input, select {
   }
 }
 /* line 1, ../../../sass/utility/_animation.scss */
-body {
-  -webkit-animation: fadein ease 2s;
+main {
+  -webkit-animation: fadein ease .3s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein ease 2s;
+  -moz-animation: fadein ease .3s;
   /* Firefox < 16 */
-  -ms-animation: fadein ease 2s;
+  -ms-animation: fadein ease .3s;
   /* Internet Explorer */
-  -o-animation: fadein ease 2s;
+  -o-animation: fadein ease .3s;
   /* Opera < 12.1 */
-  animation: fadein ease 2s;
+  animation: fadein ease .3s;
 }
 
 @keyframes fadein {
@@ -1141,33 +1141,41 @@ body {
 .header__nav-link {
   display: inline-block;
   color: #556476;
-  padding: 20px .75em 20px;
+  padding: 20px 1em 20px;
   border-bottom: 5px solid #fff;
+  text-decoration: none;
 }
-/* line 40, ../../../sass/components/_nav.scss */
+/* line 41, ../../../sass/components/_nav.scss */
 .header__nav-link:hover {
   color: #e8af3d;
   padding: 20px 1em 20px;
   border-bottom: 5px solid #556476;
 }
 
-/* line 46, ../../../sass/components/_nav.scss */
+/* line 47, ../../../sass/components/_nav.scss */
+.header__nav-link--selected {
+  color: #e8af3d;
+  padding: 20px 1em 20px;
+  border-bottom: 5px solid #556476;
+}
+
+/* line 52, ../../../sass/components/_nav.scss */
 .header__nav-item--service {
   display: none;
 }
 
-/* line 49, ../../../sass/components/_nav.scss */
+/* line 55, ../../../sass/components/_nav.scss */
 .header__nav-item--dropdown {
   display: inline-block;
 }
 
 @media (min-width: 820px) {
-  /* line 53, ../../../sass/components/_nav.scss */
+  /* line 59, ../../../sass/components/_nav.scss */
   .header__nav-item--service {
     display: inline-block;
   }
 
-  /* line 56, ../../../sass/components/_nav.scss */
+  /* line 62, ../../../sass/components/_nav.scss */
   .header__nav-item--dropdown {
     display: none;
   }
@@ -1369,11 +1377,12 @@ body {
 }
 
 /* line 1, ../../../sass/components/_services.scss */
-.section__services {
-  padding: 60px 15px;
+#template__services {
   background: #556476;
+  padding: 60px 5%;
 }
-/* line 4, ../../../sass/components/_services.scss */
+
+/* line 6, ../../../sass/components/_services.scss */
 .section__services .section__heading {
   display: block;
   line-height: 1.25;
@@ -1381,15 +1390,14 @@ body {
   text-align: left;
 }
 
-/* line 12, ../../../sass/components/_services.scss */
+/* line 13, ../../../sass/components/_services.scss */
 .services__list-container {
   background: #37485A;
 }
 
-/* line 15, ../../../sass/components/_services.scss */
+/* line 16, ../../../sass/components/_services.scss */
 .services__list-item {
   display: inline-block;
-  padding: 1.5em;
   color: #fff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1397,48 +1405,66 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: .75em;
+  line-height: 1.25;
 }
-/* line 22, ../../../sass/components/_services.scss */
-.services__list-item:hover {
+/* line 23, ../../../sass/components/_services.scss */
+.services__list-item a {
+  display: inline-block;
+  padding: 1.5em;
+  color: #fff;
+  background: #37485A;
+  text-decoration: none;
+}
+/* line 29, ../../../sass/components/_services.scss */
+.services__list-item a:hover {
   background: #e8af3d;
 }
 
-/* line 26, ../../../sass/components/_services.scss */
+/* line 34, ../../../sass/components/_services.scss */
+.services__list-item--selected a {
+  background: #e8af3d;
+}
+
+/* line 37, ../../../sass/components/_services.scss */
 .service__details, .services__list--aside {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 40, ../../../sass/components/_services.scss */
+.service__details {
   padding: 30px;
   margin: 0;
-  background: rgba(255, 255, 255, 0.9);
   color: #37485A;
   font-family: "Lato", sans-serif;
 }
-/* line 32, ../../../sass/components/_services.scss */
-.service__details .section__heading, .services__list--aside .section__heading {
-  color: #e8af3d;
+/* line 45, ../../../sass/components/_services.scss */
+.service__details .section__heading {
+  font-weight: 700;
 }
 
-/* line 36, ../../../sass/components/_services.scss */
+/* line 49, ../../../sass/components/_services.scss */
 .services__list--aside {
   margin: 0;
-  padding: 0 20px 30px 30px;
+  padding: 0 30px 30px;
 }
-/* line 39, ../../../sass/components/_services.scss */
+/* line 52, ../../../sass/components/_services.scss */
 .services__list--aside .services__list-item {
   margin: 0 10px 10px 0;
   color: #fff;
   background: #37485A;
 }
-/* line 43, ../../../sass/components/_services.scss */
+/* line 56, ../../../sass/components/_services.scss */
 .services__list--aside .services__list-item:hover {
   background: #e8af3d;
 }
 
-/* line 48, ../../../sass/components/_services.scss */
+/* line 61, ../../../sass/components/_services.scss */
 .service__paragraph {
   padding-bottom: 1.5em;
   line-height: 1.5;
 }
 
-/* line 52, ../../../sass/components/_services.scss */
+/* line 65, ../../../sass/components/_services.scss */
 .bulleted-list {
   list-style: disc;
   margin-left: 20px;
@@ -1446,56 +1472,75 @@ body {
   line-height: 1.25;
 }
 
-/* line 58, ../../../sass/components/_services.scss */
+/* line 71, ../../../sass/components/_services.scss */
 .bulleted-list__item {
   margin-bottom: .75em;
 }
 
 @media (min-width: 820px) {
-  /* line 63, ../../../sass/components/_services.scss */
+  /* line 76, ../../../sass/components/_services.scss */
+  #template__services {
+    padding: 60px;
+  }
+
+  /* line 79, ../../../sass/components/_services.scss */
   .service__details {
     padding: 60px 60px 15px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 69, ../../../sass/components/_services.scss */
+  /* line 85, ../../../sass/components/_services.scss */
+  .services__container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  /* line 89, ../../../sass/components/_services.scss */
   .services__list-container, .service__details {
     display: inline-block;
     vertical-align: top;
     margin: 0;
   }
 
-  /* line 74, ../../../sass/components/_services.scss */
+  /* line 94, ../../../sass/components/_services.scss */
   .services__list-container {
     display: none;
-    background: #37485A;
   }
 
-  /* line 78, ../../../sass/components/_services.scss */
-  .service__details {
-    float: right;
-    width: 70%;
-    padding: 60px 60px 30px;
-  }
-
-  /* line 83, ../../../sass/components/_services.scss */
+  /* line 97, ../../../sass/components/_services.scss */
   .services__list--aside {
     display: inline-block;
-    width: 19.5%;
-    padding: 0;
+    width: 25%;
+    padding: 30px 0 0 0;
+    background: #37485A;
   }
-  /* line 87, ../../../sass/components/_services.scss */
+  /* line 102, ../../../sass/components/_services.scss */
   .services__list--aside .services__list-item {
     display: block;
     box-sizing: content-box;
-    margin: 15px;
     background: #37485A !important;
   }
-  /* line 92, ../../../sass/components/_services.scss */
-  .services__list--aside .services__list-item:hover {
+  /* line 106, ../../../sass/components/_services.scss */
+  .services__list--aside .services__list-item a {
+    padding: 15px 30px;
+    border-left: 0;
+  }
+  /* line 109, ../../../sass/components/_services.scss */
+  .services__list--aside .services__list-item a:hover {
     color: #e8af3d;
+    background: #37485A;
+  }
+  /* line 114, ../../../sass/components/_services.scss */
+  .services__list--aside .services__list-item:hover {
     border-left: 5px solid #e8af3d;
-    margin-left: 10px;
+    transition: border .35s;
+  }
+
+  /* line 120, ../../../sass/components/_services.scss */
+  .service__details {
+    float: right;
+    width: 75%;
+    padding: 60px 60px 30px;
   }
 }
 /* line 1, ../../../sass/components/_callout.scss */

@@ -37,12 +37,16 @@
    color: $blue;
    padding: 20px .5em 20px;
    border-bottom: 5px solid #fff;
+   text-decoration: none;
    &:hover {
       border-bottom: 5px solid $blue;
    }
    @media (min-width: $medium) {
       padding: 20px 1em 20px;
    }
+}
+.header__nav-link--selected {
+   border-bottom: 5px solid $blue;
 }
 .header__nav-item--service {
    display: none;

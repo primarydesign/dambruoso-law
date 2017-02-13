@@ -1027,16 +1027,16 @@ input, select {
   }
 }
 /* line 1, ../../../sass/utility/_animation.scss */
-body {
-  -webkit-animation: fadein ease 2s;
+main {
+  -webkit-animation: fadein ease .3s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein ease 2s;
+  -moz-animation: fadein ease .3s;
   /* Firefox < 16 */
-  -ms-animation: fadein ease 2s;
+  -ms-animation: fadein ease .3s;
   /* Internet Explorer */
-  -o-animation: fadein ease 2s;
+  -o-animation: fadein ease .3s;
   /* Opera < 12.1 */
-  animation: fadein ease 2s;
+  animation: fadein ease .3s;
 }
 
 @keyframes fadein {
@@ -1140,8 +1140,9 @@ body {
   color: #556476;
   padding: 20px .5em 20px;
   border-bottom: 5px solid #fff;
+  text-decoration: none;
 }
-/* line 40, ../../../sass/alt/components/_nav.scss */
+/* line 41, ../../../sass/alt/components/_nav.scss */
 .header__nav-link:hover {
   border-bottom: 5px solid #556476;
 }
@@ -1152,23 +1153,28 @@ body {
   }
 }
 
-/* line 47, ../../../sass/alt/components/_nav.scss */
+/* line 48, ../../../sass/alt/components/_nav.scss */
+.header__nav-link--selected {
+  border-bottom: 5px solid #556476;
+}
+
+/* line 51, ../../../sass/alt/components/_nav.scss */
 .header__nav-item--service {
   display: none;
 }
 
-/* line 50, ../../../sass/alt/components/_nav.scss */
+/* line 54, ../../../sass/alt/components/_nav.scss */
 .header__nav-item--dropdown {
   display: inline-block;
 }
 
 @media (min-width: 820px) {
-  /* line 54, ../../../sass/alt/components/_nav.scss */
+  /* line 58, ../../../sass/alt/components/_nav.scss */
   .header__nav-item--service {
     display: inline-block;
   }
 
-  /* line 57, ../../../sass/alt/components/_nav.scss */
+  /* line 61, ../../../sass/alt/components/_nav.scss */
   .header__nav-item--dropdown {
     display: none;
   }
@@ -1324,28 +1330,60 @@ body {
   }
 }
 
-/* line 1, ../../../sass/alt/components/_services.scss */
-.section__services {
-  padding: 60px 15px;
-  background: #556476;
+/* line 3, ../../../sass/alt/components/_services.scss */
+#template__services {
+  padding: 0;
 }
-/* line 4, ../../../sass/alt/components/_services.scss */
-.section__services .section__heading {
-  display: block;
+
+/* line 6, ../../../sass/alt/components/_services.scss */
+.services__hero {
+  min-height: 300px;
+  background: url(../img/hero_residential-transaction-services.jpg) 40% 20%;
+  background-size: cover;
+  border-bottom: 15px solid #37485A;
+  text-align: center;
+}
+/* line 12, ../../../sass/alt/components/_services.scss */
+.services__hero .section__heading-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 960px;
+  padding: 60px 0;
+  margin-top: 300px;
+  text-align: left;
+  background: rgba(99, 113, 130, 0.8);
+}
+/* line 21, ../../../sass/alt/components/_services.scss */
+.services__hero .section__heading {
+  padding: 0 30px;
+  color: #fff;
+  font-size: 1.5em;
   line-height: 1.25;
-  color: #e8af3d;
+  font-weight: 400;
+  letter-spacing: .1em;
   text-align: left;
 }
 
-/* line 12, ../../../sass/alt/components/_services.scss */
-.services__list-container {
-  background: #37485A;
+/* line 31, ../../../sass/alt/components/_services.scss */
+.section__services {
+  max-width: 960px;
+}
+/* line 33, ../../../sass/alt/components/_services.scss */
+.section__services .section__heading {
+  display: block;
+  line-height: 1.25;
+  color: #37485A;
+  text-align: left;
 }
 
-/* line 15, ../../../sass/alt/components/_services.scss */
+/* line 40, ../../../sass/alt/components/_services.scss */
+.services__list-container {
+  background: #556476;
+}
+
+/* line 43, ../../../sass/alt/components/_services.scss */
 .services__list-item {
   display: inline-block;
-  padding: 1.5em;
   color: #fff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1353,48 +1391,66 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: .75em;
+  line-height: 1.25;
 }
-/* line 22, ../../../sass/alt/components/_services.scss */
-.services__list-item:hover {
-  background: #e8af3d;
+/* line 50, ../../../sass/alt/components/_services.scss */
+.services__list-item a {
+  display: inline-block;
+  padding: 1.5em;
+  color: #fff;
+  background: #556476;
+  text-decoration: none;
+}
+/* line 56, ../../../sass/alt/components/_services.scss */
+.services__list-item a:hover {
+  background: #37485A;
 }
 
-/* line 26, ../../../sass/alt/components/_services.scss */
+/* line 61, ../../../sass/alt/components/_services.scss */
+.services__list-item--selected a {
+  background: #37485A;
+}
+
+/* line 64, ../../../sass/alt/components/_services.scss */
 .service__details, .services__list--aside {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 67, ../../../sass/alt/components/_services.scss */
+.service__details {
   padding: 30px;
   margin: 0;
-  background: rgba(255, 255, 255, 0.9);
   color: #37485A;
   font-family: "Lato", sans-serif;
 }
-/* line 32, ../../../sass/alt/components/_services.scss */
-.service__details .section__heading, .services__list--aside .section__heading {
-  color: #e8af3d;
+/* line 72, ../../../sass/alt/components/_services.scss */
+.service__details .section__heading {
+  font-weight: 700;
 }
 
-/* line 36, ../../../sass/alt/components/_services.scss */
+/* line 76, ../../../sass/alt/components/_services.scss */
 .services__list--aside {
   margin: 0;
-  padding: 0 20px 30px 30px;
+  padding: 0 30px 30px;
 }
-/* line 39, ../../../sass/alt/components/_services.scss */
-.services__list--aside .services__list-item {
+/* line 79, ../../../sass/alt/components/_services.scss */
+.services__list--aside .services__list-item a {
   margin: 0 10px 10px 0;
   color: #fff;
+  background: #556476;
+}
+/* line 83, ../../../sass/alt/components/_services.scss */
+.services__list--aside .services__list-item a:hover {
   background: #37485A;
 }
-/* line 43, ../../../sass/alt/components/_services.scss */
-.services__list--aside .services__list-item:hover {
-  background: #e8af3d;
-}
 
-/* line 48, ../../../sass/alt/components/_services.scss */
+/* line 88, ../../../sass/alt/components/_services.scss */
 .service__paragraph {
   padding-bottom: 1.5em;
   line-height: 1.5;
 }
 
-/* line 52, ../../../sass/alt/components/_services.scss */
+/* line 92, ../../../sass/alt/components/_services.scss */
 .bulleted-list {
   list-style: disc;
   margin-left: 20px;
@@ -1402,56 +1458,35 @@ body {
   line-height: 1.25;
 }
 
-/* line 58, ../../../sass/alt/components/_services.scss */
+/* line 98, ../../../sass/alt/components/_services.scss */
 .bulleted-list__item {
   margin-bottom: .75em;
 }
 
 @media (min-width: 820px) {
-  /* line 63, ../../../sass/alt/components/_services.scss */
+  /* line 104, ../../../sass/alt/components/_services.scss */
+  .section__heading-container .section__heading {
+    padding: 0 60px;
+  }
+
+  /* line 108, ../../../sass/alt/components/_services.scss */
   .service__details {
     padding: 60px 60px 15px;
   }
 }
 @media (min-width: 1280px) {
-  /* line 69, ../../../sass/alt/components/_services.scss */
-  .services__list-container, .service__details {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
+  /* line 114, ../../../sass/alt/components/_services.scss */
+  .services__hero {
+    min-height: 400px;
+  }
+  /* line 116, ../../../sass/alt/components/_services.scss */
+  .services__hero .section__heading-container {
+    margin-top: 400px;
   }
 
-  /* line 74, ../../../sass/alt/components/_services.scss */
-  .services__list-container {
-    display: none;
-    background: #37485A;
-  }
-
-  /* line 78, ../../../sass/alt/components/_services.scss */
+  /* line 120, ../../../sass/alt/components/_services.scss */
   .service__details {
-    float: right;
-    width: 70%;
     padding: 60px 60px 30px;
-  }
-
-  /* line 83, ../../../sass/alt/components/_services.scss */
-  .services__list--aside {
-    display: inline-block;
-    width: 19.5%;
-    padding: 0;
-  }
-  /* line 87, ../../../sass/alt/components/_services.scss */
-  .services__list--aside .services__list-item {
-    display: block;
-    box-sizing: content-box;
-    margin: 15px;
-    background: #37485A !important;
-  }
-  /* line 92, ../../../sass/alt/components/_services.scss */
-  .services__list--aside .services__list-item:hover {
-    color: #e8af3d;
-    border-left: 5px solid #e8af3d;
-    margin-left: 10px;
   }
 }
 /* line 1, ../../../sass/alt/components/_callout.scss */
