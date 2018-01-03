@@ -9,7 +9,9 @@ data: ['data/services/real-estate.json']
 {% block content %}
 
 {# {{nav.active('home')}} #}
-
+  {% block header %}
+   <h1 class="section__heading">Real Estate Transactions</h1>
+  {% endblock header %}
 
   {% block subNav %}
     <li class="services__list-item"><a href="/services/real-estate">Overview</a></li>

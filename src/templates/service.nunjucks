@@ -7,7 +7,8 @@
 
     <main id="template__services">
           <section class="section__services group">
-             <h1 class="section__heading">Real Estate Transactions</h1>
+             {% block header %}
+             {% endblock header %}
              <div class="services__container">
                 <aside class="services__list-container">
                    <ul class="services__service-list">

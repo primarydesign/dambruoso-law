@@ -1,0 +1,55 @@
+.about__blockquote {
+  margin: 1.5em 0;
+  padding: 40px;
+  padding-right: 400px;
+  font-size: 1.25em;
+  letter-spacing: .03em;
+  line-height: 2;
+  font-style: italic;
+  font-family: $serif;
+  background: $ltblue;
+}
+.about__header {
+  @media (min-width: 575px) {
+    display: flex;
+    align-content:space-around;
+  }
+  margin-bottom: 3em;
+}
+.about__header-image {
+  display: block;
+  width: 100%;
+  @media (min-width: 575px) {
+    display: inline-block;
+    width: 40%;
+    max-width: 400px;
+    margin-right: 2em;
+  }
+}
+.about__header-description {
+  padding: 2em 0;
+  border: 1px solid $yellow;
+  border-left: none;
+  border-right: none;
+  font-size: 1.25em;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  @media (min-width: 575px) {
+    width: 50%;
+  }
+}
+.about__subheading {
+  margin-bottom: 1.25em;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about__paragraph {
+  margin-bottom: 1.5em;
+}
+.about__bulleted-list {
+  padding-left: 1em;
+  margin-bottom: 2em;
+}

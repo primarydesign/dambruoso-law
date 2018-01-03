@@ -6,7 +6,7 @@
          <li class="header__nav-item header__nav-item--service"><a class="header__nav-link" href="/services/real-estate">Real Estate</a></li>
          <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Estate Planning</a></li>
          <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Business Law</a></li>
-         <li class="header__nav-item"><a class="header__nav-link">About</a></li>
+         <li class="header__nav-item"><a class="header__nav-link" href="/about">About</a></li>
          <li class="header__nav-item"><a class="header__nav-link">Contact</a></li>
       </ul>
    </nav>

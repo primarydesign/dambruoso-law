@@ -1,0 +1,37 @@
+---
+data: ['data/services/real-estate.json']
+---
+{% set title = '' %}
+{% extends 'service.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+{% block content %}
+
+{# {{nav.active('home')}} #}
+
+  {% block header %}
+   <h1 class="section__heading">About</h1>
+  {% endblock header %}
+
+  {% block subNav %}
+    <li class="services__list-item services__list-item--selected"><a>Experience You Can Trust</a></li>
+    <li class="services__list-item"><a href="/about/biography">Biography</a></li>
+  {% endblock %}
+
+  {% block overview %}
+    <h2 class="section__heading">Experience You Can Trust</h2>
+    <p class="service__paragraph" style="padding-bottom:0">D’Ambruoso Law is a boutique law firm with offices in Duxbury, Massachusetts and downtown Boston, Massachusetts, representing individuals and small to mid-sized business organizations in connection with their real estate, estate planning and small business needs.</p>
+    <blockquote class="about__blockquote">Our clients choose us because they demand the service and value that only a small, founder-managed firm can provide, while they are unwilling to sacrifice quality.</blockquote>
+    <p class="service__paragraph">Founder Robb D’Ambruoso brings his years of experience at prominent local firms counseling corporate and high net worth clients to bear on your business and personal needs. While having gained invaluable experience working at blue chip private firms, Robb also has first-hand experience with client frustrations with large, bureaucratic organizations.</p>
+    <p class="service__paragraph">We also understand that clients are looking for human touch and value beyond just legal expertise. As a small firm, we are able to take the time to learn about and understand your goals, and take our “service above all” commitment very seriously.</p>
+    <p class="service__paragraph">We are also cognizant of shrinking legal budgets and ever-increasing legal fees; our commitment to you is that you will receive the value that you and your hard-earned money are entitled to.</p>
+    <p class="service__paragraph">Every day, we remind ourselves that the firm’s reputation is built on client satisfaction, and is only as good as our last client’s experience.</p>
+  {% endblock overview %}
+
+  {% block sideNav %}
+    <li class="services__list-item services__list-item--selected"><a>Experience You Can Trust</a></li>
+    <li class="services__list-item"><a href="/about/biography">Biography</a></li>
+  {% endblock sideNav %}
+
+{% endblock %}
