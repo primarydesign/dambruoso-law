@@ -1,0 +1,15 @@
+---
+data: ['data/featured-communities.json']
+---
+{% set title = '' %}
+{% extends 'layout.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+{% block content %}
+
+{# {{nav.active('home')}} #}
+{% include 'macros/topnav.nunjucks' %}
+{% include 'homepage/mainhome.nunjucks' %}
+
+{% endblock %}

@@ -1,0 +1,42 @@
+{
+  "name": "The Foundry",
+  "address": "680 3rd Ave",
+  "city": "West Haven, CT",
+  "zip": "06516",
+  "phone": "203.469.6337",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_foundry.jpg",
+  "hero": "/assets/img/properties/hero/hero_foundry.jpg",
+  "slug": "the-foundry",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply": "/assets/application/paredim_rental_application.pdf",
+  "phone": "203.469.6337",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/foundry-colonial/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/foundry/Foundry_bedroom.jpg",
+    "/assets/img/properties/carousel/foundry/Foundry_exterior.jpg",
+    "/assets/img/properties/carousel/foundry/Foundry_kitchen.jpg"
+  ],
+  "metadescription": "Unique loft style living at its best. Minutes from I-95, downtown New Haven and West Haven, Long Island Sound beaches, many local restaurants, shopping and numerous other shoreline attractions.",
+  
+  "onebedrooms": [{
+    "name": "1 Bedroom",
+    "sqfootage": "1,065",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }],
+
+  "twobedrooms": [{
+    "name": "2 Bedroom",
+    "sqfootage": "1,095",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }],
+
+  "threebedrooms": [{
+    "name": "3 Bedroom",
+    "sqfootage": "1,339",
+    "unitmix": "3BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }]
+}

@@ -1,0 +1,205 @@
+{
+  "featured": [{
+    "title": "The Royce at Trumbull",
+    "address": "100 Avalon Gates",
+    "city": "Trumbull, CT",
+    "zip": "06611",
+    "phone": "203.372.1600",
+    "rent": "1,500",
+    "slug": "/communities/the-royce-at-trumbull",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_royce.jpg"
+  }, {
+    "title": "Merritt Station",
+    "address": "164 Scott St",
+    "city": "Meriden, CT",
+    "zip": "06450",
+    "rent": "1,775",
+    "phone": "203.639.0889",
+    "slug": "/communities/merritt-station",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_merritt-station.jpg"
+  }, {
+    "title": "Summit at Mill Ridge",
+    "address": "140 Mill Street",
+    "city": "East Haven, CT",
+    "zip": "06512",
+    "rent": "1,500",
+    "phone": "203.466.6000",
+    "offer": "First Month Free if you sign a lease by November 1st.*",
+    "slug": "/communities/summit-at-mill-ridge",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_summit.jpg"
+  }],
+  "communities": [{
+    "title": "Parallel 41",
+    "address": "1340 Washington Blvd",
+    "city": "Stamford, CT",
+    "zip": "06902",
+    "phone": "203.348.4141",
+    "rent": "1,600",
+    "offer": "$1,000 off 1st months rent for move-ins on or before November 1st for leases 1 year or longer*",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/parallel-41/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_parallel-41.jpg",
+    "slug": "parallel-41",
+    "coord": {
+      "lat": 41.05800139999999,
+      "lng": -73.54392339999998
+    }
+  }, {
+    "title": "The Royce at Trumbull",
+    "address": "100 Avalon Gates",
+    "city": "Trumbull, CT",
+    "zip": "06611",
+    "phone": "203.372.1600",
+    "rent": "1,450",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/the-royce-at-trumbull/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_royce.jpg",
+    "slug": "the-royce-at-trumbull",
+    "coord": {
+      "lat": 41.2277954,
+      "lng": -73.18903339999997
+    }
+  }, {
+    "title": "Summit at Mill Ridge",
+    "address": "140 Mill Street",
+    "city": "East Haven, CT",
+    "zip": "06512",
+    "phone": "203.466.6000",
+    "rent": "1,550",
+    "offer": "First Month Free if you sign a lease by November 1st.*",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/summit-at-mill-ridge/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_summit.jpg",
+    "slug": "summit-at-mill-ridge",
+    "coord": {
+      "lat": 41.3172885,
+      "lng": -72.85375720000002
+    }
+  }, {
+    "title": "Soundview at Savin Rock",
+    "address": "1 Campbell Avenue",
+    "city": "West Haven, CT",
+    "zip": "06516",
+    "phone": "203.577.5437",
+    "rent": "2,800",
+    "offer": "Lease Your New Home at Soundview and Receive a Cruise Voucher For Two",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_soundview.jpg",
+    "slug": "soundview-at-savin-rock",
+    "coord": {
+      "lat": 41.2592447,
+      "lng": -72.94483439999999
+    }
+  }, {
+    "title": "Merritt Station",
+    "address": "164 Scott St",
+    "city": "Meriden, CT",
+    "zip": "06450",
+    "phone": "203.639.0889",
+    "rent": "2,500",
+    "apply": "https://paredimcommunities.securecafe.com/residentservices/merritt-station-apartments/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_merritt-station.jpg",
+    "slug": "merritt-station",
+    "coord": {
+      "lat": 41.5173199,
+      "lng": -72.79415139999998
+    }
+  }, {
+    "title": "The Foundry",
+    "address": "680 3rd Ave",
+    "city": "West Haven, CT",
+    "zip": "06516",
+    "phone": "203.469.6337",
+    "rent": "2,000",
+    "apply": "/assets/application/paredim_rental_application.pdf",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_foundry.jpg",
+    "slug": "the-foundry",
+    "coord": {
+      "lat": 41.311563,
+      "lng": -73.0498316
+    }
+  }, {
+    "title": "Colonial Court",
+    "address": "842 1st Avenue",
+    "city": "West Haven, CT",
+    "zip": "06516",
+    "phone": "203.469.6337",
+    "rent": "1,575",
+    "apply": "/assets/application/paredim_rental_application.pdf",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_colonial-court.jpg",
+    "slug": "colonial-court",
+    "coord": {
+      "lat": 41.28584499999999,
+      "lng": -72.95466069999998
+    }
+  }, {
+    "title": "Rivers Edge",
+    "address": "37 Sharon Rd",
+    "city": "Waterbury, CT",
+    "zip": "06705",
+    "phone": "203.755.0000",
+    "rent": "1,500",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/rivers-edge-1/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_rivers-edge.jpg",
+    "slug": "rivers-edge",
+    "coord": {
+      "lat": 41.568038,
+      "lng": -73.000068
+    }
+  }, {
+    "title": "Brook Hollow",
+    "address": "430 Eastern St",
+    "city": "New Haven, CT",
+    "zip": "06513",
+    "phone": "203.469.6337",
+    "rent": "1,700",
+    "offer": "1/2 Month Free if you Apply by November 1st.*",
+    "apply": "/assets/application/paredim_rental_application.pdf",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_brook-hollow.jpg",
+    "slug": "brook-hollow",
+    "coord": {
+      "lat": 41.31850379999999,
+      "lng": -72.87175509999997
+    }
+  }, {
+    "title": "Woodbury Knoll",
+    "address": "302 Tuttle Rd",
+    "city": "Woodbury, CT",
+    "zip": "06798",
+    "phone": "203.755.0000",
+    "rent": "1,400",
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/woodbury-knoll/guestlogin.aspx",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_woodbury-knoll.jpg",
+    "slug": "woodbury-knoll",
+    "coord": {
+      "lat": 41.527686,
+      "lng": -73.18186600000001
+    }
+  }, {
+    "title": "The Fairways",
+    "address": "80 Eastern St",
+    "city": "New Haven, CT",
+    "zip": "06513",
+    "phone": "203.469.6337",
+    "rent": "1,550",
+    "offer": "1/2 Month Free if you apply by November 1st.*",
+    "apply": "/assets/application/paredim_rental_application.pdf",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_fairways.jpg",
+    "slug": "the-fairways",
+    "coord": {
+      "lat": 41.3097388,
+      "lng": -72.8737888
+    }
+  }, {
+    "title": "Windsor Crossing",
+    "address": "40 Barry Circle",
+    "city": "Bloomfield, CT",
+    "zip": "06002",
+    "phone": "203.469.6337",
+    "rent": "1,600",
+    "apply": "/assets/application/paredim_rental_application.pdf",
+    "thumbnail": "/assets/img/properties/thumbnails/thumb_windsor-crossing.jpg",
+    "slug": "windsor-crossing",
+    "coord": {
+      "lat": 41.8364038,
+      "lng": -72.69713939999997
+    }
+  }]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Brook Hollow",
+  "address": "430 Eastern St",
+  "city": "New Haven, CT",
+  "zip": "06513",
+  "phone": "203.469.6337",
+  "rent": "1,500",
+  "offer": "1/2 Month Free if you Apply by November 1st.*",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_brook-hollow.jpg",
+  "hero": "/assets/img/properties/hero/hero_brook.jpg",
+  "slug": "brook-hollow",
+  "tagline": "Value, Convenience and Amenity",
+  "apply": "/assets/application/paredim_rental_application.pdf",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/brook-hollow-0/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/brook-hollow/BrookHollow_leasing-office.jpg",
+    "/assets/img/properties/carousel/brook-hollow/BrookHollow_townhomes.jpg"
+  ],
+  "metadescription": "Contemporary living at an affordable price. Brook Hollow is located only minutes from downtown New Haven with easy access to both I-95 and I-91 public transit, schools and numerous local shopping and entertainment amenities.",
+
+  "onebedrooms": [{
+    "name": "1 Bedroom",
+    "sqfootage": "650",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/brook_hollow/fp_brook_hollow_1bed.png",
+    "features": ["Generous closets","Wall to Wall Carpet","Resident Controlled Air Conditioning","Resident Controlled Central Heat","Cable and Internet Ready","Intercom and Building Security System","Oak Cabinets and Designer Countertops","Frost Free Refrigerator","Dishwasher"]
+
+  }],
+
+  "twobedrooms": [{
+    "name": "2 Bedroom",
+    "sqfootage": "950",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/brook_hollow/fp_brook_hollow_2bed.png",
+    "features": [
+      "Generous closets",
+      "Wall to Wall Carpet",
+      "Resident Controlled Air Conditioning",
+      "Resident Controlled Central Heat",
+      "Cable and Internet Ready",
+      "Intercom and Building Security System",
+      "Oak Cabinets and Designer Countertops",
+      "Frost Free Refrigerator",
+      "Dishwasher"]
+  }],
+
+  "threebedrooms": [{
+    "name": "3 Bedroom",
+    "sqfootage": "1,150",
+    "unitmix": "3BR / 1.5BA",
+    "thumbnail": "/assets/img/floorplans/brook_hollow/fp_brook_hollow_3bed.png",
+    "features": [
+      "Generous closets",
+      "Wall to Wall Carpet",
+      "Resident Controlled Air Conditioning",
+      "Resident Controlled Central Heat",
+      "Cable and Internet Ready",
+      "Intercom and Building Security System",
+      "Oak Cabinets and Designer Countertops",
+      "Frost Free Refrigerator",
+      "Dishwasher",
+      "One and a Half Bathrooms"]
+  }],
+
+  "fourbedrooms": [{
+    "name": "4 Bedroom",
+    "sqfootage": "1,300",
+    "unitmix": "4+BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/brook_hollow/fp_brook_hollow_4bed.png",
+    "features": [
+      "Generous closets",
+      "Wall to Wall Carpet",
+      "Resident Controlled Air Conditioning",
+      "Resident Controlled Central Heat",
+      "Cable and Internet Ready",
+      "Intercom and Building Security System",
+      "Oak Cabinets and Designer Countertops",
+      "Frost Free Refrigerator",
+      "Dishwasher",
+      "Two Full Bathrooms"]
+  }]
+}

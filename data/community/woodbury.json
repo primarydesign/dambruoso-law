@@ -1,0 +1,90 @@
+{
+  "name": "Woodbury Knoll",
+  "address": "302 Tuttle Rd",
+  "city": "Woodbury, CT",
+  "zip": "06798",
+  "phone": "203.755.0000",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_woodbury-knoll.jpg",
+  "hero": "/assets/img/properties/hero/hero_woodbury.jpg",
+  "slug": "woodbury-knoll",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply": "https://paredimcommunities.securecafe.com/onlineleasing/woodbury-knoll/floorplans.aspx",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/woodbury-knoll/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/woodbury-knoll/WoodburyKnoll_landscape.jpg",
+    "/assets/img/properties/carousel/woodbury-knoll/WoodburyKnoll_exteriors.jpg"
+  ],
+  "metadescription": "A pet friendly community centrally located in the foothills of Litchfield County, minutes from the center of Woodbury, with nearby access to Rt. I-84 into Hartford, Danbury and Waterbury. Our attentive and professional on-site management team is dedicated to making your stay pleasant, comforable and worry-free.",
+  
+  "studio": [{
+    "name": "Studio",
+    "sqfootage": "400",
+    "unitmix": "1BA",
+    "thumbnail": "/assets/img/floorplans/woodbury/fp_woodbury_studio.png",
+    "features": [
+      "WALK-IN",
+      "CLOSETS",
+      "DISHWASHER",
+      "YARD",
+      "VAULTED CEILING",
+      "WALL TO WALL CARPETING",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "HIGH SPEED INTERNET AVAILABLE"
+    ]
+  }],
+
+  "onebedrooms": [{
+    "name": "Cattail",
+    "sqfootage": "575 - 760",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/woodbury/fp_woodbury_cattail.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "DISHWASHER",
+      "YARD",
+      "VAULTED CEILING",
+      "WALL TO WALL CARPETING",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "HIGH SPEED INTERNET AVAILABLE"
+    ]
+  }],
+
+  "twobedrooms": [{
+    "name": "Lotus",
+    "sqfootage": "800 - 1050",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/woodbury/fp_woodbury_lotus.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "DISHWASHER",
+      "YARD",
+      "VAULTED CEILING",
+      "WALL TO WALL CARPETING",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "HIGH SPEED INTERNET AVAILABLE"
+    ]
+  }, {
+    "name": "Fern",
+    "sqfootage": "870 - Townhouse",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/woodbury/fp_woodbury_fern.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "DISHWASHER",
+      "YARD",
+      "VAULTED CEILING",
+      "WALL TO WALL CARPETING",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "HIGH SPEED INTERNET AVAILABLE"
+    ]
+  }]
+}

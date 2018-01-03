@@ -1,0 +1,125 @@
+#template__services {
+   background: $blue;
+   padding: 60px 5%;
+}
+.section__services {
+   .section__heading {
+      display: block;
+      line-height: 1.25;
+      color: $yellow;
+      text-align: left;
+   }
+}
+.services__list-container {
+   background: $dkblue;
+}
+.services__list-item {
+   display: inline-block;
+   color: #fff;
+   @include smoothFont;
+   @include capSans;
+   font-size: .75em;
+   line-height: 1.25;
+   a {
+      display: inline-block;
+      padding: 1.5em;
+      color: #fff;
+      background: $dkblue;
+      text-decoration: none;
+      &:hover {
+         background: $yellow;
+      }
+   } 
+}
+.services__list-item--selected a {
+   background: $yellow;
+}
+.service__details, .services__list--aside {
+   background: rgba(255,255,255,.9);
+}
+.service__details {
+   padding: 30px;
+   margin: 0;
+   color: $dkblue;
+   font-family: $sans;
+   .section__heading {
+      font-weight: 700; 
+   } 
+}
+.services__list--aside {
+   margin: 0;
+   padding: 0 30px 30px;
+   .services__list-item {
+      margin: 0 10px 10px 0;
+      color: #fff;
+      background: $dkblue;
+      &:hover {
+         background: $yellow;
+      }
+   }   
+}
+.service__paragraph {
+   padding-bottom: 1.5em;
+   line-height: 1.5; 
+}
+.bulleted-list {
+   list-style: disc;
+   margin-left: 20px;
+   margin-bottom: 1.5em;
+   line-height: 1.25;     
+}
+.bulleted-list__item {
+   margin-bottom: .75em;
+}
+
+@media (min-width: $small) {
+   #template__services {
+      padding: 60px;
+   }
+   .service__details {
+      padding: 60px 60px 15px;
+   }
+}
+
+@media (min-width: $medium) {
+   .services__container {
+      display: flex;
+      flex-direction: row-reverse;
+   }
+   .services__list-container, .service__details {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+   }
+   .services__list-container {
+      display: none;
+   }   
+   .services__list--aside {
+      display: inline-block;
+      width: 25%;
+      padding: 30px 0 0 0;
+      background: $dkblue;
+      .services__list-item {
+         display: block;
+         box-sizing: content-box;
+         background: $dkblue !important;
+         a {
+            padding: 15px 30px; 
+            border-left: 0;
+            &:hover {
+               color: $yellow;
+               background: $dkblue;
+            }
+         }
+         &:hover {
+            border-left: 5px solid $yellow;
+            transition: border .35s;
+         }
+      }       
+   }
+   .service__details {
+      float: right;
+      width: 75%;
+      padding: 60px 60px 30px;   
+   }
+}    

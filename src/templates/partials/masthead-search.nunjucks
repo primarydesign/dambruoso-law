@@ -1,0 +1,23 @@
+<form class="masthead__search-form">
+    <select class="form__dropdown form-control" name="city">
+        <option disabled selected>City</option>
+        <option value="bloomfield">Bloomfield, CT</option>
+        <option value="east-haven">East Haven, CT</option>
+        <option value="meriden">Meriden, CT</option>
+        <option value="new-haven">New Haven, CT</option>
+        <option value="stamford">Stamford, CT</option>
+        <option value="trumbull">Trumbull, CT</option>
+        <option value="waterbury">Waterbury, CT</option>    
+        <option value="west-haven">West Haven, CT</option>
+        <option value="woodbury">Woodbury, CT</option>
+    </select>
+    <select class="form__dropdown form-control" name="bedrooms">
+        <option disabled selected># of Bedrooms</option>
+        <option value="studio">Studio</option>
+        <option value="1br">1</option>
+        <option value="2br">2</option>
+        <option value="3br">3</option>
+        <option value="4br">4</option>
+    </select>
+    <a class="masthead__cta" href="/communities">Search</a>
+</form>

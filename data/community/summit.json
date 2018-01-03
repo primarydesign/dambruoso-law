@@ -1,0 +1,121 @@
+{
+  "name": "Summit at Mill Ridge",
+  "address": "140 Mill Street",
+  "city": "East Haven, CT",
+  "zip": "06512",
+  "phone": "203.466.6000",
+  "rent": "1,500",
+  "offer": "First Month Free if you sign a lease by November 1st.*",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_summit.jpg",
+  "hero": "/assets/img/properties/hero/hero_summit.jpg",
+  "slug": "summit-at-mill-ridge",
+  "tagline": "You've Reached New Heights",
+  "apply": "https://paredimcommunities.securecafe.com/onlineleasing/summit-at-mill-ridge/floorplans.aspx",
+  "login": "https://www.rentcafe.com/residentservices/apartmentsforrent/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/summit/Summit-kitchen.jpg",
+    "/assets/img/properties/carousel/summit/Summit-living-room.jpg",
+    "/assets/img/properties/carousel/summit/Summit-bedroom.jpg",
+    "/assets/img/properties/carousel/summit/Summit-playground.jpg",
+    "/assets/img/properties/carousel/summit/Summit-poolside.jpg",
+    "/assets/img/properties/carousel/summit/Summit-fitness-center.jpg"
+  ],
+  "metadescription": "Our renovated apartment homes feature spacious layouts, elegant modern finishes, stainless steel appliances, designer cabinets and hardwood flooring. As a resident, you’ll have access to an amenity-rich lifestyle nearby Connecticut’s premier beaches, restaurants, and nightlife of Downtown New Haven.",
+  
+  "onebedrooms": [{
+    "name": "Walnut",
+    "sqfootage": "727",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_walnut.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Willow",
+    "sqfootage": "1,009",
+    "unitmix": "1BR / 1.5BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_willow.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Dogwood",
+    "sqfootage": "873",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_dogwood.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }],
+
+  "twobedrooms": [{
+    "name": "Oak",
+    "sqfootage": "972",
+    "unitmix": "2BR / 1.5BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_oak.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Birch",
+    "sqfootage": "1,030",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_birch.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Rosewood",
+    "sqfootage": "1,282",
+    "unitmix": "2BR / 2BA Townhouse",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_rosewood.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }],
+
+  "threebedrooms": [{
+    "name": "Holly",
+    "sqfootage": "1,339",
+    "unitmix": "3BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/summit/fp_summit_holly.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }]
+}

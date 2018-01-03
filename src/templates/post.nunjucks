@@ -1,0 +1,20 @@
+{% extends 'layout.nunjucks' %}
+
+{% block canonical %} <link rel="canonical" href="{{permalink}}"> {% endblock %}
+{% block ogType %} <meta property="og:type" content="article"/>{% endblock %}
+
+{% block content %}
+
+<section>
+  <h1>{{title}}</h1>
+  <p>Permalink is {{permalink}}</p>
+  <ul>
+    {% for tag in tags %}
+    <li><a href="{{tag.permalink}}">{{tag.tag}}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="content">
+    {{body | safe}}
+  </div>
+</section>
+{% endblock %}

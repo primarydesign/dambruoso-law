@@ -1,0 +1,229 @@
+{
+  "name": "Parallel 41",
+  "address": "1340 Washington Blvd",
+  "city": "Stamford, CT",
+  "zip": "06902",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_parallel-41.jpg",
+  "hero": "/assets/img/properties/hero/hero_parallel.jpg",
+  "slug": "parallel-41",
+  "phone": "203.348.4141",
+  "tagline": "Live Brilliantly",
+  "carousel": [
+    "/assets/img/properties/carousel/parallel/Parallel41_roofdeck-sunset.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_roofdeck-view.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_roofdeck.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_common-area.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_fireplace.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_lounge.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_fitness-center.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_fitness-center2.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_bedroom-closeup.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_batrhroom.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_exterior.jpg",
+    "/assets/img/properties/carousel/parallel/Parallel41_sidewalk.jpg"
+  ],
+  "apply": "https://paredimcommunities.securecafe.com/onlineleasing/parallel-41/guestlogin.aspx",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/parallel-41/userlogin.aspx",
+  "metadescription": "One and two-bedroom loft apartments available in downtown Stamford, close to absolutely everything. Many floor plans to choose from with the finest amenities available.",
+
+  "onebedrooms": [{
+    "name": "Latitude A",
+    "sqfootage": "734",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-a.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude B",
+    "sqfootage": "800",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-b.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude C",
+    "sqfootage": "803",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-c.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude D",
+    "sqfootage": "811",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-d.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude E",
+    "sqfootage": "828",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-e.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude F",
+    "sqfootage": "842",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-f.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude G",
+    "sqfootage": "849",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-g.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }],
+
+  "onebedroomlofts": [{
+    "name": "Latitude Loft B",
+    "sqfootage": "1014",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-b.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude Loft  C",
+    "sqfootage": "959",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-c.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude Loft  D",
+    "sqfootage": "1025",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-d.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude Loft  E",
+    "sqfootage": "980",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-e.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude Loft  F",
+    "sqfootage": "1038",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-f.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Latitude Loft  G",
+    "sqfootage": "1078",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_latitude-loft-g.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }],
+
+  "twobedrooms": [{
+    "name": "Longitude A",
+    "sqfootage": "1102",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-a.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude B",
+    "sqfootage": "1108",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-b.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude C",
+    "sqfootage": "1141",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-c.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  },{
+    "name": "Longitude D",
+    "sqfootage": "1155",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-d.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude E",
+    "sqfootage": "1159",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-e.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  },  {
+    "name": "Longitude F",
+    "sqfootage": "1160",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-f.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude G",
+    "sqfootage": "1179",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-g.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude H",
+    "sqfootage": "1185",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-h.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude I",
+    "sqfootage": "1192",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-i.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude J",
+    "sqfootage": "1204",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-j.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }],
+
+  "twobedroomlofts": [{
+    "name": "Longitude Loft A",
+    "sqfootage": "1292",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-a.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft B",
+    "sqfootage": "1326",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-b.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft C",
+    "sqfootage": "1376",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-c.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  },{
+    "name": "Longitude Loft D",
+    "sqfootage": "1383",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-d.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft EF",
+    "sqfootage": "1355",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-ef.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft G",
+    "sqfootage": "1419",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-g.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft H",
+    "sqfootage": "1411",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-h.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }, {
+    "name": "Longitude Loft I",
+    "sqfootage": "1389",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-i.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  },{
+    "name": "Longitude Loft J",
+    "sqfootage": "1436",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/parallel/fp_parallel_longitude-loft-j.jpg",
+    "features": ["9’ ceilings","Modern, island–designed kitchen featuring mocha-colored cabinets, White Neolith porcelain countertops, subway tile backsplashes, and gas cooking appliances","Bamboo hardwood floors with carpet in the bedroom quarters", "Walk-in closets","In-residence washer and dryer","Large, energy-efficient windows offer natural light and city views","Private terraces and Juliette balconies in select homes","High-efficiency gas furnaces providing in-residence climate control"]
+  }]
+}

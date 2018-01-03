@@ -1,0 +1,46 @@
+@import 'utility/reset';
+@import 'alt/utility/variables';
+@import 'utility/mixins';
+@import 'utility/grid/grid';
+@import 'utility/animation';
+@import 'alt/components/header';
+@import 'alt/components/nav';
+@import 'alt/components/hero';
+@import 'alt/components/services';
+@import 'alt/components/callout';
+@import 'alt/components/contact';
+@import 'alt/components/footer';
+@import 'alt/components/testimonials';
+
+.section__heading {
+   font-size: 1.3em;
+   line-height: 2em;
+   padding: 0 0 30px 0;
+   display: inline-block;
+   text-align: center;
+   @include smoothFont;
+   @include capSans;
+   letter-spacing: 3px;
+   font-weight: 900;
+}
+.section__heading--darkbg {
+   color: #fff;
+}
+
+.section__cta {
+   display: inline-block;
+   width: auto;
+   margin: 0 auto 60px;
+   padding: 15px 20px;
+   border: 1px solid #fff;
+   font-size: .8em;
+   text-decoration: none;
+   color: #fff;
+   transition: background .5s;
+   @include capSans;
+   &:hover {
+      background: #fff;
+      color: $blue;
+      transition: background .5s;
+   }
+}

@@ -1,0 +1,6 @@
+{% for img in carousel %}
+  <article class="carousel-item"
+  style="background-image: url('{{img}}');">
+    <span class="carousel-caption"></span>
+  </article>
+{% endfor %}

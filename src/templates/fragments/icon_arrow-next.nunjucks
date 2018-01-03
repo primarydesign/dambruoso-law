@@ -1,0 +1,10 @@
+<svg version="1.1" id="carousel-arrow-next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M117,0C52.4,0,0,52.4,0,117s52.4,117,117,117s117-52.4,117-117S181.6,0,117,0z M103,174.9l-20.7-20.7
+		l37.2-37.2L82.3,79.8L103,59.1l57.9,57.9L103,174.9z"/>
+</g>
+</svg>

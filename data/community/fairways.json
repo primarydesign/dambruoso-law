@@ -1,0 +1,33 @@
+{
+  "name": "The Fairways",
+  "address": "80 Eastern St",
+  "city": "New Haven, CT",
+  "zip": "06513",
+  "phone": "203.469.6337",
+  "rent": "1,500",
+  "offer": "1/2 Month Free if you apply by November 1st.*",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_fairways.jpg",
+  "hero": "/assets/img/properties/hero/hero_fairways.jpg",
+  "slug": "the-fairways",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply": "/assets/application/paredim_rental_application.pdf",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/fairway-owner-llc/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/fairways/Fairways_townhomes.jpg"
+  ],
+  "metadescription": "Townhouse living at affordable prices. Private entrances with patio areas and modern amenities right outside your door. Conveniently located minutes from 1-91 and 1-95, and minutes away from downtown New Haven, golf, the shoreline, and shopping centers.",
+  
+  "twobedrooms": [{
+    "name": "Farmington",
+    "sqfootage": "728 - 975",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/fairways/fp_fairways_farmington.png"
+  }],
+
+  "threebedrooms":[{
+    "name": "Elm",
+    "sqfootage": "950 1,052",
+    "unitmix": "3BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/fairways/fp_fairways_elm.png"
+  }]
+}

@@ -1,0 +1,22 @@
+<form class="contact__form" name="contactform" method="post" action="/assets/php/contactengine.php">
+
+    <label class="form__label" class="form__label" for="Name">Name</label>
+    <input name="Name" class="form-control form-grey" placeholder="" id="name">
+
+    <label class="form__label" for="exampleInputEmail1">Email</label>
+    <input name="Email" type="Email" class="form-control form-grey" id="email" placeholder="">
+
+    <label class="form__label" for="exampleInputEmail1">Phone</label>
+    <input name="Phone" type="tel" class="form-control form-grey" id="phone" placeholder="">
+
+    <label class="form__label" for="exampleTextarea">Message</label>
+    <textarea name="Message" class="form-control form-grey"  id="message" rows="3"></textarea>
+
+    <label class="form__label" for="exampleSelect1">Select a community</label>
+    <select name="Community" class="form-control">
+        {% for data in communities %}
+          <option value="{{data.title}}">{{data.title}}</option>
+        {% endfor %}
+    </select>
+    <input class="contact-form-btn" type="submit" value="Send">
+</form>

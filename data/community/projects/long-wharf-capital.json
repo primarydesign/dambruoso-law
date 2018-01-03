@@ -1,0 +1,8 @@
+{
+    "name" : "Long Wharf Captial",
+    "hero" : "/assets/img/projects/featured_long-wharf-capital.jpg",
+    "shortDescription" : "Real estate investment firm in Boston, MA. I developed a unique WordPress theme with custom post types for the staff and investment portfolio.",
+    "hats" : "Mobile UI Designer, Full-stack Developer",
+    "tools" : "HTML, Gulp, SASS, WordPress, Timber",
+    "url" : "http://longwharf.com/"
+}

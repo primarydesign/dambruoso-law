@@ -1,0 +1,9 @@
+@mixin smoothFont {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+} 
+@mixin capSans {
+      font-family: $sans;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}

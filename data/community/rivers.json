@@ -1,0 +1,139 @@
+{
+  "name": "Rivers Edge",
+  "address": "37 Sharon Rd",
+  "city": "Waterbury, CT",
+  "zip": "06705",
+  "phone": "203.755.0000",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_rivers-edge.jpg",
+  "hero": "/assets/img/properties/hero/hero_rivers.jpg",
+  "slug": "rivers-edge",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply": "https://paredimcommunities.securecafe.com/onlineleasing/rivers-edge-1/floorplans.aspx",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/rivers-edge-1/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/rivers-edge/RiversEdge_townhomes.jpg",
+    "/assets/img/properties/carousel/rivers-edge/RiversEdge_kitchen.jpg",
+    "/assets/img/properties/carousel/rivers-edge/RiversEdge_interior.jpg",
+    "/assets/img/properties/carousel/rivers-edge/RiversEdge_fitness-center.jpg"
+  ],
+  "metadescription": "A rare combination of quality, elegance, amenity and value. Designed with the charm of English Tudor architecture and beautiful flower gardens. Rivers Edge Apartment Homes is conveniently located just minutes from I-84 and Rte. 8",
+  
+  "studio": [{
+    "name": "The Essex",
+    "sqfootage": "400",
+    "unitmix": "1BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_essex.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }],
+
+  "onebedrooms": [{
+    "name": "The Melrose",
+    "sqfootage": "680",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_melrose.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }, {
+    "name": "The Crownbrook",
+    "sqfootage": "559",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_crownbrook.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }],
+
+  "twobedrooms": [{
+    "name": "The Beacon",
+    "sqfootage": "1,000",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_beacon.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }, {
+    "name": "The Berkshire",
+    "sqfootage": "1,000",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_berkshire.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }, {
+    "name": "The Mattatuck",
+    "sqfootage": "1,056",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_mattatuck.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }, {
+    "name": "The Cambridge",
+    "sqfootage": "1,220",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/rivers/fp_rivers_cambridge.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "GARBAGE DISPOSAL",
+      "BALCONY, DECK, PATIO",
+      "REFRIGERATOR",
+      "CARPETING",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "DISHWASHER",
+      "CABLE READY",
+      "AIR CONDITIONING"
+    ]
+  }]
+}

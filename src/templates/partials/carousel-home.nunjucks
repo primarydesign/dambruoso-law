@@ -1,0 +1,41 @@
+<div class="masthead__search-tool">
+  <span class="masthead__text">
+    <h1 class="masthead__headline">Find Your Perfect Paredim Home</h1>
+    <a class="masthead__cta" href="/communities">Discover Our Communities</a>
+  </span>
+</div>
+<header id="carouselExampleIndicators" class="masthead carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+      <article class="carousel-item carousel-item--one active"
+      style="background-image: url('assets/img/home-carousel/header_parallel-41.jpg');">
+        <span class="carousel-caption">
+           Parallel 41 - Stamford, CT
+        </span>
+      </article>
+      <article class="carousel-item carousel-item--two"
+      style="background-image: url('assets/img/home-carousel/header_royce-trumbull.jpg');">
+        <span class="carousel-caption">
+          The Royce - Trumbull, CT
+        </span>
+      </article>
+      <article class="carousel-item carousel-item--three"
+      style="background-image: url('assets/img/home-carousel/header_summit-mill-ridge.jpg');">
+        <span class="carousel-caption">
+          Summit at Mill Ridge - East Haven, CT
+        </span>
+      </article>
+  </div>
+  <a class="carousel-control-prev" data-target="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-icon__prev" aria-hidden="true">{% include 'fragments/icon_arrow-prev.nunjucks' %}</span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" data-target="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-icon__next" aria-hidden="true">{% include 'fragments/icon_arrow-next.nunjucks' %}</span>
+    <span class="sr-only">Next</span>
+  </a>
+</header>

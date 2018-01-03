@@ -1,0 +1,157 @@
+      <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+         <main class="main-content">
+
+            <div class="main-content__margins">
+               <section class="section section__snapshot" id="section2">
+                  <h2 class="main-content__headline">Hello,</h2>
+
+                  <p class="main-content__lead-paragraph">I'm a full-stack developer focused on front-end mobile design. My approach advocates Design Thinking and User Experience methods to build the best digital products possible.</p>
+               </section>
+			   <section class="section section__projects" id="section3">
+                  <h2 class="main-content__headline">Recent Projects</h2>
+
+                  <p class="main-content__lead-paragraph">Here are some cool web apps I've worked on.</p>
+
+                  <ul class="main-content__unordered-list">
+
+                     <li class="project__card">
+						<div class="zoom" id="project__bms"><img class="project__featured-image" src="assets/img/projects/featured_bold-maker-studio.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">Bold Maker Studio</li>
+                           <li class="project__description">Product design company in Haverhill, MA. While migrating from WooCommerce to Shopify, we rebranded and redesigned the site from the bottom up.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> UX Designer, Photographer, Developer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span>Lightroom, Photoshop, Illustrator, Shopify</li>
+                           </ul></div>
+                           <ul class="project__cta">
+                              <a class="project__link" href="http://boldmakerstudio.com" target="_blank">Visit Website</a>
+                           </ul>
+                     </li>
+                     <li class="project__card">
+						<div class="zoom" id="project__lwc"><img class="project__featured-image" src="assets/img/projects/featured_long-wharf-capital.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">Long Wharf Capital</li>
+                           <li class="project__description">Real estate investment firm in Boston, MA. I developed a unique WordPress theme with custom post types for the staff and investment portfolio.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> Mobile UI Designer, Full-Stack Developer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span>HTML, Gulp, SASS, Wordpress, Timber</li>
+                           </ul></div>
+                           <ul class="project__cta">
+                           <a class="project__link" href="http://longwharf.com" target="_blank">Visit Website</a>
+                        </ul>
+                     </li>
+                     <li class="project__card">
+                        <div class="zoom" id="project__ecc"><img class="project__featured-image" src="assets/img/projects/featured_edgewood-country-club--purple.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">Edgewood Country Club</li>
+                           <li class="project__description">An inclusive club, golf course, and wedding/event venue in Edgewood. I developed the front-end framework and helped design the user interface.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> Mobile UI Designer, Full-Stack Developer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span> HTML, Gulp, SASS, JS, Nunjucks</li>
+                           </ul></div>
+                           <ul class="project__cta"><a class="project__link" href="http://edgewoodnj.com" target="_blank">Visit Website</a>
+                           </ul>
+                     </li>
+                     <li class="project__card">
+                        <div class="zoom" id="project__trc"><img class="project__featured-image" src="assets/img/projects/featured_renew-collaborative.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">The Renew Collaborative</li>
+                           <li class="project__description">Now in testing, this online resource will be used by nonprofits nationwide to implement HomeStart's proven eviction-prevention strategy.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> Mobile UI Designer, Front-End Developer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span> HTML, Gulp, SASS, JS, Nunjucks</li>
+                           </ul></div>
+                           <ul class="project__cta"><a class="project__link" href="http://primaryman.com" target="_blank">Visit Website</a>
+                           </ul>
+                     </li>
+                     <li class="project__card">
+                        <div class="zoom" id="project__gpg"><img class="project__featured-image" src="assets/img/projects/featured_give-play-for-good.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">Give Play For Good</li>
+                           <li class="project__description">The landing page for Greensboro Childrens Museum's media campaign, Give Play For Good. I built the page and created the logo animation used in TV commercial and digital ads.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> Mobile UI Designer, Full-Stack Developer, Motion Designer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span> Wireframe, HTML, SASS, JS, Premiere Pro</li>
+                           </ul></div>
+                           <ul class="project__cta"><a class="project__link" href="http://giveplayforgood.org" target="_blank">Visit Website</a>
+                           </ul>
+                     </li>
+                     <li class="project__card">
+                        <div class="zoom" id="project__hst"><img class="project__featured-image" src="assets/img/projects/featured_homestart.jpg">
+                        <ul class="project__details">
+                           <li class="project__title">HomeStart</li>
+                           <li class="project__description">A nonprofit seeking to eliminate homelessness in Boston. I was honored to be UX designer, reorganize and redesign the site visually before moving on to development.</li>
+                           <li class="project__role"><span class="project__label">Hats:</span> UX &amp; UI Designer, Front-End Developer</li>
+                           <li class="project__tools"><span class="project__label">Tools:</span> Wireframe, HTML, CSS, WordPress, Photoshop</li>
+                           </ul></div>
+                           <ul class="project__cta"><a class="project__link" href="http://homestart.org" target="_blank">Visit Website</a>
+                           </ul>
+                     </li>
+                  </ul>
+              </section>
+             <section class="section section__experience" id="section4">
+                 <h3 class="main-content__headline">Past Experience</h3>
+                  <ul>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_window.svg">
+                      <h3 class="main-content__subhead">2002 - 2006</h3>
+                      Computer science and programming courses. My first interactive design applications date back to 2003 when Flash was all the rage.</li>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_globe.svg">
+                      <h3 class="main-content__subhead">2007 - 2011</h3>
+                      I got started as a freelance designer and web developer in 2007, networking and learning more new skills in the field year after year.</li>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_college.svg">
+                      <h3 class="main-content__subhead">2012</h3>
+                      For the Summer I was an ID Tech Camps instructor of Photography and Web Development courses to kids and teens on the MIT campus in Cambridge, MA.</li>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_card.svg">
+                      <h3 class="main-content__subhead">2013 - Today</h3>
+                      I've been employed as a web developer at Primary since April 2013, and was promoted to web department manager in 2015.</li>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_trophy.svg">
+                      <h3 class="main-content__subhead">2016</h3>
+                      In 2016 I won a bronze Hatch Award for the landing page design of Martha's Vineyard Dressing Company.</li>
+                   <li class="main-content__paragraph">
+                      <img class="skill__icon" src="assets/img/icons/icon_bulb.svg">
+                      <h3 class="main-content__subhead">2017</h3>While mainly a full-stack web developer I continue to study, practice and teach the benefits of UX Design.</li>
+                  </ul>
+              </section>
+             <section class="section section__skills" id="section5">
+                  <h2 class="main-content__headline">Dev Skills</h2>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_html.svg">HTML5</h3>
+                  <p class="main-content__paragraph">I enjoy coding with semantic HTML5 &mdash; it's more meaningful  to my fellow developers and better-suited for modern devices, browsers and search engines.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_sass.svg">SASS</h3>
+                  <p class="main-content__paragraph">Who knew styling could be so much fun? Not only does SASS make my days coding easier, it's helped me improve as a front-end developer.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_database.svg">Full Stack</h3>
+                  <p class="main-content__paragraph">Handling server-side tasks like VPS hosting, DNS, MySQL databases, SSH transfers, SSL certificates and SEO has been my job for over 50 web products.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_branch.svg">GIT &amp; Github</h3>
+                  <p class="main-content__paragraph">I've pushed over 300 commits to GitHub in the past year. I know my way around Terminal, GitHub.com and Git to collaborate with a team of developers.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_hourglass.svg">GULP</h3>
+                  <p class="main-content__paragraph">Gulp has saved countless hours from my development workflow. It can be used to live-update, prefix, preprocess, concatenate, minify, template, theme, and more.</p>
+             </section>
+          <section class="section section__skills">
+                  <h2 class="main-content__headline">Design Skills</h2>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_user.svg">User Experience</h3>
+
+                  <p class="main-content__paragraph">Learning and applying UXD has transformed my web design workflow. Research and planning can align the objectives of a product's stakeholders with its users.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_eye.svg">User Interface</h3>
+
+                  <p class="main-content__paragraph">A good UI begins with competitive research and plenty of sketching. Understand the problem and let usability testing solve the rest. Last but not least, apply strong visual design.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_mobile.svg">Responsive / Web</h3>
+
+                  <p class="main-content__paragraph">Always mobile-first, BrowserStack and device testing assist in my development workflow. When I'm crafting web components and design systems, no screen size goes overlooked.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_desktop.svg">Graphic</h3>
+
+                  <p class="main-content__paragraph">While majoring in Visual Communications I gained a deeper understanding of graphic design and its principles. I'm still learning and use Adobe CC's design apps on a weekly basis.</p>
+
+                  <h3 class="main-content__subhead"><img class="skill__icon" src="assets/img/icons/icon_rocketship.svg">Motion</h3>
+
+                  <p class="main-content__paragraph">Since drawing flipbooks as a kid I've always dabbled in animation. Today my motion design chops apply to projects in Adobe Animate, Premiere Pro, CSS3 and JavaScript.</p>
+             </section>
+            </div>
+         </main>

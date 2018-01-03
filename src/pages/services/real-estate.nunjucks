@@ -1,0 +1,41 @@
+---
+data: ['data/services/real-estate.json']
+---
+{% set title = '' %}
+{% extends 'service.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+{% block content %}
+
+{# {{nav.active('home')}} #}
+
+
+  {% block subNav %}
+    <li class="services__list-item services__list-item--selected"><a href="">Overview</a></li>
+    <li class="services__list-item"><a href="/services/real-estate/residential">Residential</a></li>
+    <li class="services__list-item"><a href="/services/real-estate/commercial">Commercial</a></li>
+  {% endblock %}
+
+  {% block overview %}
+  <h2 class="section__heading">Overview</h2>
+  <p class="service__paragraph">A real estate transaction is likely one of the largest deals you will make in your lifetime. An experienced real estate attorney can save you tens of thousands of dollars over the course of a typical 30-year mortgage and protect the interest that you worked so hard to acquire. Our seasoned and knowledgeable attorneys will work tirelessly to ensure that your Massachusetts real estate transaction closes seamlessly. D’Ambruoso Law is standing by to assist you with all of your real estate transaction needs, including:</p>
+  <ul class="bulleted-list">
+     <li class="bulleted-list__item">Residential and commercial purchase and sale transactions</li>
+     <li class="bulleted-list__item">Residential and commercial mortgages and refinancings</li>
+     <li class="bulleted-list__item">Title insurance and escrow services</li>
+     <li class="bulleted-list__item">Condominium and cooperative declarations and by-laws</li>
+     <li class="bulleted-list__item">Sale by owner transactions</li>
+     <li class="bulleted-list__item">Land use and zoning law planning, and zoning board approvals</li>
+     <li class="bulleted-list__item">Landlord/tenant disputes</li>
+     <li class="bulleted-list__item">Boundary disputes</li>
+     <li class="bulleted-list__item">The uncovering or implementation of easements, covenants, and restrictions</li>
+  </ul>
+  {% endblock overview %}
+
+  {% block sideNav %}
+    <li class="services__list-item"><a href="/services/real-estate/residential">Residential Real Estate Transactions</a></li>
+    <li class="services__list-item"><a href="/services/real-estate/commercial">Commercial Real Estate Transactions</a></li>
+  {% endblock sideNav %}
+
+{% endblock %}

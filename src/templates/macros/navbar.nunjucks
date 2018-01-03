@@ -1,0 +1,28 @@
+{% macro active(activePage='home') %}
+<nav class="navbar navbar-expand-sm navbar-light" id="mainNav">
+
+		<a class="navbar__logo js-scroll-trigger" href="/" alt="Paredim Communities">
+			<img src="/assets/img/paredim_logo.svg">
+		</a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger {%if activePage == 'communities' %}active{% endif %}" href="/communities">Communities</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger {%if activePage == 'about' %}active{% endif %}" href="/about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger {%if activePage == 'contact' %}active{% endif %}" href="/contact">Contact</a>
+				</li>
+				<li class="nav-item nav-item--login">
+					<a class="nav-link js-scroll-trigger" target="_blank" href="https://paredimcommunities.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx">Resident Login</a>
+				</li>
+			</ul>
+		</div>
+
+</nav>
+{% endmacro %}

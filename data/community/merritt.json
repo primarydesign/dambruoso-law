@@ -1,0 +1,55 @@
+{
+  "name": "Merritt Station",
+  "address": "164 Scott St",
+  "city": "Meriden, CT",
+  "zip": "06450",
+  "phone": "203.639.0889",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_merritt-station.jpg",
+  "hero": "/assets/img/properties/hero/hero_merritt.jpg",
+  "slug": "merritt-station",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply":"https://paredimcommunities.securecafe.com/onlineleasing/merritt-station-apartments/guestlogin.aspx",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/merritt-station-apartments/userlogin.aspx",
+  "metadescription": "Perfectly situated in Meriden, seconds from the Wallingford line. Combining the convenience of modern living with a serene country setting, Merritt Station is the perfect place to call home. Just minutes away from I-91, I-691, CT-15, I-84 great shopping, dining, and entertainment venues.",
+  "carousel": [
+    "/assets/img/properties/carousel/merritt/Merritt_interior-kitchen-living.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_living-room.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_interior-staircase.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_bathroom.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_bedroom.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_pool.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_exterior.jpg",
+    "/assets/img/properties/carousel/merritt/Merritt_townhomes.jpg"
+  ],
+  "onebedrooms": [{
+    "name": "Arbor",
+    "sqfootage": "725",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_arbor.png",
+    "features": ["Carpeted Floors","Dishwasher","Private Balcony or Patio","Refrigerator","Spacious Walk In Closets","Washer/Dryer In-Unit"]
+  }, {
+    "name": "Brook",
+    "sqfootage": "775",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_brook.png",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_arbor.png",
+    "features": ["Carpeted Floors","Dishwasher","Private Balcony or Patio","Refrigerator","Spacious Walk In Closets","Washer/Dryer In-Unit"]
+  }],
+
+  "twobedrooms": [{
+    "name": "Grove",
+    "sqfootage": "1015",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_grove.png",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_arbor.png",
+    "features": ["Carpeted Floors","Dishwasher","Private Balcony or Patio","Refrigerator","Spacious Walk In Closets","Washer/Dryer In-Unit"]
+  }, {
+    "name": "Pointe",
+    "sqfootage": "1100",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_pointe.png",
+    "thumbnail": "/assets/img/floorplans/merritt/fp_merritt_arbor.png",
+    "features": ["Carpeted Floors","Dishwasher","Private Balcony or Patio","Refrigerator","Spacious Walk In Closets","Washer/Dryer In-Unit"]
+  }]
+}

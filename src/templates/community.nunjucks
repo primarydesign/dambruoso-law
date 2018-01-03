@@ -1,0 +1,159 @@
+{% include 'partials/html-header.nunjucks'%}
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-light" id="communityNav">
+  	<div class="container-fluid">
+  		<h1 class="nav__community-name">
+  			<span>{{name}}</span>
+  		</h1>
+      <span class="angle-right"></span>
+      <a class="navbar__logo js-scroll-trigger" href="/" alt="Paredim Communities">
+    		<img src="/assets/img/paredim_logo.svg">
+    	</a>
+  	</div>
+    <a class="nav__resident-login" target="_blank" href="{{login}}"><span>Resident</span> Login</a>
+  </nav>
+  <nav class="community__subnav">
+    <ul class="subnav__menu container-fluid">
+      <li class="subnav__menu-item col-4"><a class="subnav__menu-link" href="#features">Features</a></li>
+      <li class="subnav__menu-item col-4"><a class="subnav__menu-link" href="#floor-plans">Floor Plans</a></li>
+      <li class="subnav__menu-item col-4"><a class="subnav__menu-link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header id="carouselIndicators" class="masthead carousel slide" data-ride="carousel" style="background:gray">
+    <ol class="carousel-indicators">
+      {% include 'partials/carousel__slide-indicators.nunjucks' %}
+    </ol>
+    <div class="carousel-inner">
+      <article class="carousel-item carousel-item--one active"
+      style="background-image: url({{hero}});">
+        <span class="carousel-caption">{{title}}</span>
+      </article>
+      {% include 'partials/carousel__img-loop.nunjucks' %}
+    </div>
+    {% if carousel %}
+    <a class="carousel-control-prev" data-target="#carouselIndicators" role="button" data-slide="prev">
+      <span class="carousel-icon__prev" aria-hidden="true">{% include 'fragments/icon_arrow-prev.nunjucks' %}</span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" data-target="#carouselIndicators" role="button" data-slide="next">
+      <span class="carousel-icon__next" aria-hidden="true">{% include 'fragments/icon_arrow-next.nunjucks' %}</span>
+      <span class="sr-only">Next</span>
+    </a>
+    {% endif %}
+
+  </header>
+  {% if offer %}
+  <section class="community__special-offer"><p class="container"><span>Special Offer:</span> {{offer}}</p>
+  </section>
+  {% endif %}
+  <section class="section__callout">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <h2 class="callout__headline">{{tagline}}</h2>
+              </div>
+              <div class="col-md-4">
+                  <a class="callout__cta" href="{{apply}}">
+                      <span>Apply Today</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="community__features container">
+
+    <div class="community__description">{% block description %}{% endblock %}</div>
+
+    <h2 class="community__headline" id="features">Features</h2>
+    <section class="section__community-features row">
+      <div class="col-sm-6">
+        <h3 class="community__subhead">Community</h3>
+        <ul class="community__features-list">
+          {% block propfeatures %}{% endblock %}
+        <ul>
+      </div>
+      <div class="col-sm-6">
+        <h3 class="community__subhead">Apartment Home</h3>
+        <ul class="community__features-list">
+          {% block aptfeatures %}{% endblock %}
+        </ul>
+      </div>
+    </section>
+    <h2 class="community__headline" id="floor-plans">Floor Plans</h2>
+  </section>
+  <section class="section__floorplans">
+    <div class="container">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        {% block floorplantabs %}{% endblock %}
+      </ul>
+    </div>
+    <div class="community__floorplan-cards">
+      <!-- Tab panes -->
+      <div class="tab-content container">
+        {% block floorplancards %}{% endblock %}
+      </div>
+    </div>
+  </section>
+
+  <section class="section__nearby-communities container">
+    <h2 class="section__heading">Nearby Communities You Might Like</h2>
+    <div class="row">
+      {% block nearby %}
+        {% for data in featured %}
+            <figure class="col-md-4">
+                <a class="featured-community__card" href="{{data.slug}}">
+                <div class="featured-community__thumbnail" style="background-image:url({{data.thumbnail}})"></div>
+                <ul class="featured-community__info">
+                    <li><h3 class="featured-community__name">{{data.title}}</h3></li>
+                    <li class="featured-community__place">{{data.city}}</li>
+                    <li class="featured-community__rent">Starting at <strong>${{data.rent}}<sup>*</sup></strong></li>
+                </ul>
+                </a>
+            </figure>
+        {% endfor %}
+      {% endblock %}
+    </div>
+  </section>
+
+ <section class="section__contact container">
+    <h2 class="community__headline" id="contact">Contact Us</h2>
+    <div class="row">
+      <span class="col-md-6">
+      {% block contact %}
+          <span class="contact__subhead">Give Us A Call</span>
+          <a class="contact__phone" href="tel:{{phone}}">
+            {{phone}}
+          </a>
+          <span class="contact__subhead">Leasing Office</span>
+          <p class="contact__address">
+            {{name}}
+            <br>
+            {{address}}
+            <br>
+            {{city}}, {{zip}}
+          </p>
+          <span class="contact__subhead">Leasing Hours</span>
+          <ul class="contact__hours">
+            {% block hours %}
+            {% endblock %}
+          </ul>
+          <span class="contact__subhead">Send Us A Message</span>
+          {% include 'partials/contact-form.nunjucks' %}
+      {% endblock %}
+      </span>
+    </div>
+  </section>
+  <section class="container">
+    <span class="row">
+    {% block chatwidget %}{% endblock %}
+    </span>
+  </section>
+
+  {% include 'macros/footer.nunjucks' %}
+  {% include 'partials/footer-scripts.nunjucks' %}
+
+  </body>
+</html>

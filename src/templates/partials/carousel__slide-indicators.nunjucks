@@ -1,0 +1,6 @@
+{% if carousel %}
+  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+  {% for img in carousel %}
+    <li data-target="#carouselIndicators" data-slide-to="{{loop.index}}"></li>
+  {% endfor %}
+{% endif %}

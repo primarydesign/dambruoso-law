@@ -1,0 +1,55 @@
+<li class="floorplan__card">
+  <figure class="floorplan__thumbnail" style="background-image:url({{data.thumbnail}})" data-toggle="modal" data-target="#{{data.name|replace(" ", "")}}"></figure>
+  <ul class="floorplan__info">
+    <li><h3 class="floorplan__name">{{data.name}}</h3></li>
+    <li class="floorplan__sqfootage">{{data.sqfootage}} SQ FT</li>
+    <li class="floorplan__unitmix">{{data.unitmix}}</li>
+    <li><a class="floorplan__link" href="tel:{{phone}}">Call For Pricing</a>
+  </ul>
+  <a class="floorplan__expand-btn"  data-toggle="modal" data-target="#{{data.name|replace(" ", "")}}">
+    <img class="floorplan__expand-icon" src="/assets/img/icon_expand.svg">
+  </a>
+</li>
+<!-- Modal -->
+<div class="modal fade" id="{{data.name|replace(" ", "")}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body row d-flex align-items-center justify-content-center">
+        <figure class="modal__floorplan-image col-sm-6" style="background-image:url({{data.thumbnail}})"></figure>
+
+        <div class="modal__floorplan-info col-sm-6">
+          <span class="row">
+            <ul>
+              <li class="floorplan__name">{{data.name}}</li>
+              <li class="floorplan__sqfootage">{{data.sqfootage}} SQ FT</li>
+              <li class="floorplan__unitmix">{{data.unitmix}}</li>
+            </ul>
+          </span>
+          {% if data.features %}
+            <span class="row">
+              <div class="floorplan__features">
+                  <h5 class="floorplan__features-headline">Features</h5>
+                <ul>
+                  {% for feature in data.features %}
+                    <li class="floorplan__feature">{{feature}}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </span>
+          {% endif %}
+          <span class="row">
+              <a class="floorplan__link" href="tel:{{phone}}">Call For Pricing - {{phone}}</a>
+          </span>
+          <span class="row">
+             <a class="floorplan__apply-btn" href="{{apply}}" target="_blank">Apply Now</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

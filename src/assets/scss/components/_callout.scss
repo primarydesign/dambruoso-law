@@ -1,0 +1,47 @@
+.callout {
+   padding-top: 15px;
+   color: #fff;
+   text-align: center;
+   @include smoothFont;
+   background: $blue url(../img/darkbg-callout_client-meeting.jpg) no-repeat 25%;
+   background-size: cover;
+   @media (min-width: $small) {
+      background: $blue;
+      padding: 0;
+      min-height: 500px;  
+   }  
+}
+.callout__text {
+   position: relative;
+   display: inline-block;
+   padding: 5% 12% 0 12%;
+   @media (min-width: $small) {
+      width: 26%;
+      padding: 100px 12% 0 12%;
+   }
+}
+.callout__image {
+   display: inline-block;
+   @media (min-width: $small) {
+      width: 50%;
+      float: right;
+      min-height: 500px;
+      background: $blue url(../img/callout_client-meeting.jpg) no-repeat 25%;
+      background-size: cover;
+   }
+}
+.callout__image--home {
+   
+}
+.callout__heading {}
+.callout__statement {
+   font-size: 1.25em;
+   line-height: 1.5em;
+}
+.callout__statement--quote {
+   font-style: italic;
+   padding-bottom: 2em;
+}
+.callout__cta {
+   @extend .hero__cta;
+}

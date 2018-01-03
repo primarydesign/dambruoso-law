@@ -1,0 +1,4 @@
+<!--build:js /js/main.min.js -->
+<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/js/carousel.js"></script>
+<!--endbuild -->

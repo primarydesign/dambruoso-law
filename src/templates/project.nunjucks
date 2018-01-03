@@ -1,0 +1,27 @@
+{% include 'partials/html-header.nunjucks'%}
+
+  <body>
+
+
+    <img class="project-header__image" src="{{hero}}" alt="{{title}}">
+
+    {% block content %}
+    <main class="project__content">
+      <h1 class="project-header__name">{{name}}</h1>
+      <p class="project__description">{{shortDescription}}</p>
+      <ul>
+        Hats: {{hats}}
+      </ul>
+      <ul>
+        Tools: {{tools}}
+      </ul>
+      <a href="{{url}}" target="_blank">Visit Website</a>
+    </main>
+    {% endblock %}
+
+    {% include 'macros/footer.nunjucks' %}
+    {% include 'partials/footer-scripts.nunjucks' %}
+
+  </body>
+
+</html>

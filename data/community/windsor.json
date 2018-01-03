@@ -1,0 +1,55 @@
+{
+  "name": "Windsor Crossing",
+  "address": "40 Barry Circle",
+  "city": "Bloomfield, CT",
+  "zip": "06002",
+  "phone": "203.469.6337",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_windsor-crossing.jpg",
+  "hero": "/assets/img/properties/hero/hero_windsor.jpg",
+  "slug": "windsor-crossing",
+  "tagline": "Value, Convenience and Amenity",
+  "apply": "http://paredimcommunities.com/assets/pdf/paredim_rental_application.pdf",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/windsor-crossing/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/windsor/WindsorCrossing_apartments.jpg",
+    "/assets/img/properties/carousel/windsor/WindsorCrossing_interior.jpg",
+    "/assets/img/properties/carousel/windsor/WindsorCrossing_kitchen.jpg",
+    "/assets/img/properties/carousel/windsor/WindsorCrossing_bathroom.jpg"
+  ],
+  "metadescription": "Spacious two and three bedroom townhouse residences designed to provide the ultimate in contemporary living. This quiet and serene community is well located only minutes from both I-91 and I-84, with easy access to area shopping plazas, restaurants and entertainment sites.",
+  
+  "twobedrooms": [{
+    "name": "Abbey",
+    "sqfootage": "1,200 - 1,490",
+    "unitmix": "2BR / 1.5BA",
+    "thumbnail": "/assets/img/floorplans/windsor/fp_windsor_abbey.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "EAT IN KITCHENS",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "WASHER & DRYER HOOKUPS IN UNIT",
+      "GARBAGE DISPOSAL",
+      "YARD"
+    ]
+  }],
+
+  "threebedrooms": [{
+    "name": "Savannah",
+    "sqfootage": "1,500 - 1,805",
+    "unitmix": "3BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/windsor/fp_windsor_savannah.png",
+    "features": [
+      "WALK-IN CLOSETS",
+      "EAT IN KITCHENS",
+      "HIGH SPEED INTERNET AVAILABLE",
+      "REFRIGERATOR",
+      "CABLE READY",
+      "WASHER & DRYER HOOKUPS IN UNIT",
+      "GARBAGE DISPOSAL",
+      "YARD"
+    ]
+  }]
+}

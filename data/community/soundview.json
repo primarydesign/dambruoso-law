@@ -1,0 +1,97 @@
+{
+  "name": "Soundview at Savin Rock",
+  "address": "1 Campbell Avenue",
+  "city": "West Haven, CT",
+  "zip": "06516",
+  "phone": "203.577.5437",
+  "rent": "1,500",
+  "offer": "1 Month Free if You Move In by Dec 15th*",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_soundview.jpg",
+  "hero": "/assets/img/properties/hero/hero_soundview.jpg",
+  "slug": "the-royce-at-trumbull",
+  "tagline": "Don't Just Dream It. Live It.",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/soundview-apartments/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/soundview/Soundview-landscape.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-exterior.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-kitchen.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-living-room.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-bedroom.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-bathroom.jpg",
+    "/assets/img/properties/carousel/soundview/Soundview-fitness-center.jpg"
+  ],
+  "metadescription": "High-rise luxury living with the beach and scenic promenade practically at your doorstep. Enjoy restaurants, shopping and coffee bars around the corner, with the urban sophistication of New Haven within easy reach.",
+  
+  "onebedrooms": [{
+    "name": "Cove",
+    "sqfootage": "760",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/soundview/fp_soundview_cove.png",
+    "features": [
+      "SPACIOUS LIVING ROOM / DINING ROOM",
+      "OPEN VIEW FROM KITCHEN TO THE SEA",
+      "BREAKFAST BAR",
+      "EFFICIENT LAYOUT",
+      "PATIO OR BALCONY"
+    ],
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx"
+  }],
+
+  "twobedrooms": [{
+    "name": "Crest",
+    "sqfootage": "1,668",
+    "unitmix": "2BR / 2BA + DEN",
+    "thumbnail": "/assets/img/floorplans/soundview/fp_soundview_crest.png",
+    "features": [
+      "ELEGANT FLOOR PLAN WITH IMPRESSIVE ENTRY",
+      "SPECTACULAR DIRECT VIEWS OF LONG ISLAND SOUND",
+      "TWO SEPERATE BEDROOM WINGS DESIGNED FOR ULTIMATE PRIVACY",
+      "DEN/STUDY OFF MASTER BEDROOM",
+      "THREE CLOSETS IN MASTER BEDROOM SUITE",
+      "FORMAL DINING AND LIVING AREAS",
+      "EXPANSIVE OUTDOOR BALCONY"
+    ],
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx"
+  }, {
+    "name": "The Pointe",
+    "sqfootage": "1,152",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/soundview/fp_soundview_pointe.png",
+    "features": [
+      "FLEXIBLE FLOOR PLAN",
+      "IMPRESSIVE VIEWS",
+      "MASTER BEDROOM WITH 2 SPACIOUS CLOSETS, INCLUDING WALK-IN",
+      "OPEN-STYLE KITCHEN WITH BREAKFAST BAR",
+      "WASHER AND DRYER IN SECOND BATHROOM",
+      "PATIO OR BALCONY"
+    ],
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx"
+  }, {
+    "name": "The Sands",
+    "sqfootage": "1,259",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/soundview/fp_soundview_sands.png",
+    "features": [
+      "FLEXIBLE FLOOR PLAN",
+      "IMPRESSIVE VIEWS",
+      "MASTER BEDROOM WITH 2 SPACIOUS CLOSETS, INCLUDING WALK-IN",
+      "OPEN-STYLE KITCHEN WITH BREAKFAST BAR",
+      "WASHER AND DRYER IN SECOND BATHROOM",
+      "PATIO OR BALCONY"
+    ],
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx"
+  }, {
+    "name": "The Sound",
+    "sqfootage": "1,177",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/soundview/fp_soundview_sound.png",
+    "features": [
+      "FABULOUS VIEWS",
+      "MASTER BEDROOM WITH TWO CLOSETS INCLUDING ONE WALK-IN",
+      "MODERN, OPEN-STYLE KITCHEN WITH BREAKFAST BAR",
+      "SEPARATE LAUNDRY ROOM",
+      "PATIO OR BALCONY"
+    ],
+    "apply": "https://paredimcommunities.securecafe.com/onlineleasing/soundview-apartments/guestlogin.aspx"
+  }]
+}

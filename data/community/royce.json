@@ -1,0 +1,154 @@
+{
+  "name": "The Royce at Trumbull",
+  "address": "100 Avalon Gates",
+  "city": "Trumbull, CT",
+  "zip": "06611",
+  "phone": "203.372.1600",
+  "rent": "1,500",
+  "tagline": "Live Brilliantly",
+  "offer": "6% Off Rent for Sikorsky, Yale New Haven & Bridgeport Hospital Associates",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_royce.jpg",
+  "hero": "/assets/img/properties/hero/hero_royce.jpg",
+  "slug": "the-royce-at-trumbull",
+  "apply": "https://paredimcommunities.securecafe.com/onlineleasing/the-royce-at-trumbull/floorplans.aspx",
+  "login": "https://www.rentcafe.com/residentservices/apartmentsforrent/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/royce/Royce-lobby.jpg",
+    "/assets/img/properties/carousel/royce/Royce-yoga-studio.jpg",
+    "/assets/img/properties/carousel/royce/Royce-fitness-center.jpg",
+    "/assets/img/properties/carousel/royce/Royce-fitness-center2.jpg",
+    "/assets/img/properties/carousel/royce/Royce-billiards.jpg",
+    "/assets/img/properties/carousel/royce/Royce-pool-exterior.jpg",
+    "/assets/img/properties/carousel/royce/Royce-volleyball-court.jpg",
+    "/assets/img/properties/carousel/royce/Royce-playground.jpg",
+    "/assets/img/properties/carousel/royce/Royce-outdoor-grills.jpg",
+    "/assets/img/properties/carousel/royce/Royce-dining-room.jpg",
+    "/assets/img/properties/carousel/royce/Royce-living-room.jpg",
+    "/assets/img/properties/carousel/royce/Royce-bedroom.jpg",
+    "/assets/img/properties/carousel/royce/Royce-bathroom.jpg",
+    "/assets/img/properties/carousel/royce/Royce-walk-in-closet.jpg"
+  ],
+  "metadescription": "A gated community in a serene, private setting. Located close to the Merritt Parkway, Route 8 and I-95, you’ll be closeby to great shopping, dining and access to one of Connecticut’s best school systems.",
+  
+  "onebedrooms": [{
+    "name": "Dover",
+    "sqfootage": "713",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_dover.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Aspen",
+    "sqfootage": "849",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_aspen.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Ash",
+    "sqfootage": "853",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_ash.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Windsor",
+    "sqfootage": "1,003",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_windsor.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }],
+
+  "twobedrooms": [{
+    "name": "Birch",
+    "sqfootage": "1,186",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_birch.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Briar",
+    "sqfootage": "1,331",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_briar.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Conway",
+    "sqfootage": "1,246",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_conway.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }, {
+    "name": "Beacon",
+    "sqfootage": "1,415",
+    "unitmix": "2BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_beacon.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }],
+  "threebedrooms": [{
+    "name": "Gilette",
+    "sqfootage": "1,298",
+    "unitmix": "3BR / 2BA",
+    "thumbnail": "/assets/img/floorplans/royce/fp_royce_gilette.png",
+    "features": [
+      "PLUSH WALL-TO-WALL CARPET",
+      "SEPARATE DINING AREA",
+      "GOURMET KITCHEN",
+      "SPACIOUS WALK IN CLOSETS",
+      "PRIVATE PATIO OR BALCONY",
+      "WASHER/DRYER IN-UNIT"
+    ]
+  }]
+}

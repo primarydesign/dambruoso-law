@@ -1,0 +1,13 @@
+<header class="header">
+    <a href="/"><img class="header__logo" src="/assets/img/dambruoso-law_logo-blue.svg" alt="D'Ambruoso Law - Real Estate | Estate Planning | Business Law"></a>
+   <nav class="header__nav">
+      <ul class="header__nav-items">
+         <li class="header__nav-item header__nav-item--dropdown"><a class="header__nav-link" href="/services">Services</a></li>
+         <li class="header__nav-item header__nav-item--service"><a class="header__nav-link" href="/services/real-estate">Real Estate</a></li>
+         <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Estate Planning</a></li>
+         <li class="header__nav-item header__nav-item--service"><a class="header__nav-link">Business Law</a></li>
+         <li class="header__nav-item"><a class="header__nav-link">About</a></li>
+         <li class="header__nav-item"><a class="header__nav-link">Contact</a></li>
+      </ul>
+   </nav>
+</header>

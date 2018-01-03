@@ -1,0 +1,47 @@
+{
+  "name": "Colonial Court",
+  "address": "842 1st Avenue",
+  "city": "West Haven, CT",
+  "zip": "06516",
+  "phone": "203.469.6337",
+  "rent": "1,500",
+  "thumbnail": "/assets/img/properties/thumbnails/thumb_colonial-court.jpg",
+  "hero": "/assets/img/properties/hero/hero_colonial.jpg",
+  "slug": "colonial-court",
+  "tagline": "Value, Convenience, and Amenity",
+  "apply": "/assets/application/paredim_rental_application.pdf",
+  "phone": "203.469.6337",
+  "login": "https://paredimcommunities.securecafe.com/residentservices/foundry-colonial/userlogin.aspx",
+  "carousel": [
+    "/assets/img/properties/carousel/foundry/Foundry_bedroom.jpg"
+  ],
+  "metadescription": "Spacious loft and townhouse style floor plans ranging from studios to three bedrooms. Conveniently located just minutes from I-95 with easy access to downtown New Haven and West Haven, Colonial Court sets the standard for convenience and comfort.",
+  
+  "studio": [{
+    "name": "Studio",
+    "sqfootage": "640 - 650",
+    "unitmix": "1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }],
+
+  "onebedrooms": [{
+    "name": "1 Bedroom",
+    "sqfootage": "910 - 1,270",
+    "unitmix": "1BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }],
+
+  "twobedrooms": [{
+    "name": "2 Bedroom",
+    "sqfootage": "1,120 - 1,550",
+    "unitmix": "2BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }],
+
+  "threebedrooms": [{
+    "name": "3 Bedroom",
+    "sqfootage": "1,480 - 1,500",
+    "unitmix": "3BR / 1BA",
+    "thumbnail": "/assets/img/floorplans/foundry/placeholder-floor-plan_call-for-details.png"
+  }]
+}
