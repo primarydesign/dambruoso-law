@@ -11,16 +11,17 @@ data: ['data/services/real-estate.json']
 {# {{nav.active('home')}} #}
 
   {% block header %}
-   <h1 class="section__heading">About</h1>
+
   {% endblock header %}
 
-  {% block subNav %}
+  {% block topSubNav %}
     <li class="services__list-item services__list-item--selected"><a>Experience You Can Trust</a></li>
     <li class="services__list-item"><a href="/about/biography">Biography</a></li>
   {% endblock %}
 
   {% block overview %}
-    <h2 class="section__heading">Experience You Can Trust</h2>
+    <h1 class="section__heading">About</h1>
+    <h2 class="section__subheading">Experience You Can Trust</h2>
     <p class="service__paragraph" style="padding-bottom:0">D’Ambruoso Law is a boutique law firm with offices in Duxbury, Massachusetts and downtown Boston, Massachusetts, representing individuals and small to mid-sized business organizations in connection with their real estate, estate planning and small business needs.</p>
     <blockquote class="about__blockquote">Our clients choose us because they demand the service and value that only a small, founder-managed firm can provide, while they are unwilling to sacrifice quality.</blockquote>
     <p class="service__paragraph">Founder Robb D’Ambruoso brings his years of experience at prominent local firms counseling corporate and high net worth clients to bear on your business and personal needs. While having gained invaluable experience working at blue chip private firms, Robb also has first-hand experience with client frustrations with large, bureaucratic organizations.</p>

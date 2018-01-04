@@ -10,17 +10,20 @@ data: ['data/services/real-estate.json']
 
 {# {{nav.active('home')}} #}
   {% block header %}
-   <h1 class="section__heading">Real Estate Transactions</h1>
+   
   {% endblock header %}
 
-  {% block subNav %}
-    <li class="services__list-item"><a href="/services/real-estate">Overview</a></li>
-    <li class="services__list-item services__list-item--selected"><a href="">Residential</a></li>
-    <li class="services__list-item"><a href="/services/real-estate/commercial">Commercial</a></li>
+  {% block topSubNav %}
+    {% include 'macros/submenus/tm_real-estate.nunjucks' %}
   {% endblock %}
 
+  {% block sideNav %}
+    {% include 'macros/submenus/sm_real-estate.nunjucks' %}
+  {% endblock sideNav %}
+
   {% block overview %}
-    <h2 class="section__heading">Residential Real Estate Transactions</h2>
+    <h1 class="section__heading">Real Estate Transactions</h1>
+    <h2 class="section__subheading">Residential</h2>
     <p class="service__paragraph">Massachusetts real estate law is a complex field, and negotiating and closing a transaction requires depth of knowledge as well as sharp attention to detail. Trust the real estate attorneys at D’Ambruoso Law to review your sales contracts, conduct thorough title examinations and arrange and attend your closing transaction anywhere in Massachusetts.</p>
     <p class="service__paragraph">Whether purchasing undeveloped land, a residential home or a downtown condo, an experienced real estate attorney can ensure that your title is clear, will provide you with a title insurance policy from a top tier national title insurance company, and give you much-needed peace of mind. Uncovering a problem at closing is far preferable to discovering an issue with the financing documents or title years later, when attempting to sell or refinance your home. A clear title is critical to protecting the legal and financial interests of mortgage lenders, banks, relocation companies and homebuyers. A title encumbrance can adversely impact a real estate conveyance, and can be caused by several factors. Our thorough title examinations will detect issues such as:</p>
     <ul class="bulleted-list">
@@ -42,10 +45,5 @@ data: ['data/services/real-estate.json']
       <li class="bulleted-list__item">Attend the closing and review all the documentation that you will be required to sign</li>
     </ul>
   {% endblock overview %}
-
-  {% block sideNav %}
-     <li class="services__list-item services__list-item--selected"><a>Residential Real Estate Transactions</a></li>
-     <li class="services__list-item"><a href="/services/real-estate/commercial">Commercial Real Estate Transactions</a></li>
-  {% endblock sideNav %}
 
 {% endblock %}

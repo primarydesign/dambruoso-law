@@ -11,40 +11,40 @@ data: ['data/services/real-estate.json']
 {# {{nav.active('home')}} #}
 
   {% block header %}
-   <h1 class="section__heading">About</h1>
   {% endblock header %}
 
-  {% block subNav %}
+  {% block topSubNav %}
     <li class="services__list-item"><a href="/about">Experience You Can Trust</a></li>
     <li class="services__list-item services__list-item--selected"><a>Biography</a></li>
   {% endblock %}
 
   {% block overview %}
+    <h1 class="section__heading">About</h1>
     <figure class="about__header">
       <img class="about__header-image" src="/assets/img/portrait_robb-dambruoso.jpg">
       <figcaption class="about__header-description">More than 15 years experience counseling clients big and small.</figcaption>
     </figure>
-    <h2 class="section__heading">Biography</h2>
-    <p class="service__paragraph">Robb D’Ambruoso focuses his practice on estate planning and business law matters, as well as real estate conveyancing. Following law school, Robb practiced general corporate law at three Am Law 100 firms: Winston & Strawn LLP (Chicago), Locke Lord LLP (Boston), and most recently Wilmer Cutler Pickering Hale and Dorr LLP (Boston). During these seven years of private practice, Robb counseled a variety of companies ranging from start-ups to mature public companies on organizational, tax, corporate governance, and capital-raising issues, and closed hundreds of millions of dollars of corporate transactions.</p>
+    <h2 class="section__subheading">Biography</h2>
+    <p class="service__paragraph">Robb D’Ambruoso focuses his practice on estate planning and business law matters, as well as real estate conveyancing. Following law school, Robb practiced general corporate law at three Am Law 100 firms: Winston &amp; Strawn LLP (Chicago), Locke Lord LLP (Boston), and most recently Wilmer Cutler Pickering Hale and Dorr LLP (Boston). During these seven years of private practice, Robb counseled a variety of companies ranging from start-ups to mature public companies on organizational, tax, corporate governance, and capital-raising issues, and closed hundreds of millions of dollars of corporate transactions.</p>
 
     <p class="service__paragraph">Robb subsequently transitioned into a corporate in-house role at a local Nasdaq-listed technology firm, where he honed his operational and commercial contract expertise. In addition to his corporate practice, Robb counsels clients from a variety of backgrounds with respect to wealth-management, tax-planning, and estate-planning matters. Robb also represents a number of lending institutions, purchasers and sellers in connection with real estate transactions.</p>
 
     <p class="service__paragraph">Having worked at large law firms and for an operating company that engaged a multitude of law firms, Robb has developed a deep and clear understanding of clients’ needs for practical, cost-effective and results-oriented representation, and is prepared to deliver the same from a streamlined platform where service and clients’ interests truly come first.</p>
 
-    <h3 class="about__subheading">Education</h3>
+    <h3 class="section__subheading">Education</h3>
     <p class="about__paragraph">University of Michigan Law School, J.D., cum laude, 2002</p>
     <p class="about__paragraph">University of Connecticut, B.A., Political Science, magna cum laude, 1999</p>
     <ul class="bulleted-list about__bulleted-list">
        <li class="bulleted-list__item">Phi Beta Kappa</li>
        <li class="bulleted-list__item">University Scholar (highest undergraduate academic honor, awarded to fewer than 30 students per class)</li>
     </ul>
-    <h3 class="about__subheading">Bar Admissions</h3>
+    <h3 class="section__subheading">Bar Admissions</h3>
     <p class="about__paragraph">Illinois</p>
     <p class="about__paragraph">Massachusetts</p>
     <ul class="bulleted-list about__bulleted-list">
        <li class="bulleted-list__item">Member of the Massachusetts Bar Association</li>
     </ul>
-    <h3 class="about__subheading">Personal</h3>
+    <h3 class="section__subheading">Personal</h3>
     <p class="about__paragraph">Robb lives with his wife and two young children in Duxbury, Massachusetts and is an outdoor enthusiast.</p>
 
 

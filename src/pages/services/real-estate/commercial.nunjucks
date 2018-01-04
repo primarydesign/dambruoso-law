@@ -11,17 +11,20 @@ data: ['data/services/real-estate.json']
 {# {{nav.active('home')}} #}
 
   {% block header %}
-   <h1 class="section__heading">Real Estate Transactions</h1>
+   
   {% endblock header %}
 
-  {% block subNav %}
-    <li class="services__list-item"><a href="/real-estate">Overview</a></li>
-    <li class="services__list-item"><a href="">Residential</a></li>
-    <li class="services__list-item services__list-item--selected"><a href="/real-estate/commercial.html">Commercial</a></li>
+  {% block topSubNav %}
+    {% include 'macros/submenus/tm_real-estate.nunjucks' %}
   {% endblock %}
 
+  {% block sideNav %}
+    {% include 'macros/submenus/sm_real-estate.nunjucks' %}
+  {% endblock sideNav %}
+
   {% block overview %}
-  <h2 class="section__heading">Commercial Real Estate Transactions</h2>
+  <h1 class="section__heading">Real Estate Transactions</h1>
+  <h2 class="section__subheading">Commercial</h2>
    <p class="service__paragraph">D’Ambruoso Law’s attorneys look forward to helping you achieve your business goals, resolve disputes, and secure seamless transactions in commercial real estate matters such as the following:</p>
    <ul class="bulleted-list">
       <li class="bulleted-list__item">Zoning, permits and appeals. We are adept at handling zoning law issues that arise during project proposals, as well as land use and zoning challenges.</li>
@@ -30,10 +33,5 @@ data: ['data/services/real-estate.json']
       <li class="bulleted-list__item">Construction Loans</li>
    </ul>
   {% endblock overview %}
-
-  {% block sideNav %}
-     <li class="services__list-item"><a href="/services/real-estate/residential">Residential Real Estate Transactions</a></li>
-     <li class="services__list-item services__list-item--selected"><a>Commercial Real Estate Transactions</a></li>
-  {% endblock sideNav %}
 
 {% endblock %}

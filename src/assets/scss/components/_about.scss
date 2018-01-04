@@ -1,32 +1,31 @@
 .about__blockquote {
   margin: 1.5em 0;
   padding: 40px;
-  padding-right: 400px;
-  font-size: 1.25em;
+  padding-right: 15%;
+  font-size: 1.5em;
   letter-spacing: .03em;
-  line-height: 2;
+  line-height: 1.5;
   font-style: italic;
   font-family: $serif;
   background: $ltblue;
 }
 .about__header {
-  @media (min-width: 575px) {
-    display: flex;
-    align-content:space-around;
-  }
   margin-bottom: 3em;
+  @media (min-width: 575px) {
+  }
 }
 .about__header-image {
-  display: block;
+  display: inline-block;
   width: 100%;
   @media (min-width: 575px) {
-    display: inline-block;
     width: 40%;
     max-width: 400px;
     margin-right: 2em;
   }
 }
 .about__header-description {
+  display: inline-block;
+  margin: 0;
   padding: 2em 0;
   border: 1px solid $yellow;
   border-left: none;
@@ -37,19 +36,16 @@
   letter-spacing: 1px;
   font-weight: 900;
   @media (min-width: 575px) {
-    width: 50%;
+    width: 40%;
   }
 }
-.about__subheading {
-  margin-bottom: 1.25em;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 .about__paragraph {
-  margin-bottom: 1.5em;
+  font-size: .85em;
+  margin-bottom: .5em;
+  line-height: 1.5;
 }
 .about__bulleted-list {
+  font-size: .85em;
   padding-left: 1em;
   margin-bottom: 2em;
 }

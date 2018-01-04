@@ -2,7 +2,6 @@
 
   <body>
 
-    {# {% import 'macros/homenav.nunjucks' as nav %} #}
     {% include 'macros/topnav.nunjucks' %}
 
     <main id="template__services">
@@ -12,9 +11,9 @@
              <div class="services__container">
                 <aside class="services__list-container">
                    <ul class="services__service-list">
-                      {% block subNav %}
+                      {% block topSubNav %}
 
-                      {% endblock subNav %}
+                      {% endblock %}
                    </ul>
                 </aside>
                 <article class="service__details">
