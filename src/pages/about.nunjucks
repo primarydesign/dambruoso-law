@@ -1,23 +1,25 @@
 ---
 data: ['data/services/real-estate.json']
 ---
-{% set title = '' %}
-{% extends 'service.nunjucks' %}
+{% set title = 'About ' %}
+{% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
-{% block content %}
-
-{# {{nav.active('home')}} #}
-
-  {% block header %}
-
-  {% endblock header %}
-
-  {% block topSubNav %}
-    <li class="services__list-item services__list-item--selected"><a>Experience You Can Trust</a></li>
-    <li class="services__list-item"><a href="/about/biography">Biography</a></li>
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('about')}}
   {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_about.nunjucks' as subnav %}
+    {{subnav.active('about')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_about.nunjucks' as sidenav %}
+    {{sidenav.active('about')}}
+  {% endblock sideNav %}
 
   {% block overview %}
     <h1 class="section__heading">About</h1>
@@ -28,11 +30,5 @@ data: ['data/services/real-estate.json']
     <p class="service__paragraph">We also understand that clients are looking for human touch and value beyond just legal expertise. As a small firm, we are able to take the time to learn about and understand your goals, and take our “service above all” commitment very seriously.</p>
     <p class="service__paragraph">We are also cognizant of shrinking legal budgets and ever-increasing legal fees; our commitment to you is that you will receive the value that you and your hard-earned money are entitled to.</p>
     <p class="service__paragraph">Every day, we remind ourselves that the firm’s reputation is built on client satisfaction, and is only as good as our last client’s experience.</p>
+
   {% endblock overview %}
-
-  {% block sideNav %}
-    <li class="services__list-item services__list-item--selected"><a>Experience You Can Trust</a></li>
-    <li class="services__list-item"><a href="/about/biography">Biography</a></li>
-  {% endblock sideNav %}
-
-{% endblock %}

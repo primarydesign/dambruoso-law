@@ -1,25 +1,24 @@
 ---
 data: ['data/services/real-estate.json']
 ---
-{% set title = '' %}
-{% extends 'service.nunjucks' %}
+{% set title = 'Real Estate Services - ' %}
+{% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
-{% block content %}
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('realEstate')}}
+  {% endblock %}
 
- {{nav.active('realEstate')}}
-
-  {% block header %}
-   
-  {% endblock header %}
-
-  {% block topSubNav %}
-    {% include 'macros/submenus/tm_real-estate.nunjucks' %}
+  {% block subNav %}
+    {% import 'macros/submenus/tm_real-estate.nunjucks' as subnav %}
+    {{subnav.active('overview')}}
   {% endblock %}
 
   {% block sideNav %}
-    {% include 'macros/submenus/sm_real-estate.nunjucks' %}
+    {% import 'macros/submenus/sm_real-estate.nunjucks' as sidenav %}
+    {{sidenav.active('overview')}}
   {% endblock sideNav %}
 
   {% block overview %}
@@ -37,7 +36,7 @@ data: ['data/services/real-estate.json']
      <li class="bulleted-list__item">Boundary disputes</li>
      <li class="bulleted-list__item">The uncovering or implementation of easements, covenants, and restrictions</li>
   </ul>
+
+  {% include 'macros/submenus/bm_real-estate.nunjucks' %}
+
   {% endblock overview %}
-
-
-{% endblock %}

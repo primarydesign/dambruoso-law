@@ -8,8 +8,8 @@ data: ['data/featured-communities.json']
 
 {% block content %}
 
-{# {{nav.active('home')}} #}
-{% include 'macros/topnav.nunjucks' %}
-{% include 'homepage/mainhome.nunjucks' %}
+  {{topnav.active('')}}
+
+  {% include 'homepage/mainhome.nunjucks' %}
 
 {% endblock %}

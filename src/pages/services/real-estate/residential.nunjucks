@@ -2,23 +2,23 @@
 data: ['data/services/real-estate.json']
 ---
 {% set title = '' %}
-{% extends 'service.nunjucks' %}
+{% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
-{% block content %}
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('realEstate')}}
+  {% endblock %}
 
-{# {{nav.active('home')}} #}
-  {% block header %}
-   
-  {% endblock header %}
-
-  {% block topSubNav %}
-    {% include 'macros/submenus/tm_real-estate.nunjucks' %}
+  {% block subNav %}
+    {% import 'macros/submenus/tm_real-estate.nunjucks' as subnav %}
+    {{subnav.active('residential')}}
   {% endblock %}
 
   {% block sideNav %}
-    {% include 'macros/submenus/sm_real-estate.nunjucks' %}
+    {% import 'macros/submenus/sm_real-estate.nunjucks' as sidenav %}
+    {{sidenav.active('residential')}}
   {% endblock sideNav %}
 
   {% block overview %}
@@ -44,6 +44,7 @@ data: ['data/services/real-estate.json']
       <li class="bulleted-list__item">Help you read through and understand the provisions of the purchase and sale agreement, including how and when you will take title to and possession of the property</li>
       <li class="bulleted-list__item">Attend the closing and review all the documentation that you will be required to sign</li>
     </ul>
-  {% endblock overview %}
 
-{% endblock %}
+    {% include 'macros/submenus/bm_real-estate.nunjucks' %}
+
+  {% endblock overview %}

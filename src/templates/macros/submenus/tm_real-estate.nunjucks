@@ -1,3 +1,5 @@
-    <li class="services__list-item services__list-item"><a href="/services/real-estate/">Overview</a></li>
-    <li class="services__list-item"><a href="/services/real-estate/residential">Residential</a></li>
-    <li class="services__list-item"><a href="/services/real-estate/commercial">Commercial</a></li>
+{% macro active(activePage='') %}
+    <li class="services__list-item {%if activePage == 'overview' %}active{% endif %}"><a href="/services/real-estate/">Overview</a></li>
+    <li class="services__list-item {%if activePage == 'residential' %}active{% endif %}"><a href="/services/real-estate/residential">Residential</a></li>
+    <li class="services__list-item {%if activePage == 'commercial' %}active{% endif %}"><a href="/services/real-estate/commercial">Commercial</a></li>
+{% endmacro %}

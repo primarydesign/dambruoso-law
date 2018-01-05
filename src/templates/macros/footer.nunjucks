@@ -22,18 +22,18 @@
   </section>
   <nav class="footer__nav">
      <ul class="footer__nav-links">
-        <li class="footer__nav-item"><a class="footer__nav-link">Home</a></li>
-        <li class="footer__nav-item"><a class="footer__nav-link">Real Estate</a></li>
-        <li class="footer__nav-item"><a class="footer__nav-link">Estate Planning</a></li>
-        <li class="footer__nav-item"><a class="footer__nav-link">Business Law</a></li>
-        <li class="footer__nav-item"><a class="footer__nav-link">About</a></li>
-        <li class="footer__nav-item"><a class="footer__nav-link">Contact</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/">Home</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/services/real-estate">Real Estate</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/services/estate-planning">Estate Planning</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/services/business-law">Business Law</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/about">About</a></li>
+        <li class="footer__nav-item"><a class="footer__nav-link" href="/contact">Contact</a></li>
         <li class="footer__nav-item footer__nav-item--slash">/</li>
         <li class="footer__nav-item footer__nav-item--facebook">
-           <a class="footer__nav-link"><img src="/assets/img/icon_facebook.svg" ></a>
+           <a class="footer__nav-link" href="https://www.facebook.com/DuxburyLaw/" target="_blank"><img src="/assets/img/icon_facebook.svg" ></a>
         </li>
         <li class="footer__nav-item footer__nav-item--linkedin">
-           <a class="footer__nav-link"><img src="/assets/img/icon_linkedin.svg" ></a>
+           <a class="footer__nav-link" href="https://www.linkedin.com/in/robb-d-ambruoso-b2ab7ba/" target="_blank"><img src="/assets/img/icon_linkedin.svg"></a>
         </li>
         <li class="footer__nav-item"><p class="footer__copyright">&copy; 2017 D'Ambruoso Law LLC</p></li>
      </ul>

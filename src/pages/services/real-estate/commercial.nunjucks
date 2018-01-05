@@ -2,24 +2,23 @@
 data: ['data/services/real-estate.json']
 ---
 {% set title = '' %}
-{% extends 'service.nunjucks' %}
+{% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
-{% block content %}
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('realEstate')}}
+  {% endblock %}
 
-{# {{nav.active('home')}} #}
-
-  {% block header %}
-   
-  {% endblock header %}
-
-  {% block topSubNav %}
-    {% include 'macros/submenus/tm_real-estate.nunjucks' %}
+  {% block subNav %}
+    {% import 'macros/submenus/tm_real-estate.nunjucks' as subnav %}
+    {{subnav.active('commercial')}}
   {% endblock %}
 
   {% block sideNav %}
-    {% include 'macros/submenus/sm_real-estate.nunjucks' %}
+    {% import 'macros/submenus/sm_real-estate.nunjucks' as sidenav %}
+    {{sidenav.active('commercial')}}
   {% endblock sideNav %}
 
   {% block overview %}
@@ -32,6 +31,7 @@ data: ['data/services/real-estate.json']
       <li class="bulleted-list__item">Small business matters. As a small business owner, you may be interested in obtaining commercial space for your business. We assist with leasing, property acquisition, and any issues that may arise along the way.</li>
       <li class="bulleted-list__item">Construction Loans</li>
    </ul>
-  {% endblock overview %}
+   
+   {% include 'macros/submenus/bm_real-estate.nunjucks' %}
 
-{% endblock %}
+  {% endblock overview %}

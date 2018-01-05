@@ -2,8 +2,7 @@
 
   <body>
 
-    {% import 'macros/topnav.nunjucks' as nav %}
-    
+    {% import 'macros/topnav.nunjucks' as topnav %}
 
     {% block content %}
       Sorry, no content :(

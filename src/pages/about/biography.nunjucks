@@ -2,29 +2,32 @@
 data: ['data/services/real-estate.json']
 ---
 {% set title = '' %}
-{% extends 'service.nunjucks' %}
+{% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
-{% block content %}
-
-{# {{nav.active('home')}} #}
-
-  {% block header %}
-  {% endblock header %}
-
-  {% block topSubNav %}
-    <li class="services__list-item"><a href="/about">Experience You Can Trust</a></li>
-    <li class="services__list-item services__list-item--selected"><a>Biography</a></li>
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('about')}}
   {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_about.nunjucks' as subnav %}
+    {{subnav.active('biography')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_about.nunjucks' as sidenav %}
+    {{sidenav.active('biography')}}
+  {% endblock sideNav %}
 
   {% block overview %}
     <h1 class="section__heading">About</h1>
+    <h2 class="section__subheading">Biography</h2>
     <figure class="about__header">
       <img class="about__header-image" src="/assets/img/portrait_robb-dambruoso.jpg">
       <figcaption class="about__header-description">More than 15 years experience counseling clients big and small.</figcaption>
     </figure>
-    <h2 class="section__subheading">Biography</h2>
     <p class="service__paragraph">Robb D’Ambruoso focuses his practice on estate planning and business law matters, as well as real estate conveyancing. Following law school, Robb practiced general corporate law at three Am Law 100 firms: Winston &amp; Strawn LLP (Chicago), Locke Lord LLP (Boston), and most recently Wilmer Cutler Pickering Hale and Dorr LLP (Boston). During these seven years of private practice, Robb counseled a variety of companies ranging from start-ups to mature public companies on organizational, tax, corporate governance, and capital-raising issues, and closed hundreds of millions of dollars of corporate transactions.</p>
 
     <p class="service__paragraph">Robb subsequently transitioned into a corporate in-house role at a local Nasdaq-listed technology firm, where he honed his operational and commercial contract expertise. In addition to his corporate practice, Robb counsels clients from a variety of backgrounds with respect to wealth-management, tax-planning, and estate-planning matters. Robb also represents a number of lending institutions, purchasers and sellers in connection with real estate transactions.</p>
@@ -49,10 +52,3 @@ data: ['data/services/real-estate.json']
 
 
   {% endblock overview %}
-
-  {% block sideNav %}
-    <li class="services__list-item"><a href="/about">Experience You Can Trust</a></li>
-    <li class="services__list-item services__list-item--selected"><a>Biography</a></li>
-  {% endblock sideNav %}
-
-{% endblock %}

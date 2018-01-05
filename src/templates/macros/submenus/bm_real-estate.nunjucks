@@ -1,0 +1,5 @@
+<ul class="services__others-list">
+    <h2 class="section__subheading">Real Estate Services</h2>
+    <li class="services__others-list-item"><a href="/services/real-estate/residential">Residential Real Estate Transactions</a></li>
+    <li class="services__others-list-item"><a href="/services/real-estate/commercial">Commercial Real Estate Transactions</a></li>
+</ul>

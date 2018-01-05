@@ -1,0 +1,44 @@
+{% include 'partials/html-header.nunjucks'%}
+
+  <body>
+
+    {% block topnav %}
+      {% import 'macros/topnav.nunjucks' as topnav %}
+    {% endblock %}
+
+      <main id="businesslaw__subpage" class="template__subpage">
+            <section class="section__services group">
+
+               {% block header %}{% endblock header %}
+
+               <div class="services__container">
+                  <aside class="services__list-container">
+                     <ul class="services__service-list">
+
+                        {% block subNav %}{% endblock subNav %}
+
+                     </ul>
+                  </aside>
+                  <article class="service__details">
+
+                     {% block overview %}{% endblock overview %}
+
+                     <p class="service__paragraph">Questions? We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
+                  </article>
+                  <aside class="services__list-container services__list--aside">
+                     <ul class="services__service-list">
+
+                       {% block sideNav %}{% endblock sideNav %}
+
+                     </ul>
+                  </aside>
+               </div>
+            </section>
+         </main>
+
+{% include 'macros/footer.nunjucks' %}
+{% include 'partials/footer-scripts.nunjucks' %}
+
+</body>
+
+</html>

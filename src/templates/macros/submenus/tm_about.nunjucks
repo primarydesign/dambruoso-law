@@ -1,0 +1,4 @@
+{% macro active(activePage='') %}
+<li class="services__list-item {%if activePage == 'about' %}active{% endif %}"><a href="/about">Experience</a></li>
+<li class="services__list-item {%if activePage == 'biography' %}active{% endif %}"><a href="/about/biography">Biography</a></li>
+{% endmacro %}
