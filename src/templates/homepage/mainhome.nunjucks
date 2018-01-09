@@ -23,15 +23,7 @@
           </article>
       </section>
    </div>
-   <section class="callout">
-      <div class="callout__text">
-         <h2 class="section__heading">Testimonials</h2>
-         <p class="callout__statement callout__statement--quote">"Robb was great to work with. He's always willing to roll up his sleeves and dive in. I always knew I could count on him to answer my questions on matters of corporate law and to lend a hand on complex projects." <span class="callout__statement--author">&mdash; Penny Lenox, Assistant General Council at Avid Technology.</span>
-</p>
-         <a class="section__cta" href="/about">Our Experience</a>
-         <img class="callout__arrow--left" src="../assets/img/icon_arrow-left.svg"></a>
-         <img class="callout__arrow--right" src="../assets/img/icon_arrow-right.svg"></a>
-      </div>
-      <div class="callout__image callout__image--home"></div>
-   </section>
+
+   {% include 'partials/testimonials.nunjucks' %}
+
 </main>

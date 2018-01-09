@@ -26,12 +26,13 @@ data: ['data/services/real-estate.json']
   <h2 class="section__subheading">Commercial</h2>
    <p class="service__paragraph">D’Ambruoso Law’s attorneys look forward to helping you achieve your business goals, resolve disputes, and secure seamless transactions in commercial real estate matters such as the following:</p>
    <ul class="bulleted-list">
-      <li class="bulleted-list__item">Zoning, permits and appeals. We are adept at handling zoning law issues that arise during project proposals, as well as land use and zoning challenges.</li>
-      <li class="bulleted-list__item">Condominium law. Our firm works closely with those interested in condominium conversion, handling both the application and any zoning issues that arise.</li>
-      <li class="bulleted-list__item">Small business matters. As a small business owner, you may be interested in obtaining commercial space for your business. We assist with leasing, property acquisition, and any issues that may arise along the way.</li>
-      <li class="bulleted-list__item">Construction Loans</li>
+      <li class="bulleted-list__item"><em class="service__emphasis">Zoning, Permits and Appeals &mdash;</em> We are adept at handling zoning law issues that arise during project proposals, as well as land use and zoning challenges.</li>
+      <li class="bulleted-list__item"><em class="service__emphasis">Condominium Law &mdash;</em> Our firm works closely with those interested in condominium conversion, handling both the application and any zoning issues that arise.</li>
+      <li class="bulleted-list__item"><em class="service__emphasis">Small Business Matters &mdash;</em> As a small business owner, you may be interested in obtaining commercial space for your business. We assist with leasing, property acquisition, and any issues that may arise along the way.</li>
+      <li class="bulleted-list__item"><em class="service__emphasis">Commercial and Construction Loans &mdash;</em> Our firm represents both lenders and borrowers in closing a variety of commercial loans.</li>
+      <li class="bulleted-list__item"><em class="service__emphasis">Commercial Leases &mdash;</em> We draft and negotiate commercial leases for both landlords and tenants</li>
    </ul>
-   
+
    {% include 'macros/submenus/bm_real-estate.nunjucks' %}
 
   {% endblock overview %}

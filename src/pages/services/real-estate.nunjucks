@@ -39,4 +39,6 @@ data: ['data/services/real-estate.json']
 
   {% include 'macros/submenus/bm_real-estate.nunjucks' %}
 
-  {% endblock overview %}
+  <p class="service__paragraph"><strong>Questions?</strong> We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
+
+{% endblock overview %}

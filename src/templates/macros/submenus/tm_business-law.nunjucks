@@ -6,4 +6,5 @@
     <li class="services__list-item {%if activePage == 'commercialContracting' %}active{% endif %}"><a href="/services/business-law/commercial-contracting">Commercial Contracting</a></li>
     <li class="services__list-item {%if activePage == 'familyBusiness' %}active{% endif %}"><a href="/services/business-law/family-business-succession">Family Business</a></li>
     <li class="services__list-item {%if activePage == 'mergers' %}active{% endif %}"><a href="/services/business-law/mergers-acquisitions">Mergers &amp; Acquisitions</a></li>
+
 {% endmacro %}

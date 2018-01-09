@@ -23,7 +23,6 @@
 
                      {% block overview %}{% endblock overview %}
 
-                     <p class="service__paragraph">Questions? We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
                   </article>
                   <aside class="services__list-container services__list--aside">
                      <ul class="services__service-list">

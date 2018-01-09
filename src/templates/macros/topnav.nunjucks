@@ -4,7 +4,13 @@
    <nav class="header__nav">
       <ul class="header__nav-items">
 
-         <li class="header__nav-item header__nav-item--dropdown"><a class="header__nav-link {%if activePage == 'services' %}active{% endif %}" href="/services">Services</a></li>
+         <li class="header__nav-item header__nav-item--dropdown"><a class="header__nav-link" href="#">Services</a>
+           <ul class="dropdown-content">
+             <li class="dropdown__menu-item"><a class="header__nav-link {%if activePage == 'realEstate' %}active{% endif %}" href="/services/real-estate">Real Estate</a></li>
+             <li class="dropdown__menu-item"><a class="header__nav-link {%if activePage == 'estatePlanning' %}active{% endif %}" href="/services/estate-planning">Estate Planning</a></li>
+             <li class="dropdown__menu-item"><a class="header__nav-link {%if activePage == 'businessLaw' %}active{% endif %}" href="/services/business-law">Business Law</a></li>
+           </ul>
+         </li>
 
          <li class="header__nav-item header__nav-item--service"><a class="header__nav-link {%if activePage == 'realEstate' %}active{% endif %}" href="/services/real-estate">Real Estate</a></li>
 

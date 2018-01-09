@@ -9,7 +9,7 @@
 }
 .template__subpage {
    background: $blue;
-   padding: 60px 5%;
+   padding: 120px 5%;
    background-color: $blue;
    background-size: 100vmax;
    background-repeat: no-repeat;
@@ -37,7 +37,7 @@
       display: inline-block;
       padding: 1.5em;
       color: #fff;
-      text-decoration: none;
+      text-decoration: none !important;
    }
    &:hover, &.active {
       background: $yellow !important;
@@ -45,6 +45,9 @@
 }
 .service__details, .services__list--aside {
    background: rgba(255,255,255,.9);
+   @media (min-width: 1280px) {
+        min-height: 600px;
+   }
 }
 .service__details {
    padding: 30px;
@@ -71,6 +74,13 @@
 .service__paragraph {
    padding-bottom: 1.5em;
    line-height: 1.75;
+   strong {
+     font-weight: bold;
+     letter-spacing: 1px;
+   }
+}
+.service__emphasis {
+  font-weight: bold;
 }
 .bulleted-list {
    list-style: disc;
@@ -79,9 +89,8 @@
    line-height: 1.25;
 }
 .bulleted-list__item {
-   margin-bottom: .75em;
+   margin-bottom: 1em;
 }
-
 @media (min-width: $small) {
    #template__services {
       padding: 60px;
@@ -90,7 +99,6 @@
       padding: 60px 60px 15px;
    }
 }
-
 @media (min-width: $medium) {
    .services__container {
       display: flex;

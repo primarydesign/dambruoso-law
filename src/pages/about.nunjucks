@@ -28,9 +28,8 @@ data: ['data/services/real-estate.json']
     <blockquote class="about__blockquote">Our clients choose us because they demand the service and value that only a small, founder-managed firm can provide, while they are unwilling to sacrifice quality.</blockquote>
     <p class="service__paragraph">Founder Robb D’Ambruoso brings his years of experience at prominent local firms counseling corporate and high net worth clients to bear on your business and personal needs. While having gained invaluable experience working at blue chip private firms, Robb also has first-hand experience with client frustrations with large, bureaucratic organizations.</p>
     <p class="service__paragraph">We also understand that clients are looking for human touch and value beyond just legal expertise. As a small firm, we are able to take the time to learn about and understand your goals, and take our “service above all” commitment very seriously.</p>
-    <p class="service__paragraph">We are also cognizant of shrinking legal budgets and ever-increasing legal fees; our commitment to you is that you will receive the value that you and your hard-earned money are entitled to.</p>
     <p class="service__paragraph">Every day, we remind ourselves that the firm’s reputation is built on client satisfaction, and is only as good as our last client’s experience.</p>
-
+    <p class="service__paragraph"><strong>Questions?</strong> We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
     {% include 'macros/submenus/bm_about.nunjucks' %}
 
   {% endblock overview %}

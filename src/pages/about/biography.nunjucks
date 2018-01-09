@@ -42,14 +42,13 @@ data: ['data/services/real-estate.json']
        <li class="bulleted-list__item">University Scholar (highest undergraduate academic honor, awarded to fewer than 30 students per class)</li>
     </ul>
     <h3 class="section__subheading">Bar Admissions</h3>
-    <p class="about__paragraph">Illinois</p>
-    <p class="about__paragraph">Massachusetts</p>
     <ul class="bulleted-list about__bulleted-list">
-       <li class="bulleted-list__item">Member of the Massachusetts Bar Association</li>
+       <li class="bulleted-list__item">Illinois</li>
+       <li class="bulleted-list__item">Massachusetts</li>
     </ul>
     <h3 class="section__subheading">Personal</h3>
     <p class="about__paragraph">Robb lives with his wife and two young children in Duxbury, Massachusetts and is an outdoor enthusiast.</p>
 
     {% include 'macros/submenus/bm_about.nunjucks' %}
-    
+
   {% endblock overview %}

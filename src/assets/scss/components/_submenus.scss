@@ -1,9 +1,8 @@
 .submenu__side-list {
-  @media (max-width:1280px) {
+  @media (max-width:1279px) {
     display: none;
   }
 }
-
 .submenu__other-services, .services__others-list {
     font-family: $sans;
     display: inline-block;
@@ -12,7 +11,7 @@
     display: none;
   }
 }
-.services__others-list .services__others-list-item { 
+.services__others-list .services__others-list-item {
     border-top: 1px solid #e8af3d;
     line-height: 2;
     letter-spacing: 1px;
@@ -28,5 +27,3 @@
     text-decoration: none;
     color: #37485A;
 }
-
-

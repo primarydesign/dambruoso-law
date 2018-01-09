@@ -27,4 +27,6 @@
 
   {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
 
+  <p class="service__paragraph"><strong>Questions?</strong> We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
+
   {% endblock overview %}
