@@ -3,7 +3,7 @@
    color: #fff;
    text-align: center;
    @include smoothFont;
-   background: $blue url(../img/darkbg-callout_client-meeting.jpg) no-repeat 25%;
+   background: $blue url(../img/bg_tesimonials.jpg) no-repeat 25%;
    background-size: cover;
    @media (min-width: $small) {
       background: $blue;
@@ -13,13 +13,14 @@
 }
 .callout__text {
    position: relative;
+   overflow: hidden;
    display: inline-block;
    padding: 5% 12% 0 12%;
    font-size: .85em;
    @media (min-width: $small) {
       width: 34%;
       padding: 100px 8% 0 8%;
-      min-height: 500px;
+      min-height: 497px;
    }
    @media (min-width: $medium) {
           font-size: 1em;
@@ -31,7 +32,7 @@
       width: 50%;
       float: right;
       min-height: 600px;
-      background: $blue url(../img/callout_client-meeting.jpg) no-repeat 25%;
+      background: $blue url(../img/bg_tesimonials.jpg) no-repeat 25%;
       background-size: cover;
    }
 }
@@ -54,9 +55,9 @@
 .callout__cta {
    @extend .hero__cta;
 }
-.Wallop-item {
+.testimonial__carousel-item {
   display: none ;
 }
-.Wallop-item--current {
+.testimonial__carousel-item--current {
   display: block;
 }

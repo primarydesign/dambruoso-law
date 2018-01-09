@@ -34,11 +34,11 @@
    }
  }
 @media (min-width: $small) {
-   .hero {  
+   .hero {
       background-attachment: fixed;
       .hero__statement {
         font-size: 2em;
-        max-width: 600px;        
+        max-width: 600px;
       }
     }
    .main__hero-services {
@@ -59,8 +59,9 @@
   @media (min-width: $small) {
     background: none;
     padding: 0 0 2.5%;
-    border-bottom: 20px solid $dkblue; 
-  }       
+    border-bottom: 20px solid $dkblue;
+  }
+  a {text-decoration: none;}
 }
 .services-grid__service {
    display: block;
@@ -69,7 +70,7 @@
    padding: 15% 10%;
    border-bottom: 1px solid $blue;
    margin: 0 auto;
-   font-size: 1rem; 
+   font-size: 1rem;
    background: $dkblue;
    opacity: .95;
    font-family: $sans;
@@ -100,7 +101,7 @@
          }
       }
    }
-} 
+}
 .services-grid__service-heading {
    @include capSans;
    font-weight: 900;
@@ -133,10 +134,10 @@
    opacity: 1;
 }
 .services-grid__service-cta {
-  display: inline-block;        
+  display: inline-block;
   font-size: .8em;
   color: $yellow;
-  @include capSans;  
+  @include capSans;
   font-weight: 700;
   opacity: 1;
   @media (min-width: $small) {

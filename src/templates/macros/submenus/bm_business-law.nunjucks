@@ -1,6 +1,5 @@
 <ul class="services__others-list">
     <h2 class="section__subheading">Business Law Services</h2>
-    <li class="services__others-list-item"><a href="/services/estate-planning/wills">Wills</a></li>
     <li class="services__others-list-item"><a href="/services/business-law/">Overview</a></li>
     <li class="services__others-list-item"><a href="/services/business-law/business-formation">Business Formation</a></li>
     <li class="services__others-list-item"><a href="/services/business-law/corporate-governance">Corporate Governance</a></li>

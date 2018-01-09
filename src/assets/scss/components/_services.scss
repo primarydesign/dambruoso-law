@@ -37,7 +37,7 @@
       display: inline-block;
       padding: 1.5em;
       color: #fff;
-      text-decoration: none !important;
+      text-decoration: none;
    }
    &:hover, &.active {
       background: $yellow !important;
@@ -141,4 +141,7 @@
       width: 75%;
       padding: 60px 60px 30px;
    }
+}
+.services-grid__grid {
+  text-decoration: none;
 }

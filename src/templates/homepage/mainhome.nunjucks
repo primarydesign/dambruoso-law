@@ -24,6 +24,6 @@
       </section>
    </div>
 
-   {% include 'partials/testimonials.nunjucks' %}
+   {% include 'homepage/testimonials.nunjucks' %}
 
 </main>

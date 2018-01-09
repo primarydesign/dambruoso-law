@@ -1,39 +1,35 @@
-<section class="callout Wallop">
+<section class="callout testimonial__carousel">
    <ul class="callout__text Wallop-list">
      <h2 class="section__heading">Testimonials</h2>
-     <li class="Wallop-item">
+     <li class="testimonial__carousel-item">
       <p class="callout__statement callout__statement--quote">"Selling a dental practice can be stressful, but D'Ambruoso Law helped me get through the experience with little drama. I greatly appreciated Robb's professionalism, legal expertise, and good advice as well as his availability and prompt response to emails and questions. I would highly recommend Robb without hesitation and would also use his services in the future, should the need arise."
       <span class="callout__statement--author">&mdash; Steve K.</span></p>
      </li>
-     <li class="Wallop-item">
-        <p class="callout__statement callout__statement--quote">"Robb shattered the typical stereotype of the lawyer. He is a kind-hearted gentleman, eager to help and very disciplined in the field of law. Working with him was one of the smoothest branding and design projects I have ever had the joy of working on. Every thought, every suggestion he expressed during the process made perfect sense. After branding the firm, when all was said and done, Robb was there for me with expert advice and insight into the formation of my own company, SmartHUD, Inc. Thank you Robb!"
-        <span class="callout__statement--author">&mdash; Michael A., Founder, SmartHUD, Inc.</span></p>
-      </li>
-      <li class="Wallop-item">
+      <li class="testimonial__carousel-item">
          <p class="callout__statement callout__statement--quote">"After so many years of working with other professionals it is finally a blessing to have found you and the supporting staff folks to help make sense of our lives. We thank you for all your efforts and your ability to translate legal matters into more understandable language for the lay persons. Peace and many blessings."
           <span class="callout__statement--author">&mdash; Penny L., Assistant General Council at Avid Technology.</span></p>
      </li>
-     <li class="Wallop-item">
-      <p class="callout__statement callout__statement--quote">"Thank you for emailing the docs, and for everything else you did to make this all happen. I'm so glad that you were referred to me - you helped make what could have been an otherwise stressful process seem effortless. I truly appreciate it."
-      <span class="callout__statement--author">&mdash; Effie P.</span></p>
+     <li class="testimonial__carousel-item">
+        <p class="callout__statement callout__statement--quote">"Thank you for emailing the docs, and for everything else you did to make this all happen. I'm so glad that you were referred to me - you helped make what could have been an otherwise stressful process seem effortless. I truly appreciate it."
+        <span class="callout__statement--author">&mdash; Effie P.</span></p>
      </li>
-     <li class="Wallop-item">
+     <li class="testimonial__carousel-item">
         <p class="callout__statement callout__statement--quote">"We appreciate your work so very much and feel a great relief. Molly just said that the best thing about this whole experience is that we got to meet and work with a terrific attorney and great person, Robb. We mean that sincerely."
         <span class="callout__statement--author">&mdash; Albert C.</span></p>
       </li>
-      <li class="Wallop-item">
+      <li class="testimonial__carousel-item">
          <p class="callout__statement callout__statement--quote">"I just really want to thank you for all of your efforts getting this accomplished. I also want you to know that I appreciate the fact that you have tirelessly had our best interests in mind the entire time and have worked to get this accomplished even in the face of resistance. Rest assured I know I am in good hands."
           <span class="callout__statement--author">&mdash; Patti D.</span></p>
      </li>
-     <li class="Wallop-item">
-      <p class="callout__statement callout__statement--quote">"We can't thank you all enough for not only each of your outstanding expertise in this more difficult transaction, but also for your above and beyond commitment to working together to close this deal! I really don't know where Kim and I would be without you in this journey!"
-      <span class="callout__statement--author">&mdash; Sarah G.</span></p>
+     <li class="testimonial__carousel-item">
+        <p class="callout__statement callout__statement--quote">"We can't thank you all enough for not only each of your outstanding expertise in this more difficult transaction, but also for your above and beyond commitment to working together to close this deal! I really don't know where Kim and I would be without you in this journey!"
+        <span class="callout__statement--author">&mdash; Sarah G.</span></p>
      </li>
-     <li class="Wallop-item">
+     <li class="testimonial__carousel-item">
         <p class="callout__statement callout__statement--quote">"Dear Robb, we wanted to thank you for all that you did in helping us close on our property. You kept everyone honest, and helped orchestrate the deal. We appreciate all of your efforts. Thanks again. "
         <span class="callout__statement--author">&mdash; Marilyn & Gary B.</span></p>
       </li>
-      <li class="Wallop-item">
+      <li class="testimonial__carousel-item">
          <p class="callout__statement callout__statement--quote">"I want to thank you for working with me on this transaction, and in the less-than-ideal circumstances we had at the outset. You have been such a pleasure to work with, and I do appreciate all the extra explanations, diligence, etc. Your work is high quality and you have been very customer-oriented. I will reach out to you again once I have a plan for my next place, and I would recommend you to anyone."
           <span class="callout__statement--author">&mdash; Christina G.</span></p>
      </li>
@@ -43,9 +39,3 @@
    </ul>
  <div class="callout__image callout__image--home"></div>
 </section>
-
-<script src="https://rawgit.com/peduarte/wallop/master/js/Wallop.min.js" type="text/javascript"></script>
-<script>
-var wallopEl = document.querySelector('.Wallop');
-var wallop = new Wallop(wallopEl);
-</script>
