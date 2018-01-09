@@ -1,0 +1,43 @@
+{% set title = 'Business Formation - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('businessFormation')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('businessFormation')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Business Formation</h2>
+  <p class="service__paragraph">As entrepreneurs ourselves, at D’Ambruoso Law we understand start-up clients’ unique mentality, and the need for practical, timely and cost-effective advice. As a small, service-oriented firm, we are able to take the time to learn about and understand your business, and will ensure that you choose the best type of entity, taking into account your business model, desired ownership structure, jurisdictional and tax issues, and liability concerns. We prepare and file the documents needed to organize a corporation, partnership, or limited liability company, including organizational documents such as: </p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Certificate of Incorporation or Articles of Association</li>
+    <li class="bulleted-list__item">Certificate of Formation or Organization</li>
+    <li class="bulleted-list__item">Partnership Agreement</li>
+    <li class="bulleted-list__item">Operating (LLC) Agreement</li>
+    <li class="bulleted-list__item">Corporate By-laws</li>
+  </ul>
+  <p class="service__paragraph">In connection with business entity formation, we also advise our clients on ownership issues, including initial stock issuances and subscriptions, the implementation of equity-based incentive schemes, and restrictions on transfer. We prepare the documents necessary to effect equity investments and to govern the relationship among business owners, including:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Voting Agreements</li>
+    <li class="bulleted-list__item">Investor Rights Agreements</li>
+    <li class="bulleted-list__item">Registration Rights Agreements</li>
+    <li class="bulleted-list__item">Charter or operating agreement provisions governing the economic and other rights of various classes of stock or unit </li>
+    <li class="bulleted-list__item">Subscription and stockholder buy-sell and cross-purchase agreements</li>
+  </ul>
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

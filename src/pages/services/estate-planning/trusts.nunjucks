@@ -1,0 +1,45 @@
+{% set title = 'Revocable and Irrevocable Trusts - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('trusts')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('trusts')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Revocable and Irrevocable Trusts</h2>
+  <p class="service__paragraph">A trust is a device used to hold legal title to property for the benefit of one or more beneficiaries, and they have become an indispensable element of modern estate planning. Assets held in trust are not subject to the slow and costly probate administration process, allowing beneficiaries ready access to funds upon death, which can be essential to avoiding an interruption in dependents’ lifestyles following the loss of a primary earner. Trusts are also generally more flexible than wills, not requiring the same creation or amendment formalities, nor subject to the public disclosure of their terms during probate.
+  <p class="service__paragraph">Additionally, trusts are useful for protecting and controlling the distribution of assets: for example, a “spendthrift” trust’s assets are protected from a beneficiary’s creditors and a “discretionary” trust grants a trustee total discretion in determining the distribution of assets to designated beneficiaries, often useful for minor or young adult beneficiaries. An irrevocable trust is a useful tax-planning tool, as the pre-death transfer of assets into such a trust can reduce the grantor's gross estate, thereby reducing potential estate tax liability. At D’Ambruoso Law, we specialize in counseling clients on the strategy, development and implementation of a wide range of revocable and irrevocable trusts, including:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Special-needs trusts</li>
+    <li class="bulleted-list__item">Discretionary trusts</li>
+    <li class="bulleted-list__item">Charitable remainder trusts</li>
+    <li class="bulleted-list__item">Irrevocable life insurance trusts</li>
+    <li class="bulleted-list__item">Credit shelter trusts</li>
+    <li class="bulleted-list__item">Generation-skipping trusts</li>
+    <li class="bulleted-list__item">Qualified Personal Residence Trusts</li>
+  </ul>
+  <p class="service__paragraph">If you have questions about establishing a trust, an experienced estate-planning lawyer is here for you. We will work with you to make it part of an estate plan that suits your unique legal and financial objectives.
+.</p>
+
+<h2 class="section__subheading">Trust Administration</h2>
+<p class="service__paragraph">A trustee is the person or entity holding legal title to the assets placed into a trust. While subject to a fiduciary duty to administer the trust in accordance with its terms and for the benefit of its designated beneficiaries, a trustee typically also has extensive discretion and management powers over the trust, including the powers of sale and investment, responsibility to account for the trust's income and manage costs, reporting requirements, and responsibility for making disbursements while following or interpreting the expressed intentions of the grantor or decedent. Without proper legal guidance, this burden can be overwhelming and can expose the trustee to significant liability.</p>
+<p class="service__paragraph">At D’Ambruoso Law, we can lighten or relieve these burdens by providing a complete range of cost-effective trust administration services. Clients have the assurance that all affairs of the trust will be managed in an efficient, orderly and conscientious manner.</p>
+
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

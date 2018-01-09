@@ -1,0 +1,10 @@
+<ul class="services__others-list">
+    <h2 class="section__subheading">Estate Planning Services</h2>
+    <li class="services__others-list-item"><a href="/services/estate-planning/wills">Wills</a></li>
+    <li class="services__others-list-item"><a href="/services/estate-planning/trusts">Revocable and Irrevocable Trusts</a></li>
+    <li class="services__others-list-item"><a href="/services/estate-planning/incapacity-planning">Incapacity Planning</a></li>
+    <li class="services__others-list-item"><a href="/services/estate-planning/lifetime-gifting-strategies">Lifetime Gifting Strategies</a></li>
+    <li class="services__others-list-item"><a href="/services/estate-planning/pet-trusts">Pet Trusts</a></li>
+    <li class="services__others-list-item"><a href="/services/estate-planning/divorce">Wealth-Planning Implications of Divorce</a></li>
+</ul>
+<style>#template__subpage {background-image: url(/assets/img/bg_estateplanning.jpg)!important}</style>

@@ -1,0 +1,35 @@
+{% set title = 'Revocable and Irrevocable Trusts - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('divorce')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('divorce')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Wealth-Planning Implications of Divorce</h2>
+  <p class="service__paragraph">A typical person’s estate plan centers on the other spouse. The husband or wife likely has powers of attorney in the event of disability, and that spouse is probably the primary beneficiary in the event of death. The house, investments and debts are all intertwined. Divorce can void portions of your will and estate-planning documents, including any jointly funded trusts. It may be necessary to start over and address who inherits your assets, and who governs your affairs if you cannot. Divorce also has ramifications for your retirement nest egg, long-term care plans, estate taxes and, perhaps, bankruptcy.
+  <p class="service__paragraph">If you are preparing for divorce or recently divorced, we will sit down with you to address all the relevant issues and revise your estate plan accordingly, including:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Re-titling assets and creating new trusts</li>
+      <li class="bulleted-list__item">Changing beneficiaries of trusts, life insurance policies, etc.</li>
+      <li class="bulleted-list__item">Redrafting your will, powers of attorney and health care proxies</li>
+  </ul>
+
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

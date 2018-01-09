@@ -1,0 +1,39 @@
+{% set title = 'Corporate Governance - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('corporateGovernance')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('corporateGovernance')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Corporate Governance</h2>
+  <p class="service__paragraph">Having represented numerous private and public entities in various industries and stages of development, coupled with in-house counsel experience, we have a thorough understanding of, and take a practical approach to, corporate governance matters, including the following:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Officer and director duties and liabilities</li>
+    <li class="bulleted-list__item">Risk oversight and management</li>
+    <li class="bulleted-list__item">Board and committee structure and operations</li>
+    <li class="bulleted-list__item">Governance documents such as charters, bylaws, and codes of conduct</li>
+    <li class="bulleted-list__item">Compliance programs and protocol</li>
+    <li class="bulleted-list__item">Effective audit functions and Sarbanes-Oxley compliance</li>
+    <li class="bulleted-list__item">Creation of corporate divisions and subsidiaries</li>
+    <li class="bulleted-list__item">Severance arrangements</li>
+    <li class="bulleted-list__item">Executive compensation and indemnification</li>
+  </ul>
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

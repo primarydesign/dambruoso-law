@@ -31,4 +31,6 @@ data: ['data/services/real-estate.json']
     <p class="service__paragraph">We are also cognizant of shrinking legal budgets and ever-increasing legal fees; our commitment to you is that you will receive the value that you and your hard-earned money are entitled to.</p>
     <p class="service__paragraph">Every day, we remind ourselves that the firm’s reputation is built on client satisfaction, and is only as good as our last client’s experience.</p>
 
+    {% include 'macros/submenus/bm_about.nunjucks' %}
+
   {% endblock overview %}

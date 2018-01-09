@@ -1,0 +1,29 @@
+{% set title = 'Family Business Succession and Transitions - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('familyBusiness')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('familyBusiness')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Family Business Succession and Transitions</h2>
+  <p class="service__paragraph">From personal experience, we recognize that there comes a time when many family businesses need to plan for and execute an intergenerational or other family transfer of ownership or management. We are sensitive and attuned to the personal dynamics and impacts of such decisions, and will work with you to achieve a smooth and efficient transition, by ensuring value preservation and legal compliance. Our estate-planning expertise allows us to coordinate this business and succession planning with an owners’ estate plan, for maximum tax efficiency in light of income, estate, and gift tax laws.</p>
+
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

@@ -1,0 +1,28 @@
+{% set title = 'Lifetime Gifting Strategies - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('giftingStrategies')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('giftingStrategies')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Lifetime Gifting Strategies</h2>
+  <p class="service__paragraph">As part of your estate plan, D’Ambruoso Law can help you identify and employ charitable and other gifting strategies to take advantage of annual and lifetime estate- and gift-tax exclusions, to protect family real estate holdings, or transfer wealth to reduce estate-tax liability. Our attorneys are experienced in the use of a wide range of trusts and tools to accomplish your estate planning goals.</p>
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

@@ -1,0 +1,30 @@
+{% set title = 'Wills Estate Planning Services - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('wills')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('wills')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Wills</h2>
+  <p class="service__paragraph">A will, often used in conjunction with one or more trusts, is an indispensable estate-planning tool. As most people know, a will serves to identify one’s intentions concerning the distribution of property owned at death; in its absence, such property is distributed according to state intestacy law, with potentially unintended consequences. For example, if a married person dies without a will in Massachusetts, nearly one-quarter of the deceased’s assets may pass to a parent or descendant rather than the spouse. A will is also valuable as it can dictate who will administer one’s assets at death, and who will become one’s children’s legal guardian at death – things better not left to chance. Lastly, a will is one means to ensure that wishes regarding end of life healthcare are respected.</p>
+  <p class="service__paragraph">We commonly prepare a “pour-over" will, which operates in conjunction with a trust established prior to death. Such a process permits substantial amounts of property to pass by will without making the identity of the beneficiaries and the nature of their interests a matter of public record, which is of great value to clients who wish to protect their privacy and the privacy of their heirs. Additionally, an inter vivos trust can be amended up until death without amending an existing will or executing a new will.</p>
+  <p class="service__paragraph">It is important to consult with an attorney who will not only protect you, but also work with you to keep current your wills and various other estate planning documents. Following any major change in your life, it is important to evaluate your comprehensive estate plan to determine if any changes and/or updates are required to be made. When possible, we will amend an existing trust or draft will codicils (amendments) to fine-tune your will without having to create a brand new document.</p>
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

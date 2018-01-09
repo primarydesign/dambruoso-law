@@ -6,7 +6,7 @@
       {% import 'macros/topnav.nunjucks' as topnav %}
     {% endblock %}
 
-      <main id="businesslaw__subpage" class="template__subpage">
+      <main id="template__subpage" class="template__subpage">
             <section class="section__services group">
 
                {% block header %}{% endblock header %}

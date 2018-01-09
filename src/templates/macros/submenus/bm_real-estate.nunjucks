@@ -3,3 +3,4 @@
     <li class="services__others-list-item"><a href="/services/real-estate/residential">Residential Real Estate Transactions</a></li>
     <li class="services__others-list-item"><a href="/services/real-estate/commercial">Commercial Real Estate Transactions</a></li>
 </ul>
+<style>#template__subpage {background-image: url(/assets/img/bg_residential.jpg)!important;}</style>

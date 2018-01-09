@@ -1,0 +1,35 @@
+{% set title = 'Commercial Contracting - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('commercialContracting')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('commercialContracting')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Commercial Contracting</h2>
+  <p class="service__paragraph">No matter the size or type of enterprise, commercial contracts are a mainstay of all businesses, setting forth the rights and obligations of your organization and the entities or individuals with which you interact. We can generate custom forms and templates, draft and advise on transaction-specific agreements, or review your current contracting practices to manage risk and increase your operation’s efficiency. Whether you retain us to manage a discrete project or completely outsource your contracting function to us on a short- or long-term basis, our firm will free up your important internal resources so that you can focus your efforts on strategy and growth. Among the types of contracts that we’re experienced in are the following:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Vendor agreements</li>
+    <li class="bulleted-list__item">Distributor, representative and reseller agreements (including licensing)</li>
+    <li class="bulleted-list__item">Customer contracts, including terms and conditions governing credit, sales and licensing</li>
+    <li class="bulleted-list__item">Real estate leases</li>
+    <li class="bulleted-list__item">Third party collaboration, joint venture, teaming, and confidentiality agreements</li>
+  </ul>
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

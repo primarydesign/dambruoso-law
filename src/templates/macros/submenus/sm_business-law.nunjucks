@@ -1,0 +1,12 @@
+{% macro active(activePage='') %}
+<ul class="submenu__side-list">
+  <li class="services__list-item {%if activePage == 'overview' %}active{% endif %}"><a href="/services/business-law/">Overview</a></li>
+  <li class="services__list-item {%if activePage == 'businessFormation' %}active{% endif %}"><a href="/services/business-law/business-formation">Business Formation</a></li>
+  <li class="services__list-item {%if activePage == 'corporateGovernance' %}active{% endif %}"><a href="/services/business-law/corporate-governance">Corporate Governance</a></li>
+  <li class="services__list-item {%if activePage == 'financing' %}active{% endif %}"><a href="/services/business-law/financing">Financing</a></li>
+  <li class="services__list-item {%if activePage == 'commercialContracting' %}active{% endif %}"><a href="/services/business-law/commercial-contracting">Commercial Contracting</a></li>
+  <li class="services__list-item {%if activePage == 'personnel' %}active{% endif %}"><a href="/services/business-law/personnel">Personnel and Other Operational Matters</a></li>
+  <li class="services__list-item {%if activePage == 'familyBusiness' %}active{% endif %}"><a href="/services/business-law/family-business-succession">Family Business Succession &amp; Transitions</a></li>
+  <li class="services__list-item {%if activePage == 'mergers' %}active{% endif %}"><a href="/services/business-law/mergers-acquisitions">Mergers &amp; Acquisitions</a></li>
+</ul>
+{% endmacro %}

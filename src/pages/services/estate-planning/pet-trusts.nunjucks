@@ -1,0 +1,39 @@
+{% set title = 'Revocable and Irrevocable Trusts - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('petTrusts')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('petTrusts')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Pet Trusts</h2>
+  <p class="service__paragraph">As a pet owner, you want the best for your pets. Creating a pet trust as part of your comprehensive estate plan will ensure that your pets are well cared for and that your wishes are carried out after you are no longer able to care for your animals. A pet trust will ensure that your pet receives the proper care and support by:</p>
+
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Appointing a pet guardian</li>
+      <li class="bulleted-list__item">Appointing a trustee to oversee and manage the funds of the pet trust</li>
+      <li class="bulleted-list__item">Outlining your wishes regarding medical care</li>
+      <li class="bulleted-list__item">Giving direction about your pet’s needs and routines</li>
+      <li class="bulleted-list__item">Providing a source of funds for your pet’s care</li>
+  </ul>
+  
+  <p class="service__paragraph">We cannot be certain that we will outlive our pets and yet they will always depend on us for their care. Proper planning ensures that your pets will be cared for in the event of your death, incapacity or during temporary emergencies.</p>
+
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

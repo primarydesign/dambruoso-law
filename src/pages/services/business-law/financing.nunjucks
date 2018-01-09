@@ -1,0 +1,33 @@
+{% set title = 'Financing Business Law - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('financing')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('financing')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Financing</h2>
+  <p class="service__paragraph">Whether your company already has outside financing or is seeking to borrow or raise capital for the first time, you can rely on D’Ambruoso Law to guide you through the process and negotiate the most favorable terms. We will help you identify and evaluate potential investors or lenders, and organize and update your business files in preparation for third parties’ due diligence reviews.
+  <h2 class="section__subheading">Equity</h2>
+  <p class="service__paragraph">We have substantial experience in angel and venture-financing, as well as later-stage private placements and can help you protect your existing ownership stake while extracting the maximum value from an equity issuance. We will work with you to prepare your private placement memorandum and will make the necessary filings to ensure compliance with Regulation D and Federal and state securities laws.</p>
+  <h2 class="section__subheading">Debt</h2>
+  <p class="service__paragraph">If debt financing suits your business’s needs, we will assist you in evaluating your options and identifying an appropriate type of facility, whether a term, demand or revolving credit facility, including private non-bank loans. We have negotiated millions of dollars worth of secured and unsecured loans, including asset-based lending transactions such as borrowing-base working capital facilities and factoring facilities. Count on us to prepare or review documentation ranging from term sheets to security agreements to credit agreements.</p>
+
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

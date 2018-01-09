@@ -1,0 +1,39 @@
+{% set title = 'Incapacity Planning - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('incapacityPlanning')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('incapacityPlanning')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Incapacity Planning</h2>
+  <p class="service__paragraph">Nearly as unpleasant as contemplating death, is contemplating incapacity—the substantial impairment of one’s physical or mental faculties, whether temporary or long-term. While no one finds it easy to face the prospect of incapacity, failing to plan for the same can have dramatic negative consequences.</p>
+  <p class="service__paragraph">Financially, without proper planning, neither a legally incapacitated individual nor family member may have access to the individual’s financial resources, allowing unpaid bills to mount up, credit to be damaged, and liens on assets to be imposed. Property may waste while no one manages it, and investments can suffer with no one at the helm. An individual may also lose the advantages of timely and appropriate exercise of contractual or tax rights.</p>
+  <p class="service__paragraph">The medical consequences of incapacity may be equally damaging. Medical or mental health needs may go unaddressed because no one is authorized to consent to treatment for the individual. Choices for appropriate living arrangements or long-term care may be ignored because no one has authority to arrange for admission or entry to a suitable facility. In the absence of a valid legal document it may be unclear to the physician who has the authority to make therapeutic and course-of-treatment decisions on an incapacitated person’s behalf.</p>
+  <p class="service__paragraph">Apart from the humane and emotional benefits that this planning provides, advance medical directives can significantly reduce the estimated 90% of lifetime medical spending that occurs in the last 12 months of a person’s life, conserving assets that an incapacitated and terminally ill person may prefer be passed on to his or her heirs.</p>
+  <p class="service__paragraph">Among the instruments that we prepare to effect a person’s wishes are the following:</p>
+  <h2 class="section__subheading">Durable Power of Attorney</h2>
+  <p class="service__paragraph">A durable power of attorney for healthcare grants a family member or another trusted person the full authority to make health-care decisions on your behalf.</p>
+  <h2 class="section__subheading">Appointment of a Healthcare Proxy</h2>
+  <p class="service__paragraph">This instrument is the most widely recognized device in Massachusetts. Once it is determined, pursuant to statute, that a principal lacks the capacity to make or communicate healthcare decisions, the agent appointed as healthcare proxy becomes empowered to make healthcare decisions on the principal’s behalf. This instrument becomes effective any time a principal is incapacitated, not solely at end-of-life.</p>
+  <h2 class="section__subheading">Living Will</h2>
+  <p class="service__paragraph">Although not recognized as a valid legal document in Massachusetts, a living will can serve as valuable evidence, or apply to out-of-state clients. This document gives specific instructions about the type of medical care one would or would not like to receive, such as the withdrawal or withholding of life-sustaining treatment.</p>
+  <p class="service__paragraph">We consider end-of-life healthcare planning and advance medical directives to be a crucial part of every estate plan. Many people find it difficult to think of such issues; they are uncomfortable with the topic or are unsure about how to plan for end-of-life medical care. D’Ambruoso Law’s compassionate estate planning attorneys have experience helping people consider these important topics and can provide the knowledgeable legal guidance you need to make these difficult decisions.</p>
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}

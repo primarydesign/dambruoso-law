@@ -1,0 +1,30 @@
+{% set title = 'Business Law Legal Services - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('overview')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('overview')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Overview</h2>
+  <p class="service__paragraph">Starting and/or running a business is challenging and demanding enough without having to address the innumerable legal issues that inevitably arise, many of which can appear daunting to a non-lawyer. At D’Ambruoso Law, we understand that through the eyes of a businessperson, there is no such thing as a “legal issue” – all the issues confronting a business are business issues.</p>
+  <p class="service__paragraph">We are business counselors as much as we are lawyers, and are committed to minimizing legal jargon and taking a firm position, in order to give you the sound and useful advice you need as we guide you through the business and legal obstacles that you face. When you have a question, you will get a timely, direct answer, not a “black letter law” memo with a big price tag that will inevitably find its way to the back of your filing cabinet.</p>
+  <p class="service__paragraph">As your partners in business, count on us for efficiently delivered, practical, and results-oriented advice to help you achieve your business goals.</p>
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

@@ -1,0 +1,37 @@
+{% set title = 'Personnel and Operational Matters - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('businessLaw')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_business-law.nunjucks' as subnav %}
+    {{subnav.active('personnel')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_business-law.nunjucks' as sidenav %}
+    {{sidenav.active('personnel')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Business Law</h1>
+  <h2 class="section__subheading">Personnel and Operational Matters</h2>
+  <p class="service__paragraph">D’Ambruoso Law is standing by to assist you with any of the dozens of legal-related operational matters that inevitably arise while operating a business. Though clichéd, it is indisputable that getting sound legal advice early in a process can prevent or mitigate potentially large and expensive or intractable issues down the road. As an example, a simple measure such as having an employee sign an assignment of intellectual property agreement can avoid tremendously costly disputes, or even the failure of a company sale transaction, years later. Among the many crucial issues that we can advise on are the following:</p>
+  <ul class="bulleted-list">
+    <li class="bulleted-list__item">Protection of intellectual property</li>
+    <li class="bulleted-list__item">Executive and other employment contracts</li>
+    <li class="bulleted-list__item">Consultant and independent contractor arrangements</li>
+    <li class="bulleted-list__item">Personnel invention assignment, non-competition, and confidentiality agreements</li>
+    <li class="bulleted-list__item">Assorted other employment issues such as employee handbooks and hiring and firing guidance (e.g., separation and release arrangements)</li>
+    <li class="bulleted-list__item">Equity compensation schemes and awards</li>
+    <li class="bulleted-list__item">The preparation and implementation of company policies, including Data Security, Website Privacy and Document Retention</li>
+  </ul>
+
+  {% include 'macros/submenus/bm_business-law.nunjucks' %}
+
+  {% endblock overview %}

@@ -1,0 +1,30 @@
+{% set title = 'Estate Planning Services - ' %}
+{% extends 'subpage.nunjucks' %}
+{% block title %}<title> {{siteTitle}} </title>{% endblock %}
+{% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
+
+  {% block topnav %}
+    {% import 'macros/topnav.nunjucks' as topnav %}
+    {{topnav.active('estatePlanning')}}
+  {% endblock %}
+
+  {% block subNav %}
+    {% import 'macros/submenus/tm_estate-planning.nunjucks' as subnav %}
+    {{subnav.active('overview')}}
+  {% endblock %}
+
+  {% block sideNav %}
+    {% import 'macros/submenus/sm_estate-planning.nunjucks' as sidenav %}
+    {{sidenav.active('overview')}}
+  {% endblock sideNav %}
+
+  {% block overview %}
+  <h1 class="section__heading">Estate Planning</h1>
+  <h2 class="section__subheading">Overview</h2>
+  <p class="service__paragraph">While death is an unpleasant topic to contemplate, and most would rather not plan for it, Benjamin Franklin’s astute observation that “in this world nothing is certain but death and taxes” remains as true today as it ever was. Fortunately, modern estate planning tools enable sophisticated legal counsel to mitigate a death’s effect on taxes. That being said, a well-considered estate plan does much more than provide for a tax-efficient disbursement of one’s assets at death; among other things, it grows and conserves lifetime wealth, governs who will care for minor children, appoints one or more persons to carry out a deceased’s wishes and administer the estate, provides for a smooth and efficient settlement of the estate’s affairs, and ensures that one’s wishes will be carried out in the event of mental or physical incapacity.</p>
+  <p class="service__paragraph">At D’Ambruoso Law, we understand that each client has unique concerns, and unlike many larger firms, we can and will take the time to get to know—and work with—you, your family and your trusted advisors to understand your financial situation, goals, and objectives. By listening attentively to the needs of you and your dependents, our knowledgeable and dedicated attorneys will educate themselves as to your personal and financial situation in order to craft a well-tailored estate plan that operates as a seamless element of your family’s overall financial plan.</p>
+  <p class="service__paragraph">Wealth preservation and protection require an appreciation of the current and future needs of our clients and of those who depend on them. Multi-generational planning requires cutting-edge legal and tax planning techniques and an appreciation of the human dynamics involved therein. By both listening to our clients and staying abreast of ever-changing tax and estate law, we deliver on both fronts. Our clients rely on us to help them make prudent business, financial, and personal decisions and we take that responsibility seriously.</p>
+
+  {% include 'macros/submenus/bm_estate-planning.nunjucks' %}
+
+  {% endblock overview %}
