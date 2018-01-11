@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Mergers &amp; Acquisitions - ' %}
+{% set metadescription = 'We have closed billions of dollars of M&A and restructuring transactions of all sizes and across myriad industries.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
@@ -25,7 +26,7 @@ data: ['data/services/business-law.json']
   <h1 class="section__heading">Business Law</h1>
   <h2 class="section__subheading">Mergers &amp; Acquisitions</h2>
   <p class="service__paragraph">When it comes time to monetize your “sweat equity” and sell your company or exit an investment, you can rely on us to extract the maximum value from your enterprise and efficiently negotiate and close the transaction, taking a pragmatic approach. Our cradle-to-grave service commitment means that we will be by your side every step of the way, from helping you prepare and organize your organizational and operational files for optimal due diligence, to negotiating an airtight term sheet, to preparing the acquisition documentation and regulatory filings necessary to close your transaction.</p>
-  <p class="service__paragraph">We have closed billions of dollars of M&A and restructuring transactions of all sizes and across myriad industries, in forms ranging from asset transfers, to leveraged buyouts, to recapitalizations, and will guide you around the process’s many pitfalls. We bring this same skill set to bear on the “buy-side,” if you aim to grow your business through strategic acquisition or investment.
+  <p class="service__paragraph">We have closed billions of dollars of M&amp;A and restructuring transactions of all sizes and across myriad industries, in forms ranging from asset transfers, to leveraged buyouts, to recapitalizations, and will guide you around the process’s many pitfalls. We bring this same skill set to bear on the “buy-side,” if you aim to grow your business through strategic acquisition or investment.
   </p>
 
 

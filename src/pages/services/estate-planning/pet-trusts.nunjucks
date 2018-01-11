@@ -1,4 +1,5 @@
 {% set title = 'Revocable and Irrevocable Trusts - ' %}
+{% set metadescription = 'Creating a pet trust as part of your comprehensive estate plan will ensure that your pets are well cared for and that your wishes are carried out after you are no longer able to care for your animals.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
@@ -30,7 +31,7 @@
       <li class="bulleted-list__item">Giving direction about your pet’s needs and routines</li>
       <li class="bulleted-list__item">Providing a source of funds for your pet’s care</li>
   </ul>
-  
+
   <p class="service__paragraph">We cannot be certain that we will outlive our pets and yet they will always depend on us for their care. Proper planning ensures that your pets will be cared for in the event of your death, incapacity or during temporary emergencies.</p>
 
 

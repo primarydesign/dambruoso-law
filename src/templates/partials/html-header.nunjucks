@@ -3,39 +3,12 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="format-detection" content="telephone=no">
-
-    {% block css %}
-    <!--build:css /css/styles.css-->
     <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
-    <!--endbuild-->
-    {% endblock %}
-
-    {% block headScripts %}
-    <!--build:js js/head.min.js -->
-    {# <script src="https://use.typekit.net/qbp5vqk.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-75336473-1', 'auto');
-      ga('send', 'pageview');
-    </script> #}
-
-    <!--endbuild -->
-    {% endblock %}
 
     {# For SEO #}
     {% block title %}<title> {{title}} D'Ambruoso Law - Real Estate | Estate Planning | Business Law </title>{% endblock %}
     {% block desc %} <meta name="description" content="{% if metadescription %}{{metadescription}}
     {% else %} {{siteDescription}}
     {% endif %}"/>{% endblock %}
-
-    {% block canonical %} {# Canonical Tag here #} {% endblock %}
-
-    {# Possible to ensure Google doesn't index pages with ROBOTS #}
-    {# Example: <meta name="robots" content="noindex, nofollow"> #}
-    {% block robots %} {% endblock %}
 
   </head>

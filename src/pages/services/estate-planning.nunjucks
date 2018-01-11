@@ -1,5 +1,5 @@
 {% set title = 'Estate Planning Services - ' %}
-{% extends 'subpage.nunjucks' %}
+{% set metadescription = 'Our knowledgeable and dedicated attorneys will craft a well-tailored estate plan that operates as a seamless element of your family’s overall financial plan.' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

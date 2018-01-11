@@ -1,4 +1,5 @@
 {% set title = 'Revocable and Irrevocable Trusts - ' %}
+{% set metadescription = 'If you are preparing for divorce or recently divorced, we will sit down with you to address all the relevant issues and revise your estate plan accordingly.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

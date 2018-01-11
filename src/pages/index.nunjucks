@@ -1,7 +1,5 @@
----
-data: ['data/featured-communities.json']
----
 {% set title = '' %}
+{% set metadescription = 'A boutique law firm with offices in Duxbury and Boston, providing big firm expertise with small firm service and value.' %}
 {% extends 'layout.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

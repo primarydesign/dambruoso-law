@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Business Formation - ' %}
+{% set metadescription = 'As entrepreneurs ourselves, we understand start-up clients’ unique mentality, and the need for practical, timely and cost-effective advice. ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

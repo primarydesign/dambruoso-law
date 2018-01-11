@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Family Business Succession and Transitions - ' %}
+{% set metadescription = 'Our estate-planning expertise allows us to coordinate succession planning with an owners’ estate plan, for maximum tax efficiency in light of income, estate, and gift tax laws.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

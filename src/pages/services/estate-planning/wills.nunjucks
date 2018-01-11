@@ -1,5 +1,5 @@
 {% set title = 'Wills Estate Planning Services - ' %}
-{% extends 'subpage.nunjucks' %}
+{% set metadescription = 'It is important to consult with an attorney who will not only protect you, but also work with you to keep current your wills and various other estate planning documents. ' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

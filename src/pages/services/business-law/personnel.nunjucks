@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Personnel and Operational Matters - ' %}
+{% set metadescription = 'D’Ambruoso Law is standing by to assist you with any of the dozens of legal-related operational matters that inevitably arise while operating a business.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Financing Business Law - ' %}
+{% set metadescription = 'We will help you identify and evaluate potential investors or lenders, and organize and update your business files in preparation for third parties’ due diligence reviews.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
@@ -24,7 +25,7 @@ data: ['data/services/business-law.json']
   {% block overview %}
   <h1 class="section__heading">Business Law</h1>
   <h2 class="section__subheading">Financing</h2>
-  <p class="service__paragraph">Whether your company already has outside financing or is seeking to borrow or raise capital for the first time, you can rely on D’Ambruoso Law to guide you through the process and negotiate the most favorable terms. We will help you identify and evaluate potential investors or lenders, and organize and update your business files in preparation for third parties’ due diligence reviews.
+  <p class="service__paragraph">Whether your company already has outside financing or is seeking to borrow or raise capital for the first time, you can rely on D’Ambruoso Law to guide you through the process and negotiate the most favorable terms. We will help you identify and evaluate potential investors or lenders, and organize and update your business files in preparation for third parties’ due diligence reviews.</p>
   <h2 class="section__subheading">Equity</h2>
   <p class="service__paragraph">We have substantial experience in angel and venture-financing, as well as later-stage private placements and can help you protect your existing ownership stake while extracting the maximum value from an equity issuance. We will work with you to prepare your private placement memorandum and will make the necessary filings to ensure compliance with Regulation D and Federal and state securities laws.</p>
   <h2 class="section__subheading">Debt</h2>

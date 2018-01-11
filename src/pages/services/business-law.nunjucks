@@ -2,6 +2,7 @@
 data: ['data/services/business-law.json']
 ---
 {% set title = 'Business Law Legal Services - ' %}
+{% set metadescription = 'We are business counselors as much as we are lawyers, and are committed to minimizing legal jargon as we guide you through any business and legal obstacles that you face.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}

@@ -1,16 +1,10 @@
 {% include 'partials/html-header.nunjucks'%}
-
   <body>
-
     {% import 'macros/topnav.nunjucks' as topnav %}
-
     {% block content %}
       Sorry, no content :(
     {% endblock %}
-
     {% include 'macros/footer.nunjucks' %}
     {% include 'partials/footer-scripts.nunjucks' %}
-
   </body>
-
 </html>

@@ -2,8 +2,10 @@
 data: ['data/services/real-estate.json']
 ---
 {% set title = 'About ' %}
+{% set metadescription = 'Every day, we remind ourselves that the firm’s reputation is built on client satisfaction, and is only as good as our last client’s experience.' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
+
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
   {% block topnav %}
