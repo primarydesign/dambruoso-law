@@ -1,3 +1,6 @@
+---
+data: ['data/services/business-law.json']
+---
 {% set title = 'Mergers &amp; Acquisitions - ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}

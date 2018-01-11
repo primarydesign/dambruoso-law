@@ -1,0 +1,39 @@
+{
+  "headingTitle":"Business Law Services",
+
+  "services": [{
+    "name": "Overview",
+    "href": "/services/business-law/",
+    "macro":"overview"
+  }, {
+    "name": "Business Formation",
+    "href": "/services/business-law/business-formation",
+    "macro":"businessFormation"
+  }, {
+    "name": "Corporate Governance",
+    "href": "/services/business-law/corporate-governance",
+    "macro":"corporateGovernance"
+  },{
+    "name": "Financing",
+    "href": "/services/business-law/financing",
+    "macro":"financing"
+  },{
+    "name": "Commercial Contracting",
+    "href": "/services/business-law/commercial-contracting",
+    "macro":"commercialContracting"
+  },{
+    "name": "Personnel and Other Operational Matters",
+    "href": "/services/business-law/family-business-succession",
+    "label": "Family Business",
+    "macro":"familyBusiness"
+  },{
+    "name": "Family Business Succession & Transitions",
+    "href": "/services/business-law/personnel/",
+    "label": "Personnel",
+    "macro":"personnel"
+  },{
+    "name": "Mergers & Acquisitions",
+    "href": "/services/business-law/mergers-acquisitions",
+    "macro":"mergers"
+  }]
+}

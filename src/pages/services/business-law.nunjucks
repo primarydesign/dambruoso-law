@@ -1,3 +1,6 @@
+---
+data: ['data/services/business-law.json']
+---
 {% set title = 'Business Law Legal Services - ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
@@ -19,6 +22,7 @@
   {% endblock sideNav %}
 
   {% block overview %}
+
   <h1 class="section__heading">Business Law</h1>
   <h2 class="section__subheading">Overview</h2>
   <p class="service__paragraph">Starting and/or running a business is challenging and demanding enough without having to address the innumerable legal issues that inevitably arise, many of which can appear daunting to a non-lawyer. At D’Ambruoso Law, we understand that through the eyes of a businessperson, there is no such thing as a “legal issue” – all the issues confronting a business are business issues.</p>
@@ -28,5 +32,5 @@
   {% include 'macros/submenus/bm_business-law.nunjucks' %}
 
   <p class="service__paragraph"><strong>Questions?</strong> We are available twenty-four hours a day, seven days a week to respond to our clients’ needs. Contact us today.</p>
-  
+
 {% endblock overview %}

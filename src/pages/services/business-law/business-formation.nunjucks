@@ -1,3 +1,6 @@
+---
+data: ['data/services/business-law.json']
+---
 {% set title = 'Business Formation - ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
@@ -19,6 +22,7 @@
   {% endblock sideNav %}
 
   {% block overview %}
+
   <h1 class="section__heading">Business Law</h1>
   <h2 class="section__subheading">Business Formation</h2>
   <p class="service__paragraph">As entrepreneurs ourselves, at D’Ambruoso Law we understand start-up clients’ unique mentality, and the need for practical, timely and cost-effective advice. As a small, service-oriented firm, we are able to take the time to learn about and understand your business, and will ensure that you choose the best type of entity, taking into account your business model, desired ownership structure, jurisdictional and tax issues, and liability concerns. We prepare and file the documents needed to organize a corporation, partnership, or limited liability company, including organizational documents such as: </p>

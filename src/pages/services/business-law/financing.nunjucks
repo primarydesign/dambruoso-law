@@ -1,3 +1,6 @@
+---
+data: ['data/services/business-law.json']
+---
 {% set title = 'Financing Business Law - ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}

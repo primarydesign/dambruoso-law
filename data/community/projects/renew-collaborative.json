@@ -1,8 +1,0 @@
-{
-    "name": "The Renew Collaborative",
-    "hero": "/assets/img/projects/featured_renew-collaborative.jpg",
-    "shortDescription": "Now in testing, this online resource will be used by nonprofits nationwide to implement HomeStart's proven eviction-prevention strategy.",
-    "hats" : "Mobile UI Designer, Front-end Developer",
-    "tools": "HTML, Gulp, SASS, JS, Nunjucks",
-    "url": "http://primaryman.com/renew-collaborative/"
-  }

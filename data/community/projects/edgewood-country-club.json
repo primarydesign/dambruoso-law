@@ -1,8 +1,0 @@
-{
-    "name": "Edgewood Country Club",
-    "hero": "/assets/img/projects/featured_edgewood-country-club--purple.jpg",
-    "shortDescription": "An inclusive club, golf course, and wedding/event venue in Edgewood. I developed the front-end framework and helped design the user interface.",
-    "hats" : "Mobile UI Designer, Full-stack Developer",
-    "tools": "HTML, Gulp, SASS, JS, Nunjucks",
-    "url": "http://edgewoodnj.com/"
-  }

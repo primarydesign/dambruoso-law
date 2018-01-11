@@ -1,3 +1,6 @@
+---
+data: ['data/services/business-law.json']
+---
 {% set title = 'Family Business Succession and Transitions - ' %}
 {% extends 'subpage.nunjucks' %}
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}

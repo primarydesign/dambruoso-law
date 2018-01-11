@@ -7,10 +7,10 @@
      </li>
       <li class="testimonial__carousel-item">
          <p class="callout__statement callout__statement--quote">"After so many years of working with other professionals it is finally a blessing to have found you and the supporting staff folks to help make sense of our lives. We thank you for all your efforts and your ability to translate legal matters into more understandable language for the lay persons. Peace and many blessings."
-          <span class="callout__statement--author">&mdash; Penny L., Assistant General Council at Avid Technology.</span></p>
+          <span class="callout__statement--author">&mdash; Al &amp; Molly C.</span></p>
      </li>
      <li class="testimonial__carousel-item">
-        <p class="callout__statement callout__statement--quote">"Thank you for emailing the docs, and for everything else you did to make this all happen. I'm so glad that you were referred to me - you helped make what could have been an otherwise stressful process seem effortless. I truly appreciate it."
+        <p class="callout__statement callout__statement--quote">"Thank you for everything you did to make this all happen. I'm so glad that you were referred to me - you helped make what could have been an otherwise stressful process seem effortless. I truly appreciate it."
         <span class="callout__statement--author">&mdash; Effie P.</span></p>
      </li>
      <li class="testimonial__carousel-item">
@@ -18,7 +18,7 @@
         <span class="callout__statement--author">&mdash; Albert C.</span></p>
       </li>
       <li class="testimonial__carousel-item">
-         <p class="callout__statement callout__statement--quote">"I just really want to thank you for all of your efforts getting this accomplished. I also want you to know that I appreciate the fact that you have tirelessly had our best interests in mind the entire time and have worked to get this accomplished even in the face of resistance. Rest assured I know I am in good hands."
+         <p class="callout__statement callout__statement--quote">"I just really want to thank you for all of your efforts getting this accomplished. I also want you to know that I appreciate the fact that you have tirelessly had our best interests in mind the entire time and have worked to get this accomplished even in the face of resistance. Rest assured I know I am in good hands. I appreciate how professional and personable you are."
           <span class="callout__statement--author">&mdash; Patti D.</span></p>
      </li>
      <li class="testimonial__carousel-item">
@@ -33,6 +33,14 @@
          <p class="callout__statement callout__statement--quote">"I want to thank you for working with me on this transaction, and in the less-than-ideal circumstances we had at the outset. You have been such a pleasure to work with, and I do appreciate all the extra explanations, diligence, etc. Your work is high quality and you have been very customer-oriented. I will reach out to you again once I have a plan for my next place, and I would recommend you to anyone."
           <span class="callout__statement--author">&mdash; Christina G.</span></p>
      </li>
+     <li class="testimonial__carousel-item">
+        <p class="callout__statement callout__statement--quote">"Robb was great to work with. He's always willing to roll up his sleeves and dive in. I always knew I could count on him to answer my questions on matters of corporate law and to lend a hand on complex projects."
+        <span class="callout__statement--author">&mdash; Penny L., Assistant General Council at Avid Technology.</span></p>
+     </li>
+     <li class="testimonial__carousel-item">
+        <p class="callout__statement callout__statement--quote">Robb shattered the typical stereotype of the lawyer. He is a kind-hearted gentleman, eager to help and very disciplined in the field of law. Working with him was one of the smoothest branding and design projects I have ever had the joy of working on. Every thought, every suggestion he expressed during the process made perfect sense. After branding the firm, when all was said and done, Robb was there for me with expert advice and insight into the formation of my own company.
+        <span class="callout__statement--author">&mdash; Michael Amaru, Founder, SmartHUD, Inc.</span></p>
+      </li>
      <a class="section__cta" href="/about">Our Experience</a>
      <a class=""><img class="callout__arrow--left Wallop-buttonPrevious" src="../assets/img/icon_arrow-left.svg"></a>
      <a class=""><img class="callout__arrow--right Wallop-buttonNext" src="../assets/img/icon_arrow-right.svg"></a>

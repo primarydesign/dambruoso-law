@@ -29,7 +29,7 @@
 }
 
 #testimonials .carousel-wrap .context {
-   
+
 }
 .callout__arrow--left, .callout__arrow--right {
    position: absolute;
@@ -47,10 +47,43 @@
    right: 1.5%;
 }
 
+.topnav__menu {
+  position: relative;
+  padding-right: 2em;
+  ul {
+    display: flex;
+    height: 3.25rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  li {
+    a {
+      display: block;
+      white-space: nowrap;
+    }
+  }
+  &.open {
+    ul {
+      height: auto;
+      display: block;
+    }
+  }
+}
+.topnav__toggle {
+  position: absolute;
+  color: $yellow;
+  font-size: 1.25em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  top: .85rem;
+  right: 2rem;
+  cursor: pointer;
+}
 
 /** clearfix **/
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 .clearfix { display: inline-block; }
- 
+
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
