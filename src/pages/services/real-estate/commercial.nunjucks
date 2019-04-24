@@ -1,9 +1,8 @@
----
-data: ['data/services/real-estate.json']
----
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Commercial Real Estate Transactions' %}
 {% set metadescription = 'Our attorneys look forward to helping you achieve your business goals, resolve disputes, and secure seamless transactions in commercial real estate matters. ' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

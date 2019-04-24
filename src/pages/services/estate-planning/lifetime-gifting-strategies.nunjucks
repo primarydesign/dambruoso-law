@@ -1,6 +1,8 @@
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Lifetime Gifting Strategies - ' %}
 {% set metadescription = 'Our attorneys are experienced in the use of a wide range of trusts and tools to accomplish your estate planning goals.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

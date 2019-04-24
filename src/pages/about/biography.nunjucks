@@ -1,9 +1,8 @@
----
-data: ['data/services/real-estate.json']
----
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Biography - ' %}
 {% set metadescription = 'Robb D’Ambruoso focuses his practice on estate planning and business law matters, as well as real estate conveyancing.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

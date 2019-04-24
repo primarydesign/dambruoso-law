@@ -1,9 +1,11 @@
 ---
 data: ['data/services/business-law.json']
 ---
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Corporate Governance - ' %}
 {% set metadescription = 'We have a thorough understanding of, and take a practical approach to, corporate governance matters.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

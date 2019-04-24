@@ -1,9 +1,8 @@
----
-data: ['data/services/real-estate.json']
----
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Real Estate Services - ' %}
 {% set metadescription = 'Our seasoned and knowledgeable attorneys will work tirelessly to ensure that your Massachusetts real estate transaction closes seamlessly.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

@@ -1,9 +1,11 @@
 ---
 data: ['data/services/business-law.json']
 ---
-{% set title = 'Mergers &amp; Acquisitions - ' %}
-{% set metadescription = 'We have closed billions of dollars of M&A and restructuring transactions of all sizes and across myriad industries.' %}
 {% extends 'subpage.nunjucks' %}
+
+{% set title = 'Mergers and Acquisitions - ' %}
+{% set metadescription = 'We have closed billions of dollars of M&A and restructuring transactions of all sizes and across myriad industries.' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

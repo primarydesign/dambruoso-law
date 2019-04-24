@@ -1,9 +1,11 @@
 ---
 data: ['data/services/business-law.json']
 ---
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Financing Business Law - ' %}
 {% set metadescription = 'We will help you identify and evaluate potential investors or lenders, and organize and update your business files in preparation for third parties’ due diligence reviews.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

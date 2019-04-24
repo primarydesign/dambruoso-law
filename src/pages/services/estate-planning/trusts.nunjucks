@@ -1,6 +1,8 @@
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Revocable and Irrevocable Trusts - ' %}
 {% set metadescription = 'We specialize in counseling clients on the strategy, development and implementation of a wide range of revocable and irrevocable trusts' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 

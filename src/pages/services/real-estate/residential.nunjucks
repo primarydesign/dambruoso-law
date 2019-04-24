@@ -1,9 +1,8 @@
----
-data: ['data/services/real-estate.json']
----
+{% extends 'subpage.nunjucks' %}
+
 {% set title = 'Residential Real Estate Transactions' %}
 {% set metadescription = 'Our staff will review your sales contracts, conduct thorough title examinations and arrange and attend your closing transaction anywhere in Massachusetts.' %}
-{% extends 'subpage.nunjucks' %}
+
 {% block title %}<title> {{siteTitle}} </title>{% endblock %}
 {% block canonical %} <link rel="canonical" href="{{siteUrl}}"> {% endblock %}
 
